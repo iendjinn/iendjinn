@@ -1,39 +1,11 @@
+---
+title: Sci Fi TRPG
+---
 <!doctype html>
 <html>
-
     <head>
-        <title>Sci Fi TRPG</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        {% include head-common.html %}
         <link rel="stylesheet" href="style.css">
-        <link rel="icon" type="image/png" href="favicon/favicon-96x96.png" sizes="96x96" />
-        <link rel="icon" href="favicon/favicon-96x96.png" />
-        <link rel="manifest" href="favicon/site.webmanifest" />
-        <script>
-            window.onload = function () {
-                const theme = localStorage.getItem("theme") ?? (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
-                if (theme === "dark") {
-                    document.documentElement.classList.add("dark");
-                    document.querySelector("#theme-toggle").setAttribute("aria-pressed", true);
-                } else {
-                    document.documentElement.classList.add("light");
-                }
-            }
-            function toggleTheme() {
-                const newTheme = document.documentElement.classList.contains("dark") ? "light" : "dark";
-                localStorage.setItem("theme", newTheme);
-                if (newTheme === "dark") {
-                    document.documentElement.classList.add("dark");
-                    document.documentElement.classList.remove("light");
-                    document.querySelector("#theme-toggle").setAttribute("aria-pressed", true);
-                } else {
-                    document.documentElement.classList.remove("dark");
-                    document.documentElement.classList.add("light");
-                    document.querySelector("#theme-toggle").setAttribute("aria-pressed", false);
-                }
-
-            }
-        </script>
     </head>
 
     <body>
@@ -57,9 +29,6 @@
             <img loading="lazy" src="images/Datentaucher-400.png"
                 alt="A man in a space suit reaching for a tube shaped device with the number 101 on it. The man appears to be panicked. In the background is a star and some stellar bodies."
                 title="Datentaucher" class="in-grid">
-            <!-- <img loading="lazy" src="images/skeleton-helmet.jpg"
-                alt="A man in a space suit reaching for a tube shaped device with the number 101 on it. The man appears to be panicked. In the background is a star and some stellar bodies."
-                title="Datentaucher" class="in-grid"> -->
         </div>
         <section class="two-column-grid spaced">
             <div>
@@ -2095,22 +2064,26 @@
                 </tbody>
             </table>
         </section>
-        <footer class="spaced">
+        {% capture pageAcks %}
+        <p>Ambassador, Datentaucher, Forensiker Cyber, Mechaniker, Spacer and SpecOps images sourced from <a
+                href="https://www.lustigesrollenspiel.de/icrpg-illustrationen-icrpg-illustrations"
+                title="Lustig's World of Role Playing Games">Lustig's World of Role Playing Games</a>, many thanks
+            to Dailor.</p>
+        <p>BITPOD.95 image sourced from <a href="https://commons.wikimedia.org/wiki/File:BITPOD.95.jpg"
+                title="Wikimedia BITPOD.95">Wikimedia Commons</a>. Image produced by Mike Winkelmann, and licensed
+            under <a href="https://creativecommons.org/licenses/by/4.0" title="Creative Commons 4.0 License">CC
+                4.0</a>.</p>
+        {% endcapture %}
+        {% include footer.html %}
+        <!-- <footer class="spaced">
             <h2>Acknowledgements and Notices</h2>
-            <p>Ambassador, Datentaucher, Forensiker Cyber, Mechaniker, Spacer and SpecOps images sourced from <a
-                    href="https://www.lustigesrollenspiel.de/icrpg-illustrationen-icrpg-illustrations"
-                    title="Lustig's World of Role Playing Games">Lustig's World of Role Playing Games</a>, many thanks
-                to Dailor.</p>
-            <p>BITPOD.95 image sourced from <a href="https://commons.wikimedia.org/wiki/File:BITPOD.95.jpg"
-                    title="Wikimedia BITPOD.95">Wikimedia Commons</a>. Image produced by Mike Winkelmann, and licensed
-                under <a href="https://creativecommons.org/licenses/by/4.0" title="Creative Commons 4.0 License">CC
-                    4.0</a>.</p>
+           
             <p>Departure Mono font produced by <a href="https://www.helenazhang.com/" title="Helena Zhang">Helena
                     Zhang</a> and used under the SIL Open Font License.</p>
             <p>This website is in no way endorsed by or affiliated with the entities named above.</p>
             <p>No cookies were used in the production of this website.</p>
             <p>Got a question? Contact iendjinn via protonmail.</p>
-        </footer>
+        </footer> -->
     </body>
 
 </html>

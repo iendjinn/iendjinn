@@ -1,0 +1,30 @@
+<title>{{ site.title }} - {{ page.title }}</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/png" href="/assets/favicon/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" href="/assets/favicon/favicon-96x96.png" />
+<link rel="manifest" href="/assets/favicon/site.webmanifest" />
+<script>
+    window.onload = function () {
+        const theme = localStorage.getItem("theme") ?? (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+        if (theme === "dark") {
+            document.documentElement.classList.add("dark");
+            document.querySelector("#theme-toggle").setAttribute("aria-pressed", true);
+        } else {
+            document.documentElement.classList.add("light");
+        }
+    }
+    function toggleTheme() {
+        const newTheme = document.documentElement.classList.contains("dark") ? "light" : "dark";
+        localStorage.setItem("theme", newTheme);
+        if (newTheme === "dark") {
+            document.documentElement.classList.add("dark");
+            document.documentElement.classList.remove("light");
+            document.querySelector("#theme-toggle").setAttribute("aria-pressed", true);
+        } else {
+            document.documentElement.classList.remove("dark");
+            document.documentElement.classList.add("light");
+            document.querySelector("#theme-toggle").setAttribute("aria-pressed", false);
+        }
+    }
+</script>
