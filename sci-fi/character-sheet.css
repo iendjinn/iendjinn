@@ -1,0 +1,232 @@
+@font-face {
+    font-family: "departure";
+    src: url("./fonts/DepartureMono-Regular.woff2");
+}
+
+html,
+body {
+    height: 293mm;
+    width: 206mm;
+    padding: 2mm;
+    font-size: 12px;
+}
+
+html {
+    border: 1px solid black;
+}
+
+:root {
+    --main-text-color: #000;
+    --secondary-text-color: #6c6c58;
+}
+
+body {
+    font-family: "departure";
+    padding: 0px;
+    margin: 0px;
+}
+
+strong {
+    text-decoration: underline;
+}
+
+.card {
+    border: 2px solid var(--main-text-color);
+    border-top-right-radius: 5px;
+}
+
+ul.no-icon {
+    list-style-type: none;
+    padding: 0;
+}
+
+.two-half-column-grid {
+    display: grid;
+    grid: auto-flow / 1fr 0.5fr 1fr;
+    gap: 0.5rem;
+}
+
+.two-column-grid {
+    display: grid;
+    grid: auto-flow / 1fr 1fr;
+    gap: 0.5rem;
+}
+
+.attribute-column-grid {
+    display: grid;
+    grid: auto-flow / 0.7fr 1fr;
+    gap: 0.5rem;
+}
+
+.three-column-grid {
+    display: grid;
+    grid: auto-flow / 1fr 1fr 1fr;
+    gap: 0.1rem 0.5rem;
+}
+
+.card.padded {
+    
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-top: 0.5rem;
+}
+
+
+li {
+    padding-bottom: 0.5rem;
+}
+
+.card.bio > div {
+    border-bottom: 1px dashed var(--main-text-color);
+    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+.card.bio > div:last-child {
+    border-bottom: none;
+}
+
+.card.bio > div.two-line {
+    padding-bottom: 2.5rem;
+}
+.attributes > div {
+    border-bottom: 1px dashed var(--secondary-text-color);
+    padding: 0.7rem;
+}
+
+.attributes {
+    display: grid;
+    grid: auto-flow / 2fr 1fr;
+}
+.attributes > div.no-bottom {
+    border-bottom: none;
+}
+
+.border-right {
+    border-right: 2px solid var(--main-text-color);
+}
+
+.stat {
+    height: 4rem;
+}
+
+.stat > span {
+    margin-left: 0.5rem;
+}
+.three-column-grid > span {
+    font-size: 0.65rem;
+    text-align: right;
+    color: var(--secondary-text-color);
+}
+
+#status {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+
+.two-third-grid {
+    display: grid;
+    grid: auto-flow / 2fr 1fr;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.equipment-grid {
+    display: grid;
+    grid: auto-flow / 1fr 1fr 0.3fr;
+    padding-top: 0.5rem;
+}
+
+.equipment-grid span {
+    font-size: 0.65rem;
+    color: var(--secondary-text-color);
+}
+
+.row {
+    height: 2.5rem;
+
+}
+
+.equipment-row {
+    border-bottom: 1px dashed var(--secondary-text-color);
+    height: 2.5rem;
+}
+
+
+.border-bottom {
+    border-bottom: 1px dashed var(--secondary-text-color);
+}
+
+.info {
+    font-size: 0.9rem;
+}
+.equipment-header-left {
+    padding-left: 0.5rem;
+}
+.equipment-header {
+    padding-top: 0.5rem;
+}
+
+.tenth-column-grid {
+    display: grid;
+    grid: auto-flow / 0.1fr 1fr;
+    gap: 0.5rem;
+}
+
+.quarter-column-grid {
+    display: grid;
+    grid: auto-flow / 0.75fr 1fr;
+    gap: 0.5rem;
+}
+
+#info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.padded-bottom {
+    padding-bottom: 0.5rem;
+}
+
+.three-quarter-grid {
+    display: grid;
+    grid: auto-flow / 2fr 1fr;
+    gap: 0.5rem;
+    height: 100%;
+}
+
+#tests {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.vertical-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.injury-grid {
+    padding-top: 0.5rem;
+}
+.injury-grid > div {
+    padding-left: 0.5rem;
+}
+
+.xp-track {
+    display: flex;
+    margin-top: 0.5rem;
+}
+
+.xp-pip {
+    height: 0.5rem;
+    width: 1.4rem;
+    border-radius: 0.5rem;
+    border: 1px solid var(--main-text-color);
+}

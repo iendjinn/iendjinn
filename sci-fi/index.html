@@ -1,0 +1,2116 @@
+<!doctype html>
+<html>
+
+    <head>
+        <title>Sci Fi TRPG</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/png" href="favicon/favicon-96x96.png" sizes="96x96" />
+        <link rel="icon" href="favicon/favicon-96x96.png" />
+        <link rel="manifest" href="favicon/site.webmanifest" />
+        <script>
+            window.onload = function () {
+                const theme = localStorage.getItem("theme") ?? (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+                if (theme === "dark") {
+                    document.documentElement.classList.add("dark");
+                    document.querySelector("#theme-toggle").setAttribute("aria-pressed", true);
+                } else {
+                    document.documentElement.classList.add("light");
+                }
+            }
+            function toggleTheme() {
+                const newTheme = document.documentElement.classList.contains("dark") ? "light" : "dark";
+                localStorage.setItem("theme", newTheme);
+                if (newTheme === "dark") {
+                    document.documentElement.classList.add("dark");
+                    document.documentElement.classList.remove("light");
+                    document.querySelector("#theme-toggle").setAttribute("aria-pressed", true);
+                } else {
+                    document.documentElement.classList.remove("dark");
+                    document.documentElement.classList.add("light");
+                    document.querySelector("#theme-toggle").setAttribute("aria-pressed", false);
+                }
+
+            }
+        </script>
+    </head>
+
+    <body>
+        <header>
+            <h1>Player Operations Manual</h1>
+            <button class="styled" id="theme-toggle" aria-pressed="false" onclick="toggleTheme()" title="Toggle Theme">
+                <span class="sun">☀️</span><span class="moon">🌑</span>
+            </button>
+        </header>
+        <div class="two-column-grid">
+            <div class="column">
+                <p class="spaced">The incessant crackle of a Geiger counter.</p>
+                <p class="spaced">The stale smell of the air as the oxygen grows thin.</p>
+                <p class="spaced">The cobwebbing of the observation bay window as the <em>thing</em> inside batters
+                    against the glass.</p>
+                <p class="spaced">Space is slow death, it&#39;s panicked breathing consuming the last of your oxygen,
+                    it&#39;s alien parasites
+                    infesting your crew mates. </p>
+                <p class="spaced">Space is <strong>Hell</strong>.</p>
+            </div>
+            <img loading="lazy" src="images/Datentaucher-400.png"
+                alt="A man in a space suit reaching for a tube shaped device with the number 101 on it. The man appears to be panicked. In the background is a star and some stellar bodies."
+                title="Datentaucher" class="in-grid">
+            <!-- <img loading="lazy" src="images/skeleton-helmet.jpg"
+                alt="A man in a space suit reaching for a tube shaped device with the number 101 on it. The man appears to be panicked. In the background is a star and some stellar bodies."
+                title="Datentaucher" class="in-grid"> -->
+        </div>
+        <section class="two-column-grid spaced">
+            <div>
+                <h2>Hyperspace</h2>
+                <p>A web of invisible, unpredictable strands that connect the known universe.</p>
+                <p>It is across this web that the diaspora of humanity has spread amongst the stars, risking everything
+                    for the
+                    hope of a brighter future.</p>
+                <p>For like their ancestors voyaging across the oceans of old Earth, the crew of these vessels are never
+                    quite
+                    certain when, or even if they&#39;ll arrive at their destination.</p>
+            </div>
+            <div>
+                <h2>The Core</h2>
+                <p>Like an archipelago in the vast black of space, the Core is made up of a handful of systems within a
+                    single
+                    hyperspace jump of each other. Travel here is relatively predictable and something resembling
+                    civilization
+                    has taken root, grown and evolved over a millennia of interstellar exploration. </p>
+                <p>But with stability and security has come regulation, taxation and bureaucracy. Stifling the dreams of
+                    the
+                    disenfranchised, the adventurous and criminal who once could have carved themselves a piece of the
+                    pie.
+                    These downtrodden souls now turn their eyes outwards, past the jump-1 limit, to the tantalising
+                    promise of
+                    the Rim.</p>
+            </div>
+            <div>
+                <h2>The Rim</h2>
+                <p>The frontier of human expansion.</p>
+                <p>A beacon in the black for those looking to strike it lucky. </p>
+                <p>A siren song drawing the foolhardy to a cold grave amongst the stars. </p>
+                <p>Out here what law there is is made by the corporations, criminal syndicates run the space stations
+                    and the
+                    poor are just one lucky break from the rich.</p>
+                <p>But for every success story there is a derelict drifting amongst the stars, a crew stranded on an
+                    airless
+                    moon, and a colony wiped out by some alien plague. The Rim promises much, and takes even more...</p>
+            </div>
+            <img loading="lazy" src="images/frontier-colonisation-400.jpg"
+                alt="Habitation domes of various sizes on a grassy plane. In the background mesas and mountains stretch to the horizon."
+                title="BITPOD.95" class="in-grid">
+        </section>
+        <section class="spaced">
+            <h2>Character Creation</h2>
+            <h3>Attributes</h3>
+            <div class="two-column-grid">
+                <div>
+                    <p>Characters have six attributes:</p>
+                    <ul>
+                        <li><strong>Agility</strong> Dodge, climb, swim, run, hip fire</li>
+                        <li><strong>Cool</strong> Resist fear, endure stress, remain sane</li>
+                        <li><strong>Dexterity</strong> Pilot, reload, aimed fire</li>
+                        <li><strong>Intelligence</strong> Decipher, repair, calculate</li>
+                        <li><strong>Strength</strong> Strike, grapple, block, lift, throw, auto fire</li>
+                        <li><strong>Toughness</strong> Resist poison, endure pain, survive hazards</li>
+                    </ul>
+                    <p>Determine your starting attributes by rolling on the table. You may then increase one attribute
+                        of
+                        your
+                        choice by 1.</p>
+                </div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>3D6</th>
+                            <th>Attribute Starting Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>3-6</td>
+                            <td>-1</td>
+                        </tr>
+                        <tr>
+                            <td>7-10</td>
+                            <td>0</td>
+                        </tr>
+                        <tr>
+                            <td>11-14</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td>15-17</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>18</td>
+                            <td>3</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <h3>Background</h3>
+            <div class="two-column-grid spaced">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>D20</th>
+                            <th>Why are you in rim space?</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Owe D10kcr to a loan shark back home</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Escaping a drug addiction</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Are wanted in the core for a series of minor crimes committed under a different name
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>To earn enough to raise your family out of poverty</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Covered up an accident caused by a friend on your last job</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>Are faking it, you&#39;re not actually trained in your background or specialism, but
+                                nobody
+                                out
+                                here runs background checks</td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>You &quot;found&quot; a suitcase with 100kcr of traceable credit sticks in it, you got
+                                nervous
+                                after you blew it all and fled</td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>On shore leave a stranger died in your arms, he begged you to spread the word and handed
+                                you
+                                an
+                                encrypted micro-data cassette</td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                            <td>You were raised by an extremist sect of the Solarian church and escaped at age 16</td>
+                        </tr>
+                        <tr>
+                            <td>10</td>
+                            <td>You were recently rescued from cryo on a derelict (duration of sleep D100 years)</td>
+                        </tr>
+                        <tr>
+                            <td>11</td>
+                            <td>Your last job was a heist that went wrong, you left the rest of your crew for dead and
+                                need
+                                to
+                                escape the guilt</td>
+                        </tr>
+                        <tr>
+                            <td>12</td>
+                            <td>The last time you visited a major station in the core you saw a wanted &#39;dead or
+                                alive&#39;
+                                poster with your face on it</td>
+                        </tr>
+                        <tr>
+                            <td>13</td>
+                            <td>You suffer from Centauri Pox, a non-contagious but stigmatised condition. Nobody out
+                                here
+                                knows
+                                you&#39;ve got it</td>
+                        </tr>
+                        <tr>
+                            <td>14</td>
+                            <td>You don&#39;t remember anything from your childhood except vague memories of flashing
+                                lights,
+                                you&#39;re looking for answers</td>
+                        </tr>
+                        <tr>
+                            <td>15</td>
+                            <td>You&#39;re blacklisted by the union back home for strike breaking</td>
+                        </tr>
+                        <tr>
+                            <td>16</td>
+                            <td>You are banned from using public data systems in the core due to cyber crime in your
+                                childhood
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>17</td>
+                            <td>Used to serve on a pirate vessel, the captain didn&#39;t want you to leave. You hope
+                                they
+                                never
+                                find you</td>
+                        </tr>
+                        <tr>
+                            <td>18</td>
+                            <td>A reckless youth has left you with small debts and enemies across space. If you keep
+                                moving
+                                your
+                                past might not catch up</td>
+                        </tr>
+                        <tr>
+                            <td>19</td>
+                            <td>You woke up in a sim suite on shoreleave, you&#39;re not sure if your memories are yours
+                                or
+                                someone elses</td>
+                        </tr>
+                        <tr>
+                            <td>20</td>
+                            <td>You fled a marriage arranged by your wealthy parents</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>D20</th>
+                            <th>Distinctive Feature</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Facial scars</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Tribal tatoos</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Barcode tatoo</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Loveheart tatoo</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Smiley face pin</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>Ship&#39;s tatoo</td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>Piercings</td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>Golden tooth</td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                            <td>Cleft chin</td>
+                        </tr>
+                        <tr>
+                            <td>10</td>
+                            <td>Heterochromia</td>
+                        </tr>
+                        <tr>
+                            <td>11</td>
+                            <td>Fibre optic hair</td>
+                        </tr>
+                        <tr>
+                            <td>12</td>
+                            <td>Unusually tall</td>
+                        </tr>
+                        <tr>
+                            <td>13</td>
+                            <td>Unusually short</td>
+                        </tr>
+                        <tr>
+                            <td>14</td>
+                            <td>Cauliflower ear</td>
+                        </tr>
+                        <tr>
+                            <td>15</td>
+                            <td>Surgically sculpted facial features</td>
+                        </tr>
+                        <tr>
+                            <td>16</td>
+                            <td>Badly set broken nose</td>
+                        </tr>
+                        <tr>
+                            <td>17</td>
+                            <td>Knuckle tatoos</td>
+                        </tr>
+                        <tr>
+                            <td>18</td>
+                            <td>Prostethic arm/leg/eye</td>
+                        </tr>
+                        <tr>
+                            <td>19</td>
+                            <td>Unusually thin</td>
+                        </tr>
+                        <tr>
+                            <td>20</td>
+                            <td>Unusually broad</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>D100</th>
+                            <th>Clothing/Accessory</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>0-3</td>
+                            <td>Mirrored Aviators</td>
+                        </tr>
+                        <tr>
+                            <td>4-7</td>
+                            <td>Branded baseball cap</td>
+                        </tr>
+                        <tr>
+                            <td>8-11</td>
+                            <td>String vest</td>
+                        </tr>
+                        <tr>
+                            <td>12-15</td>
+                            <td>Bomber jacket</td>
+                        </tr>
+                        <tr>
+                            <td>16-19</td>
+                            <td>Combats</td>
+                        </tr>
+                        <tr>
+                            <td>20-23</td>
+                            <td>Steel capped boots<br></td>
+                        </tr>
+                        <tr>
+                            <td>24-27</td>
+                            <td>Band T-Shirt</td>
+                        </tr>
+                        <tr>
+                            <td>28-31</td>
+                            <td>Chequered flannel shirt</td>
+                        </tr>
+                        <tr>
+                            <td>32-35</td>
+                            <td>Designer shirt</td>
+                        </tr>
+                        <tr>
+                            <td>36-39</td>
+                            <td>Overalls</td>
+                        </tr>
+                        <tr>
+                            <td>40-43</td>
+                            <td>Flip flops</td>
+                        </tr>
+                        <tr>
+                            <td>44-47</td>
+                            <td>Blue Jeans</td>
+                        </tr>
+                        <tr>
+                            <td>48-51</td>
+                            <td>Bandana</td>
+                        </tr>
+                        <tr>
+                            <td>52-55</td>
+                            <td>Field jacket</td>
+                        </tr>
+                        <tr>
+                            <td>56-59</td>
+                            <td>Tactical shirt</td>
+                        </tr>
+                        <tr>
+                            <td>60-63</td>
+                            <td>Trench coat</td>
+                        </tr>
+                        <tr>
+                            <td>54-67</td>
+                            <td>Ushanka</td>
+                        </tr>
+                        <tr>
+                            <td>68-71</td>
+                            <td>Welding goggles</td>
+                        </tr>
+                        <tr>
+                            <td>72-75</td>
+                            <td>Cargo pants</td>
+                        </tr>
+                        <tr>
+                            <td>76-79</td>
+                            <td>Company uniform</td>
+                        </tr>
+                        <tr>
+                            <td>80-83</td>
+                            <td>Dungarees</td>
+                        </tr>
+                        <tr>
+                            <td>84-87</td>
+                            <td>Yellow anorak</td>
+                        </tr>
+                        <tr>
+                            <td>88-91</td>
+                            <td>Neon jumpsuit</td>
+                        </tr>
+                        <tr>
+                            <td>92-95</td>
+                            <td>Beanie hat</td>
+                        </tr>
+                        <tr>
+                            <td>96-99</td>
+                            <td>Fedora</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>D100</th>
+                            <th>In your pocket is (assume zero weight)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>0-3</td>
+                            <td>Flick knife</td>
+                        </tr>
+                        <tr>
+                            <td>4-7</td>
+                            <td>Etched Zippo lighter</td>
+                        </tr>
+                        <tr>
+                            <td>8-11</td>
+                            <td>Harmonica</td>
+                        </tr>
+                        <tr>
+                            <td>12-15</td>
+                            <td>Paracord bracelet</td>
+                        </tr>
+                        <tr>
+                            <td>16-19</td>
+                            <td>Pair of fine cigars</td>
+                        </tr>
+                        <tr>
+                            <td>20-23</td>
+                            <td>Fake ID</td>
+                        </tr>
+                        <tr>
+                            <td>24-27</td>
+                            <td>Designer watch</td>
+                        </tr>
+                        <tr>
+                            <td>28-31</td>
+                            <td>Political/holy pocket book</td>
+                        </tr>
+                        <tr>
+                            <td>32-35</td>
+                            <td>Bobby pins</td>
+                        </tr>
+                        <tr>
+                            <td>36-39</td>
+                            <td>Dog tags (whose?)</td>
+                        </tr>
+                        <tr>
+                            <td>40-43</td>
+                            <td>Hip flask (strong spirit)</td>
+                        </tr>
+                        <tr>
+                            <td>44-47</td>
+                            <td>Union membership card</td>
+                        </tr>
+                        <tr>
+                            <td>48-51</td>
+                            <td>Multi-tool</td>
+                        </tr>
+                        <tr>
+                            <td>52-55</td>
+                            <td>Lucky eight ball</td>
+                        </tr>
+                        <tr>
+                            <td>56-59</td>
+                            <td>Parole papers</td>
+                        </tr>
+                        <tr>
+                            <td>60-63</td>
+                            <td>Pair of loaded dice</td>
+                        </tr>
+                        <tr>
+                            <td>64-67</td>
+                            <td>Leatherbound journal</td>
+                        </tr>
+                        <tr>
+                            <td>68-71</td>
+                            <td>Micro Data Cassette (music demo)</td>
+                        </tr>
+                        <tr>
+                            <td>72-75</td>
+                            <td>Capsule with water purification tablet and 3 waterproof matches</td>
+                        </tr>
+                        <tr>
+                            <td>76-79</td>
+                            <td>Locket with holo photo</td>
+                        </tr>
+                        <tr>
+                            <td>80-83</td>
+                            <td>Altoid tin with pressure suit patch</td>
+                        </tr>
+                        <tr>
+                            <td>84-87</td>
+                            <td>Power cell (suitable for portable electronics)</td>
+                        </tr>
+                        <tr>
+                            <td>88-91</td>
+                            <td>Untraceable cred stick (150 credits)</td>
+                        </tr>
+                        <tr>
+                            <td>92-95</td>
+                            <td>Compass</td>
+                        </tr>
+                        <tr>
+                            <td>96-99</td>
+                            <td>Rosary beads</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>D10</th>
+                            <th>Birthplace</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Rim world</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Core world</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Terraforming mission</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Mining outpost</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Military base</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>Research station</td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>Android factory</td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>Gene farm vat</td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                            <td>Anchorpoint station</td>
+                        </tr>
+                        <tr>
+                            <td>10</td>
+                            <td>Starship</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>D10 Credits</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>100cr</td>
+                        </tr>
+                        <tr>
+                            <td>200cr</td>
+                        </tr>
+                        <tr>
+                            <td>300cr</td>
+                        </tr>
+                        <tr>
+                            <td>400cr</td>
+                        </tr>
+                        <tr>
+                            <td>500cr</td>
+                        </tr>
+                        <tr>
+                            <td>600cr</td>
+                        </tr>
+                        <tr>
+                            <td>700cr</td>
+                        </tr>
+                        <tr>
+                            <td>800cr</td>
+                        </tr>
+                        <tr>
+                            <td>900cr</td>
+                        </tr>
+                        <tr>
+                            <td>1kcr</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+
+            <h3>Career</h3>
+            <p>Choose a career, and then role for specialism and starting gear:</p>
+            <div class="two-column-grid spaced">
+                <div>
+                    <p><strong>Astronauts</strong> are the sailors of the space age, they maintain starships, load
+                        cargo, pilot
+                        shuttles and walk in the void of space.
+                    </p>
+                    <div class="spacer"></div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>D4</th>
+                                <th>Specialism</th>
+                                <th>Equipment</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>EVA</td>
+                                <td>Harpoon Grappling Gun, Basic Pressure Suit, Mag boots, Toolkit</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Starship Maintenance</td>
+                                <td>Mag boots, Hi-beam Flashlight, Hazard suit, Cutting Torch, Toolkit</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Space Freight and Industrial Equipment</td>
+                                <td>Mag boots, Nail Gun, Cutting Torch, Flashlight, Recreational Drugs</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>Piloting</td>
+                                <td>Pistol, Ammo, Flares, Buzz Stimulant Pills</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <img loading="lazy" src="images/Mechaniker-400.png"
+                    alt="A female mechanic wearing a uniform with a name badge and knee protection, she is holding a remote control connected to her belt in one hand and a wrench in the other. At her feet is a toolkit."
+                    title="Mechaniker" class="in-grid">
+            </div>
+            <div class="two-column-grid spaced">
+                <div>
+                    <p><strong>Marines</strong> are professional soldiers, mercenaries, pirates and security
+                        contractors.</p>
+                    <div class="spacer"> </div>
+
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>D4</th>
+                                <th>Specialism</th>
+                                <th>Equipment</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Demolition</td>
+                                <td>Shaped Charge, SMG, Cutting Torch, Ammo</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Marksmanship</td>
+                                <td>Marksman&#39;s rifle, Ammo</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Close Quarters Combat</td>
+                                <td>Mesh Armour, 12 Gauge Shotgun, Ammo, Frag Grenade</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>Tracking and Xeno-containment</td>
+                                <td>Motion Tracker, Incinerator Unit, Ammo</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <img loading="lazy" src="images/SpecOps-400.png"
+                    alt="A soldier in camouflage, wearing a respirator with a rifle slung over one shoulder. One arm hangs at their side while the other points a pistol towards the camera."
+                    title="SpecOps" class="in-grid">
+            </div>
+            <div class="two-column-grid spaced">
+                <div>
+                    <p><strong>Officers</strong> are those with the experience and training to have either earned or be
+                        trusted
+                        with
+                        command positions on a starship.</p>
+                    <div class="spacer"> </div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>D4</th>
+                                <th>Specialism</th>
+                                <th>Equipment</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Command and Corporate Law</td>
+                                <td>EVA Pistol, Ammo, Data Casette, Mesh Armour</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Security</td>
+                                <td>SMG, Handcuffs, Ammo, Armoured Pressure Suit</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Medicine</td>
+                                <td>Medkit, Stimpack, Panic-Eeze Pills, Combat Application Tourniquet, Adrenaline</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>Communications and Navigation</td>
+                                <td>Long Range Radio, Tracker, Comms Device</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <img loading="lazy" src="images/Ambassador-400.png"
+                    alt="A woman facing the camera, her hands in her pockets. She is wearing trousers and a blazer that is appears to be ceremonial, on her chest are pinned medals."
+                    title="Ambassador" class="in-grid">
+            </div>
+            <div class="two-column-grid spaced">
+                <div>
+                    <p><strong>Pioneers</strong> are knowledge seekers, explorers, and hackers. Always looking for new
+                        information
+                        and artifacts to study or sell.</p>
+                    <div class="spacer"> </div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>D4</th>
+                                <th>Specialism</th>
+                                <th>Equipment</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Fieldcraft and Survival</td>
+                                <td>Combat Knife, Hi-beam Flashlight, Camping Gear, Water Purification Tablets, Ration
+                                    Pack,
+                                    Rucksack</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Computers and Hacking</td>
+                                <td>Portable Terminal, Data Cassette, Electroshock Grenade</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Xenobiology and Archaelogy</td>
+                                <td>Comms Device, Flares, Recon Drone, Hi-beam Flashlight</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>Physics and Chemistry</td>
+                                <td>Broad Spectrum Specimen Analyser, Geiger Counter, Mentat Pills</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <img loading="lazy" src="images/Forensiker_Cyber-400.png"
+                    alt="A man interacts with a holographic display in the air in front of him. He is wearing some sort of armour or space suit."
+                    title="Forensiker Cyber" class="in-grid">
+            </div>
+        </section>
+        <section class="spaced">
+            <h2>Tests</h2>
+            <div class="two-column-grid">
+                <div>
+                    <p>Tests are against a specified attribute: Agility, Cool, Dexterity, Intelligence, Strength or
+                        Toughness.
+                    </p>
+                    <p>Roll D20 + your score for the attribute to equal or exceed Difficulty Rating (DR) to pass a test.
+                    </p>
+                    <p>If you have a relevant <strong>specialism</strong> add 4 to your roll.</p>
+                    <p><strong>Push yourself</strong> by gaining 1 stress before rolling to add 4 to your roll.</p>
+                    <p><strong>Critical success</strong> occurs on a natural roll of a 20.</p>
+                    <p><strong>Panic</strong> occurs on a natural value equal or below your current stress and causes
+                        the test
+                        to
+                        automatically fail. Consult the panic table using the value rolled on the D20.</p>
+                    <p>Non player characters (NPCs) do not roll in most circumstance, if you want to prevent an
+                        NPC&#39;s action
+                        you
+                        must pass a test. E.g. to successfully take cover from an enemy trying to shoot you test
+                        agility.</p>
+                </div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Test Difficulty Rating (DR)</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>12</td>
+                            <td>Standard</td>
+                        </tr>
+                        <tr>
+                            <td>15</td>
+                            <td>Hard</td>
+                        </tr>
+                        <tr>
+                            <td>18</td>
+                            <td>Nearly impossible</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="spacer"></div>
+            <h3>Testing Supply</h3>
+            <p>Certain items, including ammunition, oxygen, and medicine have a supply rating. </p>
+            <p>To test supply, roll the dice corresponding to the current supply for that item.</p>
+            <p>On a 1 or 2 the supply rating of the item decreases to the next rating.</p>
+            <p>Supply ratings: D20 -&gt; D12 -&gt; D10 -&gt; D8 -&gt; D6 -&gt; D4 -&gt; Used up</p>
+
+        </section>
+
+        <section class="spaced two-column-grid">
+            <div>
+                <h2>Stress and Panic</h2>
+                <p>Characters gain stress when they:</p>
+                <ul>
+                    <li>Push themselves</li>
+                    <li>Roll anxiety on the panic table</li>
+                    <li>Fail a cool test</li>
+                    <li>Go more than 24 hours without sleep (and every 8 hours thereafter)</li>
+                    <li>Encounter the source of a phobia</li>
+                </ul>
+                <p>When making a test on an attribute, if the value rolled on the D20 is equal to or less than your
+                    current
+                    stress you panic. Consult the table below using the value rolled on the D20.</p>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>D20 Roll</th>
+                        <th>Result</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Adrenaline rush: +1 Agility, toughness and strength on next test or until end of combat
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2-4</td>
+                        <td>Anxiety: Gain 1 stress</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Rage: You strike the nearest object or person, if there&#39;s nothing within arms reach
+                            you
+                            throw an item in your hands or on your person as hard as you can</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>Hysterics: Everyone around you gains 1 stress</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>Shaken: -4 cool until you <strong>relax</strong> or <strong>sleep</strong></td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>Tremors: -4 dexterity until you <strong>relax</strong> or <strong>sleep</strong></td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td>Phobia: You gain a phobia based on the cause of your panic. Every time you encounter the
+                            cause
+                            again in future gain 1 stress</td>
+                    </tr>
+                    <tr>
+                        <td>10+</td>
+                        <td>Heart Attack: You are incapacitated, make a <strong>death save</strong></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section class="spaced">
+            <h2>Combat</h2>
+            <div class="two-column-grid spaced">
+
+                <div>
+                    <h3>Rounds</h3>
+                    <p>In a round enemies act as one group, while all other characters act in another group. Within
+                        these groups
+                        characters act in any order they choose. </p>
+                    <p>Within you can take a single action, e.g. firing a weapon or running a short distance.</p>
+                    <p>If it is unclear if something is a single action, test <strong>agility</strong>. If passed then
+                        the
+                        action
+                        happens this round, otherwise it takes place the next round.</p>
+                    <p>Unless one side has surprised the other roll a D6, on a <strong>1-3</strong> enemies act first.
+                    </p>
+                </div>
+                <div>
+                    <h3>Distance</h3>
+                    <p>Distance is abstracted into three ranges, how effective weapons and methods of firing are at
+                        different
+                        ranges
+                        affects difficulty ratings:</p>
+                    <ul>
+                        <li>Touch: Pistols, knives and fists are most effective. Aimed fire is impossible.</li>
+                        <li>Close: SMGs, shotguns and incinerators are most effective. Full auto fire and firing from
+                            the hip
+                            are
+                            easier than aimed fire.</li>
+                        <li>Far: Aimed fire is most effective, precision weapons like marksman&#39;s rifles are best.
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Attacking</h3>
+                    <p><strong>Aimed fire</strong> Test dexterity</p>
+                    <p><strong>Hip fire</strong> Test agility</p>
+                    <p><strong>Auto fire</strong> Test strength. For every point that DR is exceeded by inflict an extra
+                        wound
+                        to
+                        the target or another target near it (weapon must be Full Auto).</p>
+                    <p><strong>Melee</strong> Test strength </p>
+
+
+                </div>
+
+                <div>
+                    <h3>Defending</h3>
+                    <p><strong>Take cover/Dodge</strong> Test agility</p>
+                    <p><strong>Block</strong> Test strength</p>
+                    <h3>Ammo</h3>
+                    <p>If you used a weapon that requires ammunition after combat test ammunition supply. If you
+                        used a full
+                        auto
+                        weapon supply rating decreases on a 1-4.</p>
+                </div>
+                <div>
+                    <h3>Wounds</h3>
+                    <p>Characters take wounds when hit by attacks, more dangerous weapons and opponents inflict more
+                        wounds.</p>
+                    <p>Critical hits double the number of wounds inflicted.</p>
+                    <p>You can take a maximum of 3 wounds, anytime you reach maximum wounds or take wounds while at your
+                        maximum
+                        roll on the <strong>critical injury</strong> table.</p>
+                </div>
+                <div>
+                    <h3>Armour</h3>
+                    <p>Armour has armour points, which are lost when you would take wounds. For every armour point lost,
+                        ignore
+                        1
+                        wound. </p>
+                    <p><strong>Armour piercing</strong> weapons require 2 armour points per wound ignored.</p>
+                    <p>Armour points can be regained by repairing the armour, requiring tools and 1 hour of work per
+                        point.</p>
+                </div>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>D10</th>
+                            <th>Critical Injury</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1-8</td>
+                            <td>Bleeding Out: Roll again on this table each round after taking your action until combat
+                                ends
+                                or
+                                you roll a different result. This effect <strong>stacks</strong> for multiple critical
+                                injuries
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>9-10</td>
+                            <td>Incapacitated: Make a <strong>death save</strong>, you may take no further action until
+                                it
+                                is
+                                resolved</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>D10</th>
+                            <th>Death Save</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1-2</td>
+                            <td>Unconscious: You may take no action until you receive medical attention</td>
+                        </tr>
+                        <tr>
+                            <td>3-8</td>
+                            <td>Unconscious and serious injury: Roll or select appropriate result from serious injury
+                                table
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>9-10</td>
+                            <td><strong>Dead</strong>.</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>D6</th>
+                            <th>Serious Injury</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Brain damage: -2 intelligence</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Cracked ribs: -2 toughness</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Hamstrung: -2 agility</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Torn muscles: -2 strength</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Ruined hand: -2 dexterity</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>Traumatized: -2 cool</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div>
+                    <p><strong>Death Save:</strong> Place a D10 in an opaque cup, roll it such that the result is
+                        secret. The result is revealed when a character spends a turn to check your vitals.</p>
+                    <h2>Rest and Recovery</h2>
+                    <p>When you have the chance to catch your breath somewhere safe for at least 15 minutes you may
+                        <strong>relax</strong> to remove 1 stress.
+                    </p>
+                    <p>If you have a longer period to rest, you may <strong>sleep</strong>. Test supply for rations and
+                        then
+                        sleep:
+                    </p>
+                    <ul>
+                        <li><strong>In shifts, keeping watch</strong> Remove 1 wound </li>
+                        <li><strong>For a full eight hours</strong> Remove 1 wound and 1 stress</li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </section>
+        <section class="spaced">
+            <h2>Environmental Hazards</h2>
+            <div class="two-column-grid">
+                <div>
+                    <p>When exposed to an environmental hazard test <strong>toughness</strong>. If you fail you are
+                        <strong>incapacitated</strong>, you may take no further action and must make a <strong>death
+                            save</strong>.
+                    </p>
+                    <h3>Sudden Death</h3>
+                    <p>Nuclear explosions, ship weaponry, falling from orbit: Somethings are impossible to survive. The
+                        GM must tell
+                        characters if they risk sudden death but has final say as to when it applies.</p>
+                    <p>Radiation, pathogens, extreme temperatures, asphyxiation and starvation can all lead to death.
+                    </p>
+                </div>
+                <div>
+                    <h3>Oxygen not included</h3>
+                    <p>If you are relying on O2 tanks for oxygen, test supply:</p>
+                    <ul>
+                        <li>After every test outside of combat</li>
+                        <li>At the end of combat</li>
+                        <li>When you relax</li>
+                    </ul>
+                    <p>If your pressure suit or oxygen tank has a leak, its supply decreases on a 1-4.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="spaced">
+            <h2>Character Progression</h2>
+            <div class="two-column-grid">
+                <div>
+                    <h3>Experience</h3>
+                    <p>Individual attributes accrue experience (XP). Once an attribute has <strong>6XP</strong> you may
+                        increase
+                        it by <strong>1</strong> point. Attributes may not be increased above 6 by experience increases.
+                    </p>
+                    <ul>
+                        <li>Gain <strong>1XP</strong> on an attribute for a test that you fail (but not panic)</li>
+                        <li>Gain <strong>1XP</strong> on an attribute for a test that you pass with a critical</li>
+                        <li>Gain <strong>1XP</strong> on an attribute of your choice when your survive a session</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Specialist Training</h3>
+                    <p>When on <strong>shore leave</strong> you can undertake training in a specialism.</p>
+                    <p>You can only train one specialism at a time, if you switch specialism before completing training
+                        you
+                        lose
+                        your progress.</p>
+                    <p>Learning a new specialism takes <strong>50 learning points</strong> for specialisms from your
+                        career
+                        or
+                        <strong>200 learning points</strong> for specialisms from a different career.
+                    </p>
+                    <p>You gain learning points for each week of shore leave based on the class of the shore leave
+                        location.</p>
+                </div>
+                <div>
+                    <h3>Shore Leave</h3>
+                    <p>Between missions characters may take shore leave in one week blocks. Each week of shore leave
+                        costs a
+                        number
+                        of credits depending on the class of the place where the shore leave is taken. Shore leave
+                        includes
+                        rented
+                        accommodation as well as food and can be used as a rough cost of living if staying somewhere
+                        outside of
+                        shore leave.</p>
+                    <p>Whenever you take shore leave remove all wounds and stress. Additionally you may choose one of
+                        the
+                        following
+                        options each week of shore leave:</p>
+                    <ul>
+                        <li>Psychotherapy, addiction rehab or medical treatment: Roll 1D10 + shore leave class. On a 10+
+                            remove
+                            one
+                            phobia, one addiction or one serious injury</li>
+                        <li>Specialist training: Gain <strong>learning points</strong> equal to shore leave class </li>
+                        <li>Casual work: Gain 300cr a week</li>
+                    </ul>
+                </div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Class</th>
+                            <th>Example</th>
+                            <th>Cost Per Week</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Remote outpost</td>
+                            <td>200cr</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Military base or colony</td>
+                            <td>300cr</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Major space station</td>
+                            <td>600cr</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Core world</td>
+                            <td>800cr</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Clinic, resort, or specialist facility</td>
+                            <td>1.2kcr</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        <section class="spaced">
+            <h2>Equipment</h2>
+            <p>A character can carry a total weight of items equal to their <strong>strength + 6</strong>. If a weight
+                is
+                given after a / then this is the weight when worn.</p>
+            <h3>Weapons</h3>
+            <p>Weapons that require ammunition:</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Wounds</th>
+                        <th>Notes</th>
+                        <th>Weight</th>
+                        <th>Cost</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Pistol</td>
+                        <td>2</td>
+                        <td></td>
+                        <td>1</td>
+                        <td>300cr</td>
+                    </tr>
+                    <tr>
+                        <td>EVA Pistol</td>
+                        <td>2</td>
+                        <td>Works in Vacuum</td>
+                        <td>1</td>
+                        <td>800cr</td>
+                    </tr>
+                    <tr>
+                        <td>Assault Rifle</td>
+                        <td>2</td>
+                        <td>Full Auto</td>
+                        <td>2</td>
+                        <td>500cr</td>
+                    </tr>
+                    <tr>
+                        <td>Pulse Rifle</td>
+                        <td>2</td>
+                        <td>Armour Piercing, Full Auto</td>
+                        <td>2</td>
+                        <td>2kcr</td>
+                    </tr>
+                    <tr>
+                        <td>Marksman&#39;s Rifle</td>
+                        <td>3</td>
+                        <td>Armour Piercing, Thermal, 10X Scope</td>
+                        <td>2</td>
+                        <td>2.5kcr</td>
+                    </tr>
+                    <tr>
+                        <td>30mm Cannon</td>
+                        <td>3</td>
+                        <td>Armour Piercing, Full Auto</td>
+                        <td>4</td>
+                        <td>2kcr</td>
+                    </tr>
+                    <tr>
+                        <td>12 Gauge Shotgun</td>
+                        <td>2</td>
+                        <td></td>
+                        <td>2</td>
+                        <td>200cr</td>
+                    </tr>
+                    <tr>
+                        <td>SMG</td>
+                        <td>2</td>
+                        <td>Full Auto</td>
+                        <td>1</td>
+                        <td>800cr</td>
+                    </tr>
+                    <tr>
+                        <td>Plasma Rifle</td>
+                        <td>6</td>
+                        <td>Works in Vacuum</td>
+                        <td>3</td>
+                        <td>20kcr</td>
+                    </tr>
+                    <tr>
+                        <td>Smart Gun</td>
+                        <td>2</td>
+                        <td>Armour Piercing, Full Auto, +1 on auto fire</td>
+                        <td>3/2</td>
+                        <td>2.5kcr</td>
+                    </tr>
+                    <tr>
+                        <td>Incinerator Unit</td>
+                        <td>2</td>
+                        <td></td>
+                        <td>2</td>
+                        <td>200cr</td>
+                    </tr>
+                    <tr>
+                        <td>Automated Turret</td>
+                        <td>2</td>
+                        <td>Internal Ammo Supply</td>
+                        <td>4</td>
+                        <td>3kcr</td>
+                    </tr>
+                    <tr>
+                        <td>Micro-howitzer</td>
+                        <td>4</td>
+                        <td></td>
+                        <td>3</td>
+                        <td>15kcr</td>
+                    </tr>
+                    <tr>
+                        <td>Laser rifle</td>
+                        <td>4</td>
+                        <td>Works in Vacuum</td>
+                        <td>3</td>
+                        <td>10kcr</td>
+                    </tr>
+                    <tr>
+                        <td>Combat Shotgun<br></td>
+                        <td>2</td>
+                        <td>Full Auto</td>
+                        <td>2</td>
+                        <td>400cr</td>
+                    </tr>
+                    <tr>
+                        <td>RPG</td>
+                        <td>8</td>
+                        <td>Armour Piercing</td>
+                        <td>3</td>
+                        <td>1kcr</td>
+                    </tr>
+                    <tr>
+                        <td>Underslung grenade launcher</td>
+                        <td>2</td>
+                        <td></td>
+                        <td>1/0</td>
+                        <td>400cr</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p>Weapons that do <strong>not</strong> require ammunition:</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Wounds</th>
+                        <th>Notes</th>
+                        <th>Weight</th>
+                        <th>Cost</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Harpoon Grappling Gun</td>
+                        <td>2</td>
+                        <td>Works in Vacuum</td>
+                        <td>2</td>
+                        <td>100cr</td>
+                    </tr>
+                    <tr>
+                        <td>Anti-personnel mine</td>
+                        <td>3</td>
+                        <td></td>
+                        <td>2</td>
+                        <td>800cr</td>
+                    </tr>
+                    <tr>
+                        <td>Frag grenade</td>
+                        <td>3</td>
+                        <td></td>
+                        <td>0.5</td>
+                        <td>200cr</td>
+                    </tr>
+                    <tr>
+                        <td>Electroshock grenade</td>
+                        <td>1</td>
+                        <td></td>
+                        <td>1</td>
+                        <td>800cr</td>
+                    </tr>
+                    <tr>
+                        <td>Nail Gun</td>
+                        <td>1</td>
+                        <td>Armour Piercing, works in a vacuum</td>
+                        <td>2</td>
+                        <td>100cr</td>
+                    </tr>
+                    <tr>
+                        <td>Shaped charge</td>
+                        <td>8</td>
+                        <td>Includes remote detonator</td>
+                        <td>2</td>
+                        <td>500cr</td>
+                    </tr>
+                    <tr>
+                        <td>Combat knife</td>
+                        <td>2</td>
+                        <td></td>
+                        <td>1</td>
+                        <td>20cr</td>
+                    </tr>
+                    <tr>
+                        <td>Razor</td>
+                        <td>2</td>
+                        <td>Armour Piercing</td>
+                        <td>1</td>
+                        <td>600cr</td>
+                    </tr>
+                    <tr>
+                        <td>Unarmed</td>
+                        <td>1</td>
+                        <td>Does not double wounds on critical</td>
+                        <td></td>
+                        <td>N/A</td>
+                    </tr>
+                    <tr>
+                        <td>Improvised weapon</td>
+                        <td>1</td>
+                        <td></td>
+                        <td>1</td>
+                        <td>N/A</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h3>Armour and Suits</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Item</th>
+                        <th>Armour/Oxygen</th>
+                        <th>Notes</th>
+                        <th>Weight</th>
+                        <th>Cost</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Personnel Armour</td>
+                        <td>3/-</td>
+                        <td>IR target finder, Comms Device and shoulder lamp</td>
+                        <td>3/1</td>
+                        <td>10kcr</td>
+                    </tr>
+                    <tr>
+                        <td>Basic Pressure Suit</td>
+                        <td>-/D10</td>
+                        <td>Headlamps, manoeuvre thrusters, shielded against weak radiation. -1 dexterity while worn<br>
+                        </td>
+                        <td>3/1</td>
+                        <td>400cr</td>
+                    </tr>
+                    <tr>
+                        <td>Armoured Pressure Suit</td>
+                        <td>1/D10</td>
+                        <td>Headlamps, manoeuvre thrusters, shielded against weak radiation. -1 dexterity while worn
+                        </td>
+                        <td>4/2</td>
+                        <td>800cr</td>
+                    </tr>
+                    <tr>
+                        <td>Hazard Suit</td>
+                        <td>-/D6</td>
+                        <td>Radiation proof, 1D4 Oxygen Supply. Includes geiger counter.</td>
+                        <td>2/1</td>
+                        <td>200cr</td>
+                    </tr>
+                    <tr>
+                        <td>ACE Suit</td>
+                        <td>5/D6</td>
+                        <td>AG harness, Comms Device, manoeuvre thrusters and smart goggles, shielded against weak
+                            radiation.</td>
+                        <td>3/1</td>
+                        <td>30kcr</td>
+                    </tr>
+                    <tr>
+                        <td>Mesh Armour</td>
+                        <td>1/-</td>
+                        <td>Can be worn under clothing.</td>
+                        <td>1/0</td>
+                        <td>1kcr</td>
+                    </tr>
+                    <tr>
+                        <td>Exo Suit</td>
+                        <td>2/-</td>
+                        <td>+3 strength, -2 dexterity and agility</td>
+                        <td>20/0</td>
+                        <td>5kcr</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h3>Other</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Item</th>
+                        <th>Notes</th>
+                        <th>Weight</th>
+                        <th>Cost</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Comms Device</td>
+                        <td>Monitors location and vitals, records surroundings, provides short range radio</td>
+                        <td>0.5/0</td>
+                        <td>500cr</td>
+                    </tr>
+                    <tr>
+                        <td>Portable Terminal</td>
+                        <td>Interfaces with most comm tech</td>
+                        <td>1</td>
+                        <td>2kcr</td>
+                    </tr>
+                    <tr>
+                        <td>Hi-beam Flashlight</td>
+                        <td></td>
+                        <td>0.5</td>
+                        <td>50cr</td>
+                    </tr>
+                    <tr>
+                        <td>Digital Binoculars</td>
+                        <td>Includes laser target designation</td>
+                        <td>0.5</td>
+                        <td>2.5kcr</td>
+                    </tr>
+                    <tr>
+                        <td>Motion Tracker</td>
+                        <td></td>
+                        <td>1</td>
+                        <td>2kcr</td>
+                    </tr>
+                    <tr>
+                        <td>Flares</td>
+                        <td></td>
+                        <td>1</td>
+                        <td>50cr</td>
+                    </tr>
+                    <tr>
+                        <td>Toolkit</td>
+                        <td></td>
+                        <td>2</td>
+                        <td>500cr</td>
+                    </tr>
+                    <tr>
+                        <td>Medkit</td>
+                        <td>D6 Supply</td>
+                        <td>1</td>
+                        <td>500cr</td>
+                    </tr>
+                    <tr>
+                        <td>Cutting Torch</td>
+                        <td></td>
+                        <td>1</td>
+                        <td>100cr</td>
+                    </tr>
+                    <tr>
+                        <td>Collapsible Ladder</td>
+                        <td></td>
+                        <td>2</td>
+                        <td>50cr</td>
+                    </tr>
+                    <tr>
+                        <td>Ration Pack</td>
+                        <td>D6 Supply</td>
+                        <td>1</td>
+                        <td>50cr</td>
+                    </tr>
+                    <tr>
+                        <td>&quot;Buzz&quot; Stimulant Pills</td>
+                        <td>D6 Supply. Removes the need to sleep for 8 hours. Addictive</td>
+                        <td>0.5</td>
+                        <td>400cr</td>
+                    </tr>
+                    <tr>
+                        <td>&quot;Panic-eze&quot; Pills</td>
+                        <td>D6 Supply. Reduces stress by 4. Toxic</td>
+                        <td>0.5</td>
+                        <td>600cr</td>
+                    </tr>
+                    <tr>
+                        <td>Stimpack</td>
+                        <td>Single dose. +2 Strength, Agility and Toughness on next test or until end of combat. Removes
+                            unconscious condition when used. Toxic</td>
+                        <td>0.5</td>
+                        <td>800cr</td>
+                    </tr>
+                    <tr>
+                        <td>Rucksack</td>
+                        <td>Increases maximum total weight of items you can carry by 6. -1 <strong>agility</strong>
+                            while
+                            worn.</td>
+                        <td>1/0</td>
+                        <td>200cr</td>
+                    </tr>
+                    <tr>
+                        <td>Data Casette</td>
+                        <td>Robust and encrypted storage for digital data</td>
+                        <td>1</td>
+                        <td>200cr</td>
+                    </tr>
+                    <tr>
+                        <td>Recreational Drugs (cigarettes/alcohol)</td>
+                        <td>Use to remove 1 stress. Addictive. D8 Supply</td>
+                        <td>0.5</td>
+                        <td>20cr</td>
+                    </tr>
+                    <tr>
+                        <td>Luxury Goods (Chocolate Bar, canned coffee)</td>
+                        <td>Use when relaxing to remove 1 additional stress. D4 Supply</td>
+                        <td>0.5</td>
+                        <td>20cr</td>
+                    </tr>
+                    <tr>
+                        <td>Collapsible Stretcher</td>
+                        <td></td>
+                        <td>2</td>
+                        <td>100cr</td>
+                    </tr>
+                    <tr>
+                        <td>Combat Application Tourniquet</td>
+                        <td>Removes bleeding out condition when used. Test dexterity to self administer</td>
+                        <td>0.5</td>
+                        <td>100cr</td>
+                    </tr>
+                    <tr>
+                        <td>Long Range Radio</td>
+                        <td>Allows surface to orbit communications</td>
+                        <td>2</td>
+                        <td>2kcr</td>
+                    </tr>
+                    <tr>
+                        <td>Power Pack</td>
+                        <td>Recharges devices, provides backup power</td>
+                        <td>3</td>
+                        <td>5kcr</td>
+                    </tr>
+                    <tr>
+                        <td>Signal Jammer</td>
+                        <td></td>
+                        <td>3</td>
+                        <td>2.5kcr</td>
+                    </tr>
+                    <tr>
+                        <td>Smart Goggles</td>
+                        <td>X2 optical zoom, night vision, receives comm device broadcast, IR target finder</td>
+                        <td>0.5/0</td>
+                        <td>3kcr</td>
+                    </tr>
+                    <tr>
+                        <td>Mag Boots</td>
+                        <td></td>
+                        <td>1/0</td>
+                        <td>300cr</td>
+                    </tr>
+                    <tr>
+                        <td>Anti-radiation Tablets</td>
+                        <td>D6 supply</td>
+                        <td>0.5</td>
+                        <td>200cr</td>
+                    </tr>
+                    <tr>
+                        <td>O2 Tank</td>
+                        <td>D10 supply</td>
+                        <td>2</td>
+                        <td>200cr</td>
+                    </tr>
+                    <tr>
+                        <td>Combat Drone</td>
+                        <td>Equipped with assault rifle, crude AI</td>
+                        <td>3</td>
+                        <td>1.5kcr</td>
+                    </tr>
+                    <tr>
+                        <td>Recon Drone</td>
+                        <td>Remote control, includes headset to receive footage, has X2 optical zoom, temperature sensor
+                            and
+                            geiger counter</td>
+                        <td>1</td>
+                        <td>1kcr</td>
+                    </tr>
+                    <tr>
+                        <td>Maintenance Drone</td>
+                        <td>Remote control, includes headset to receive footage, built in cutting torch and manipulation
+                            arms</td>
+                        <td>5</td>
+                        <td>2kcr</td>
+                    </tr>
+                    <tr>
+                        <td>Rope</td>
+                        <td>50m</td>
+                        <td>0.5</td>
+                        <td>20cr</td>
+                    </tr>
+                    <tr>
+                        <td>Adrenaline</td>
+                        <td>Removes unconscious condition when used</td>
+                        <td>0.5</td>
+                        <td>100cr</td>
+                    </tr>
+                    <tr>
+                        <td>Climbing gear</td>
+                        <td>Crampons, pitons, 100m rope and hammer</td>
+                        <td>2</td>
+                        <td>100cr</td>
+                    </tr>
+                    <tr>
+                        <td>Handcuffs</td>
+                        <td></td>
+                        <td>0.5</td>
+                        <td>20cr</td>
+                    </tr>
+                    <tr>
+                        <td>Long Range Beacon</td>
+                        <td>Transmits a repeating message with a signal strong enough to reach low orbit. Battery power
+                            for
+                            up to a year</td>
+                        <td>3</td>
+                        <td>2.5kcr</td>
+                    </tr>
+                    <tr>
+                        <td>Broad Spectrum Specimen Analyser</td>
+                        <td></td>
+                        <td>2</td>
+                        <td>1.5kcr</td>
+                    </tr>
+                    <tr>
+                        <td>Tracker</td>
+                        <td>Pill size tracker, signal range of a hundred miles</td>
+                        <td>0.5</td>
+                        <td>1kcr</td>
+                    </tr>
+                    <tr>
+                        <td>Geiger counter</td>
+                        <td></td>
+                        <td>0.5</td>
+                        <td>20cr</td>
+                    </tr>
+                    <tr>
+                        <td>Camping gear</td>
+                        <td>Tent, stove, sleeping bag, lamp</td>
+                        <td>2</td>
+                        <td>200cr</td>
+                    </tr>
+                    <tr>
+                        <td>Water purification tablets</td>
+                        <td>D6 supply</td>
+                        <td>0.5</td>
+                        <td>20cr</td>
+                    </tr>
+                    <tr>
+                        <td>AG harness</td>
+                        <td></td>
+                        <td>1/0</td>
+                        <td>10kcr</td>
+                    </tr>
+                    <tr>
+                        <td>Mentat Pills</td>
+                        <td>+2 intelligence on next test or until end of combat. Toxic. D6 supply</td>
+                        <td>0.5</td>
+                        <td>800cr</td>
+                    </tr>
+                    <tr>
+                        <td>Cold weather gear</td>
+                        <td></td>
+                        <td>1/0</td>
+                        <td>200cr</td>
+                    </tr>
+                    <tr>
+                        <td>Ammunition</td>
+                        <td>D6 supply</td>
+                        <td>2</td>
+                        <td>200cr</td>
+                    </tr>
+                    <tr>
+                        <td>Steroid Cycle</td>
+                        <td>+1 strength until next shore leave</td>
+                        <td>0.5</td>
+                        <td>2kcr</td>
+                    </tr>
+                    <tr>
+                        <td>Whizz</td>
+                        <td>+2 agility, -1 intelligence on next test or until end of combat. Addictive. D6 supply</td>
+                        <td>0.5</td>
+                        <td>500cr</td>
+                    </tr>
+                    <tr>
+                        <td>Holtzmann Field</td>
+                        <td>Reduces wounds from ranged attacks by 1</td>
+                        <td>0.5</td>
+                        <td>50kcr</td>
+                    </tr>
+                    <tr>
+                        <td>Still suit</td>
+                        <td></td>
+                        <td>1/0</td>
+                        <td>200cr</td>
+                    </tr>
+                    <tr>
+                        <td>Interfacing Nanites</td>
+                        <td>Use when installing cyberware, do not test toughness to check for a serious injury</td>
+                        <td>0.5</td>
+                        <td>20kcr</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p><strong>Toxic:</strong> Each time you use this item, roll 1D10, if you roll under the number of times
+                used
+                since you last slept you are <strong>incapacitated</strong> and may take no further action, make a
+                <strong>death save.</strong>
+            </p>
+            <p><strong>Addictive:</strong> Each time you use this item, roll 1D10, if you roll under the number of times
+                used since you last slept you become addicted. Your stress cannot decrease on a day in which you have
+                not
+                used the item.</p>
+            <h3>Cyberware</h3>
+            <p>When you have cyberware installed test <strong>toughness</strong>. If you fail gain a <strong>serious
+                    injury</strong>.</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Module</th>
+                        <th>Notes</th>
+                        <th>Cost</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Skill soft</td>
+                        <td>Grants a specialism</td>
+                        <td>100kcr</td>
+                    </tr>
+                    <tr>
+                        <td>Bullet proof skin</td>
+                        <td>Permanently gain 1 armour point</td>
+                        <td>100kcr</td>
+                    </tr>
+                    <tr>
+                        <td>Ixian Eyes</td>
+                        <td>Thermal vision, 2X zoom, photographic capture</td>
+                        <td>80kcr</td>
+                    </tr>
+                    <tr>
+                        <td>Nanite Health System</td>
+                        <td>+1 Toughness</td>
+                        <td>120kcr</td>
+                    </tr>
+                    <tr>
+                        <td>Stim gland</td>
+                        <td>Same effect as stim pack when used</td>
+                        <td>50kcr</td>
+                    </tr>
+                    <tr>
+                        <td>Black box</td>
+                        <td>Records consciousness and allows restoring into a sleeve or advanced android</td>
+                        <td>200kcr</td>
+                    </tr>
+                    <tr>
+                        <td>Cybernetic limb</td>
+                        <td>+1 strength per limb</td>
+                        <td>50kcr</td>
+                    </tr>
+                    <tr>
+                        <td>Plasma 2</td>
+                        <td>Bleeding out condition removed automatically after 1 turn</td>
+                        <td>120kcr</td>
+                    </tr>
+                    <tr>
+                        <td>Implanted Comms Device</td>
+                        <td></td>
+                        <td>10kcr</td>
+                    </tr>
+                    <tr>
+                        <td>Overdriven nervous system</td>
+                        <td>+1 agility</td>
+                        <td>80kcr</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h3>Terrestrial Vehicles</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Notes</th>
+                        <th>Cost</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Hoverbike</td>
+                        <td>Space for driver plus pillion passenger</td>
+                        <td>4kcr</td>
+                    </tr>
+                    <tr>
+                        <td>ATV</td>
+                        <td>Uncovered, carries 4</td>
+                        <td>2kcr</td>
+                    </tr>
+                    <tr>
+                        <td>Automobile</td>
+                        <td>Driverless car, carries 6</td>
+                        <td>5kcr</td>
+                    </tr>
+                    <tr>
+                        <td>Tractor</td>
+                        <td>3 seats in cab, plus exterior flatbed with room for 1 cargo container</td>
+                        <td>6kcr</td>
+                    </tr>
+                    <tr>
+                        <td>APC</td>
+                        <td>Equipped with 30mm cannons, carries 10 plus driver</td>
+                        <td>10kcr</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section class="spaced">
+            <h2>Data</h2>
+            <h3>Contractors</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Description</th>
+                        <th>Week Rate</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Hideo Smith</td>
+                        <td>A diminutive man with black hair in a bowl haircut, clip on reflective glasses hide his
+                            cybernetic eyes. An expert hacker</td>
+                        <td>400cr</td>
+                    </tr>
+                    <tr>
+                        <td>HANS</td>
+                        <td>Human autonomous navigation system, HANS is an android pilot. Clad in a tailored Greenstar
+                            uniform with the labels removed</td>
+                        <td>250cr</td>
+                    </tr>
+                    <tr>
+                        <td>Naomi Nova</td>
+                        <td>Experience asteroid miner, with hair shaven on one side of her skull to reveal union glyph
+                            tattoos</td>
+                        <td>300cr</td>
+                    </tr>
+                    <tr>
+                        <td>Anders Berring</td>
+                        <td>Slicked back hair and broad shoulders, Anders wears a tactical shirt, with a service pistol
+                            in
+                            the holster on his hip</td>
+                        <td>350cr</td>
+                    </tr>
+                    <tr>
+                        <td>Sara McGraw</td>
+                        <td>A skilled engineer with shoulder length red hair and a bionic arm. Claims to have built a
+                            reactor at age 10</td>
+                        <td>500cr</td>
+                    </tr>
+                    <tr>
+                        <td>Gareth Cinder</td>
+                        <td>An expert in corporate law, retired from his firm and looking to explore the stars</td>
+                        <td>400cr</td>
+                    </tr>
+                    <tr>
+                        <td>Luigi Antoni</td>
+                        <td>Ex-marine, discharged for being drunk and disorderly</td>
+                        <td>150cr</td>
+                    </tr>
+                    <tr>
+                        <td>Helga West</td>
+                        <td>Ship captain, currently looking for a new commission after being made redundant. Wears a
+                            beaten
+                            up cap with a ship&#39;s patch &quot;Typhoon&quot;</td>
+                        <td>350cr</td>
+                    </tr>
+                    <tr>
+                        <td>Dr Lars Lindsey</td>
+                        <td>Wearing a worn out designer shirt, Lars has dark bags under his eyes. He claims he&#39;s
+                            just
+                            looking for a new start, and provides a (barely) valid medical practice card</td>
+                        <td>250cr</td>
+                    </tr>
+                    <tr>
+                        <td>Bob Hulman</td>
+                        <td>Chain smoking cigarettes, Bob wears a string vest and combats. Has a valid pilots license as
+                            well as experience operating industrial equipment</td>
+                        <td>350cr</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h3>Payscales</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Item</th>
+                        <th>Rate</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Blue collar</td>
+                        <td>300cr/week</td>
+                    </tr>
+                    <tr>
+                        <td>Casual work</td>
+                        <td>200cr/week</td>
+                    </tr>
+                    <tr>
+                        <td>Skilled contractor</td>
+                        <td>800cr/week</td>
+                    </tr>
+                    <tr>
+                        <td>Executive</td>
+                        <td>2kcr/week</td>
+                    </tr>
+                    <tr>
+                        <td>Hazard pay</td>
+                        <td>1kcr/week</td>
+                    </tr>
+                    <tr>
+                        <td>Jump bonus</td>
+                        <td>1kcr x jump distance</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <footer class="spaced">
+            <h2>Acknowledgements and Notices</h2>
+            <p>Ambassador, Datentaucher, Forensiker Cyber, Mechaniker, Spacer and SpecOps images sourced from <a
+                    href="https://www.lustigesrollenspiel.de/icrpg-illustrationen-icrpg-illustrations"
+                    title="Lustig's World of Role Playing Games">Lustig's World of Role Playing Games</a>, many thanks
+                to Dailor.</p>
+            <p>BITPOD.95 image sourced from <a href="https://commons.wikimedia.org/wiki/File:BITPOD.95.jpg"
+                    title="Wikimedia BITPOD.95">Wikimedia Commons</a>. Image produced by Mike Winkelmann, and licensed
+                under <a href="https://creativecommons.org/licenses/by/4.0" title="Creative Commons 4.0 License">CC
+                    4.0</a>.</p>
+            <p>Departure Mono font produced by <a href="https://www.helenazhang.com/" title="Helena Zhang">Helena
+                    Zhang</a> and used under the SIL Open Font License.</p>
+            <p>This website is in no way endorsed by or affiliated with the entities named above.</p>
+            <p>No cookies were used in the production of this website.</p>
+            <p>Got a question? Contact iendjinn via protonmail.</p>
+        </footer>
+    </body>
+
+</html>
