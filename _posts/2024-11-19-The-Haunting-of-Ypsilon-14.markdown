@@ -29,6 +29,8 @@ Nobody wake the bugbear have a [play through](https://nwtb.podbean.com/e/system-
 
 ⚠️ Spoiler warning ⚠️ 
 
+Cast: Ofa (Spotty Wizard) and Finn (Lord)
+
 The crew arrived at the station and commenced automated docking procedures, a little on edge that the only radio contact they'd had was some lo fi rock music being broadcast on one of the station's frequencies (Sonya's mix tape).
 
 As the docking sequence completed, a frustrated Sonya arrived in the docking area, apologising that no one had been there to meet them. She told the players that Mike was supposed to be manning the station and that she should probably go find him. They were welcome to try and contact Dr Giovanni but warned them he'd requested no interruptions yesterday, citing some breakthrough.

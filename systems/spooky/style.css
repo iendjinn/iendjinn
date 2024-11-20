@@ -1,0 +1,369 @@
+@font-face {
+    font-family: "chomsky";
+    src: url("fonts/Chomsky.woff2");
+}
+
+@font-face {
+    font-family: "alegreya";
+    src: url("fonts/Alegreya-Black.otf");
+}
+
+h1,
+h2,
+h3.special {
+    font-family: "chomsky";
+}
+
+.intro {
+    height: 100vh;
+    background: black;
+    color: white;
+    padding: 2rem;
+    font-size: 3rem;
+    text-align: center;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.striped {
+    background-color: #FFF;
+    background-image: -webkit-linear-gradient( -28deg, #FFF 0%, #FFF 60%, #000 60%, #000 60%);
+    background-image: linear-gradient( -28deg, #FFF 0%, #FFF 60%, #000 60%, #000 60%);
+
+    @media (max-width: 1109px) {
+        background-color: none;
+        background-image: none;
+      }
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+
+.background.black {
+    background: black;
+    color: white;
+}
+
+.white {
+    @media (max-width: 1109px) {
+        background: black;
+      }
+    
+    color: white;
+
+}
+
+.two-column {
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    @media (max-width: 1109px) {
+        justify-content: flex-start;
+        height: auto;
+      }
+}
+
+.two-column-small {
+    display: flex;
+    justify-content: space-between;
+    @media (max-width: 1109px) {
+        justify-content: flex-start;
+        height: auto;
+      }
+}
+
+.image {
+    @media (max-width: 1109px) {
+        flex-direction: column-reverse;
+      }
+}
+
+.dynamic {
+    @media (max-width: 1109px) {
+        flex-direction: column;
+      }
+}
+
+li {
+    padding-bottom: 1rem;
+}
+
+.half-width {
+    padding: 2rem;
+
+    max-width: 30%;
+    @media (max-width: 1109px) {
+        max-width: none;
+      }
+}
+
+/* Flaired edges, by Tomas Theunissen */
+
+hr {
+    overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+
+hr.white-line, hr.white-line:before {
+    border-color: #FFF;
+
+}
+
+hr:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+
+.padded {
+    padding: 2rem;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 1rem;
+}
+
+.align-bottom {
+    align-self: center;
+    @media (max-width: 1109px) {
+        background-color: #FFF;
+        align-self: flex-start;
+      }
+}
+
+body {
+    font-family: "alegreya";
+    margin: 0;
+    font-size: 1.5vh;
+    width: 100%;
+}
+
+.spacer {
+    height: 10vh;
+}
+
+.small-spacer {
+    height: 5vh;
+}
+
+.blood-animation {
+    position: relative;
+    top: -23px;
+    left: 252px;
+    height: 25vh;
+    @media (max-width: 624px) {
+        left: 45px;
+      }
+      
+}
+
+.blood {
+    margin: 175px auto;
+}
+
+.blood-text {
+    color: #F00;
+}
+
+.grid {
+    display: grid;
+    grid: auto-flow / 1fr 1fr 1fr;
+    gap: 2rem;
+    @media (max-width: 1109px) {
+        grid: auto-flow / 1fr 1fr;
+
+      }
+    @media (max-width: 624px) {
+        grid: auto-flow / 1fr;
+
+      }
+
+}
+
+.grid-double {
+    display: grid;
+    gap: 2rem;
+        grid: auto-flow / 1fr 1fr;
+
+    @media (max-width: 624px) {
+        grid: auto-flow / 1fr;
+
+      }
+}
+
+.grid-triple {
+    display: grid;
+    gap: 2rem;
+        grid: auto-flow / 1fr 1fr 1fr;
+
+    @media (max-width: 900px) {
+        grid: auto-flow / 1fr;
+
+      }
+}
+
+table { border-collapse: collapse; }
+tr {
+    border-bottom: 1px solid black;
+}
+
+table.white-border tr {
+    border-bottom: 1px solid white;
+}
+
+table.red-border tr {
+    border-bottom: 2px solid #F00;
+}
+td, th {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+th {
+    text-align: left;
+}
+
+strong {
+    font-family: "chomsky";
+    font-size: 2rem;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+.drop {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    top: -30px;
+    margin: 0 auto;
+    background: #F00;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    -moz-animation-name: drip;
+    -webkit-animation-name: drip;
+    animation-name: drip;
+    -moz-animation-timing-function: cubic-bezier(1, 0, .91, .19);
+    -webkit-animation-timing-function: cubic-bezier(1, 0, .91, .19);
+    animation-timing-function: cubic-bezier(1, 0, .91, .19);
+    -moz-animation-duration: 2s;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+.drop:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 30px solid rgba(255, 0, 0, 1);
+    top: -22px;
+    left: -0px;
+}
+
+.wave {
+    position: relative;
+    opacity: 0;
+    top: 0;
+    width: 2px;
+    height: 1px;
+    border: #F00 7px solid;
+    -moz-border-radius: 300px / 150px;
+    -webkit-border-radius: 300px / 150px;
+    border-radius: 300px / 150px;
+    -moz-animation-name: ripple;
+    -webkit-animation-name: ripple;
+    animation-name: ripple;
+    -moz-animation-delay: 2s;
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+    -moz-animation-duration: 2s;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+.wave:after {
+    content: "";
+    position: absolute;
+    opacity: 0;
+    top: -5px;
+    left: -5px;
+    width: 2px;
+    height: 1px;
+    border: #F00 5px solid;
+    -moz-border-radius: 300px / 150px;
+    -webkit-border-radius: 300px / 150px;
+    border-radius: 300px / 150px;
+    -moz-animation-name: ripple-2;
+    -webkit-animation-name: ripple-2;
+    animation-name: ripple-2;
+    -moz-animation-duration: 2s;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+@keyframes ripple {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        width: 600px;
+        height: 300px;
+        border-width: 1px;
+        top: -100px;
+        opacity: 0;
+    }
+}
+
+@keyframes ripple-2 {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        width: 200px;
+        height: 100px;
+        border-width: 1px;
+        top: 100px;
+        left: 200px;
+    }
+}
+
+@keyframes drip {
+    to {
+        top: 190px;
+    }
+}

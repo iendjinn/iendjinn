@@ -178,14 +178,14 @@ li {
     margin-bottom: 1rem;
 }
 
-ol.post-list span.tag {
+span.tag {
     border: 1px dashed var(--main-text-color);
     padding: 0.25rem;
     border-radius: 5%;
     font-size: 0.75rem;
 }
 
-:root.dark ol.post-list span.tag {
+:root.dark ol span.tag {
     border-color: var(--secondary-text-color);
 }
 
@@ -203,9 +203,18 @@ ol.post-list li > p {
     margin-top: 0.5rem;
 }
 
-ol.post-list div.post-title {
+div.post-title {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+div.post-title h2 {
+    margin-bottom: 0.5rem;
+}
+
+p.page-tags {
+    margin-top: 0rem;
 }
 
 ol.post-list div.post-title span {

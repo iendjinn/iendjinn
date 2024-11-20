@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+
+    {% include head.html %}
+
+    <body>
+        {% include page-title.html %}
+        <div class="post-title"><h2>{{page.title }}</h2>{{page.date | date: "%d-%b-%Y"}}</div>
+        <p class="page-tags">
+            {% for tag in page.tags %}
+                <span class="tag">{{tag}}</span>
+            {% endfor %}
+        </p>
+        <div class="two-column-grid">
+            <div>
+                {{ content }}
+            </div>
+            <div>
+                {% include latest-posts.html %}
+            </div>
+        </div>
+        {% include footer.html %}
+    </body>
+
+</html>
