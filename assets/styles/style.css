@@ -9,6 +9,8 @@
     --main-bg-color: #fff;
     --main-text-color: #222;
     --secondary-bg-color: #c0c0c0;
+    --secondary-text-color: #222;
+    --stamp-color: #6c6c58;
 }
 
 
@@ -17,6 +19,8 @@
         --main-bg-color: #222;
         --main-text-color: #ffa133;
         --secondary-bg-color: #c0c0c0;
+        --secondary-text-color: #222;
+        --stamp-color: #6c6c58;
     }
 }
 
@@ -25,6 +29,8 @@
     --main-bg-color: #222;
     --main-text-color: #ffa133;
     --secondary-bg-color: #c0c0c0;
+    --secondary-text-color: #222;
+    --stamp-color: #6c6c58;
 }
 
 :root.dark span.moon {
@@ -170,4 +176,47 @@ a {
 
 li {
     margin-bottom: 1rem;
+}
+
+ol.post-list span.tag {
+    border: 1px dashed var(--main-text-color);
+    padding: 0.25rem;
+    border-radius: 5%;
+    font-size: 0.75rem;
+}
+
+:root.dark ol.post-list span.tag {
+    border-color: var(--secondary-text-color);
+}
+
+ol.post-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ol.post-list li {
+    background-color: var(--secondary-bg-color);
+    padding: 0.5rem;
+}
+
+ol.post-list li > p {
+    margin-top: 0.5rem;
+}
+
+ol.post-list div.post-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+ol.post-list div.post-title span {
+    font-size: 0.75rem;
+    color: var(--stamp-color);
+}
+
+:root.dark ol.post-list li {
+    color: var(--secondary-text-color);
+}
+
+header {
+    margin-bottom: 2rem;
 }
