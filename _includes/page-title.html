@@ -1,0 +1,13 @@
+<header>
+    <div class="page-title">
+        <h1>{{ site.title }}</h1>
+        <button class="styled" id="theme-toggle" aria-pressed="false" onclick="toggleTheme()" title="Toggle Theme">
+            <span class="sun">&#9728;&#65039;</span><span class="moon">&#127761;</span>
+        </button>
+    </div>
+    <div class="page-nav">
+        <a class="{% if page.title == "About" %}active{% endif %}" href="{{site.baseurl}}/about" title="About">About</a>
+        <a class="{% if page.title == "Systems" %}active{% endif %}" href="{{site.baseurl}}/systems" title="TRPG Systems">TRPG Systems</a>
+        <a class="{% if page.title == "Archive" %}active{% endif %}" href="{{site.baseurl}}/archive" title="Archive">Archive</a>
+    </div>
+</header>
