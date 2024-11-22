@@ -172,6 +172,8 @@ tr:last-of-type td {
 
 a {
     color: inherit;
+    cursor: pointer;
+    text-decoration: underline dotted;
 }
 
 li {
@@ -228,4 +230,8 @@ ol.post-list div.post-title span {
 
 header {
     margin-bottom: 2rem;
+}
+
+header a {
+    text-decoration: none;
 }

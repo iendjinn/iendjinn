@@ -14,7 +14,7 @@ As a place for me to publish and collate my thoughts and projects that I'd like 
 
 **Why not just use \<insert popular web platform here>?**
 
-Most blogging and social media platforms are designed to harvest your data to sell you more stuff, or publish and store content in a weird propriety format. 
+Most blogging and social media platforms are designed to harvest your data to sell you more stuff, or publish and store content in a weird proprietary format. 
 
 While writing stuff in markdown and transforming it to HTML is a little clunky, it means that this content is independent of the platform it is hosted on. It also means I can deliver this content free from unnecessary cookies, JavaScript and other cruft that are the hallmarks of many modern websites.
 

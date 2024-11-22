@@ -10,7 +10,7 @@ That being said, we had fun _in spite_ of the terrible design of these systems, 
 
 The following two are systems I've made recently, they haven't yet received a ton of play testing, but each has been through 5 or so sessions so far. If you do happen to read/play them and have feedback I'd love to hear it!
 
-Both of these are inspired by numerous systems, including but no limited to:
+Both of these are inspired by numerous systems, including but not limited to:
 
 - Alien RPG
 - Mothership RPG
