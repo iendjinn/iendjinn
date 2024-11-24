@@ -3,6 +3,7 @@ title: Sci Fi TRPG
 ---
 <!doctype html>
 <html>
+
     <head>
         {% include head-common.html %}
         <link rel="stylesheet" href="style.css">
@@ -2063,6 +2064,658 @@ title: Sci Fi TRPG
                     </tr>
                 </tbody>
             </table>
+        </section>
+        <section>
+            <h2>Starships</h2>
+            <p>Starships are made up of modules, the maximum number of modules a ship can have fitted is called its
+                tonnage.</p>
+            <p>A starship must have at least one each of the following modules:</p>
+            <ul>
+                <li>Life support</li>
+                <li>Reactor</li>
+                <li>Bridge</li>
+                <li>Engines</li>
+            </ul>
+            <p>Each module should be assigned a number from 1 to the ship&#39;s tonnage to determine where in the ship
+                it is
+                located.</p>
+            <p>Ship tonnages are: 20, 12, 10, 8 and 6.</p>
+            <p>Based on the modules that a starship has it will have a score for the following three attributes:</p>
+            <ul>
+                <li><strong>Manoeuvre</strong>: How effectively the ship can accelerate.</li>
+                <li><strong>Counter-measures</strong>: How effectively the ship can shoot down or divert incoming
+                    missiles.</li>
+                <li><strong>Offense</strong>: How effectively the ship can lock onto and fire missiles at a target.</li>
+            </ul>
+            <p>Additionally starships have a <strong>disrepair</strong>:</p>
+            <ul>
+                <li>Starts at 0 for a newly built ship</li>
+                <li>Increases by D3 each year unless serviced (tonnage x 20k credits)</li>
+                <li>Servicing a ship with disrepair removes up to 3 points of disrepair</li>
+            </ul>
+            <h3>Space Travel</h3>
+            <p>Starships are capable of two forms of travel: Hyperspace and real space.</p>
+            <p>Starships are not capable of in atmosphere flight. Transport between a starship and the surface of
+                planets is usually
+                performed by shuttle or space elevator.</p>
+            <h4>Hyperspace Travel</h4>
+            <p>Starships with a <strong>jump drive</strong> module can enter a hyperlane at a jump point. Hyperlanes
+                have a length
+                and may be mapped or unmapped.</p>
+            <p>Mapped hyperlanes take D12 <strong>months</strong> X hyperlane length to traverse.</p>
+            <p>Unmapped Hyperlanes take D12 <strong>years</strong> X hyperlane length to traverse.</p>
+            <p>Cryo sleep protects humans from hyperspace distortion syndrome. Gain 1 stress every hour if out of cryo
+                in
+                hyperspace. Do <strong>not</strong> remove wounds and stress while in cryo sleep.</p>
+            <p>If a ship makes a hyperspace jump and there is not an android aboard to perform system maintenance roll a
+                D20. If the
+                value is equal or under the ship&#39;s current <strong>disrepair</strong> then consult the system fault
+                table:</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>D20</th>
+                        <th>System Fault</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Auto-galley offline: Requires reboot</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Hot water system offline: Requires repair</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Ship computer text to speech offline: Requires repair</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Jump miscalculation: Double journey duration</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Cryo system malfunction: Occupants experience an emergency resuscitation and take a wound
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>Life support offline: The crew awake to sub zero temperatures and stale air, life support
+                            must be
+                            rebooted manually</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>Radiation leak: Weak radiation across the entire ship</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>Radiator array damaged: Internal ship temperature of 50 degrees Celsius, requires EVA to
+                            repair</td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td>Fuel leak: A single unit of fuel remains in the system</td>
+                    </tr>
+                    <tr>
+                        <td>10+</td>
+                        <td>Lost in space: The ship arrives in a random system, add D20 years to journey duration</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h4>Real Space Travel</h4>
+            <p>Travelling between stellar bodies that are not orbiting each other takes D3 <strong>weeks</strong>.</p>
+            <h4>Fuel</h4>
+            <p>Engines and jump drives require fuel.</p>
+            <p>The maximum fuel a starship can store is equal to its tonnage.</p>
+            <ul>
+                <li>It costs 1 fuel per in system real space journey</li>
+                <li>It costs 1 fuel per round of starship combat</li>
+                <li>It costs fuel equal to a hyperlanes length when jumping through hyperspace</li>
+            </ul>
+            <p>The standard price for fuel is <strong>50kcr</strong>, this includes maintenance overheads and other
+                basic supplies
+                required for the functioning of a ship (e.g. nutrient paste for the galley auto-chef).</p>
+            <h3>Starship combat</h3>
+            <p>The distance between ships is abstracted into four ranges:</p>
+            <ul>
+                <li><strong>Sensor range</strong>: Too far for effective weapons lock, combat cannot take place</li>
+                <li><strong>Firing range</strong>: Close enough to exchange missiles with a reasonable delay before a
+                    missile hits
+                    the target</li>
+                <li><strong>Visual range</strong>: Far enough apart that ships aren&#39;t at risk of collateral damage
+                    when firing
+                    upon each other</li>
+                <li><strong>Boarding range</strong>: Close enough for the use of boarding pods, too close for safe use
+                    of ship to
+                    ship weaponry</li>
+            </ul>
+            <p>Ship combat takes place when two vessels are at firing or visual range from each other.</p>
+            <p>When starship combat occurs, it falls into one of the two situations:</p>
+            <ul>
+                <li><strong>Pursuit</strong>: The pursuing ships aims to prevent the other ship from escaping to
+                    <strong>sensor
+                        range</strong>. If this happens then the ship is considered to have escaped and be safe for the
+                    time being.
+                </li>
+                <li><strong>Joust</strong>: Two ships approach on an intercept course that will allow them to target
+                    each other as
+                    they pass nearby in space. In a joust both ships close to <strong>firing range</strong>, and
+                    progress to
+                    <strong>visual range</strong> before passing each other.
+                </li>
+            </ul>
+            <h4>Ship Round</h4>
+            <p>Ship combat takes place over ship rounds, with each round allowing a different number of player actions:
+            </p>
+            <ul>
+                <li><strong>Firing Range</strong>: 2 actions per player</li>
+                <li><strong>Visual Range</strong>: 1 action per player</li>
+            </ul>
+            <p>In a ship round the following happens:</p>
+            <ul>
+                <li>The GM describes the situation, setting DR for manoeuvre, counter-measures and offense</li>
+                <li>Players must decide what actions they want to take to try and boost their ship&#39;s attributes.
+                    Players can
+                    also attempt to contact the other vessel and negotiate but this takes an action</li>
+                <li>Once all actions have been resolved test the ship&#39;s attributes, adding any bonuses the players
+                    managed to
+                    gain and then apply the effects in the table</li>
+            </ul>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Test</th>
+                        <th>Combat Type</th>
+                        <th>Success</th>
+                        <th>Failure</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Manoeuvre</td>
+                        <td>Joust</td>
+                        <td>Gain a +2 bonus to counter-measures roll for this round</td>
+                        <td>Anyone not in cryo or strapped in to a seat must test <strong>agility</strong> or take 2
+                            wounds</td>
+                    </tr>
+                    <tr>
+                        <td>Manoeuvre</td>
+                        <td>Pursuit</td>
+                        <td>Increase or decrease the range between the ships by one level (e.g. firing to visual)</td>
+                        <td>Opposing ship chooses to increase or decrease the range between the ships by one level</td>
+                    </tr>
+                    <tr>
+                        <td>Counter Measures</td>
+                        <td>Joust/Pursuit</td>
+                        <td>Negate any damage from enemy offense</td>
+                        <td>Take damage equal to the offense of the enemy starship</td>
+                    </tr>
+                    <tr>
+                        <td>Open Fire</td>
+                        <td>Joust/Pursuit</td>
+                        <td>Enemy ship takes damage equal to offense</td>
+                        <td>N/A</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h4>Ship Damage</h4>
+            <ul>
+                <li>Points of damage dealt is equal to the offense of the attacking ship</li>
+                <li>At visual range the attacking ship allocates damage points to modules on the receiving ship </li>
+                <li>At firing range roll a dice equal to the tonnage of the ship for each point of damage to determine
+                    which modules
+                    are damaged</li>
+            </ul>
+            <p>When a module has a single point of damage it is <strong>breached</strong> and decompresses.</p>
+            <p>Repairing a breached module takes a days work, and will require EVA to patch exterior hull damage.</p>
+            <p>When a module has more than one point of damage it is <strong>wrecked</strong>, consult the module table
+                for the
+                effect. Additionally anyone inside the module takes 2 wounds.</p>
+            <p>Wrecked modules must be repaired at a station, for a cost equal to 50% of the module cost (include any
+                upgrades).</p>
+            <h4>Ending Ship Combat</h4>
+            <p>Ship combat ends:</p>
+            <ul>
+                <li>In a joust after one round at firing range and one round at visual range</li>
+                <li>In a pursuit when the pursuer closes to boarding range</li>
+                <li>In a pursuit when the fleeing vessel reaches sensor range</li>
+            </ul>
+            <h3>Escape Pods</h3>
+            <ul>
+                <li>Each module has a number of escape pods</li>
+                <li>An escape pod carries one person, and will keep them in cryo and operate an emergency transponder
+                    for 1 month
+                </li>
+                <li>Escape pods have simple thrusters and navigation systems that will attempt to land on a life
+                    supporting planet
+                </li>
+            </ul>
+            <h3>Shuttles</h3>
+            <ul>
+                <li>Can operate in atmosphere or deep space</li>
+                <li>Multiply real space journey duration by 10</li>
+            </ul>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Notes</th>
+                        <th>Cost</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Fighter Bomber</td>
+                        <td>Two seats, equipped with 30mm cannons, missiles and a pair of nuclear bombs.</td>
+                        <td>500kcr</td>
+                    </tr>
+                    <tr>
+                        <td>Flatbed Hauler</td>
+                        <td>Crew space for 10, exterior deck carries up to 20 cargo containers, includes a crane for
+                            loading and
+                            unloading.</td>
+                        <td>150kcr</td>
+                    </tr>
+                    <tr>
+                        <td>Escape Shuttle</td>
+                        <td>Crew space for 4, as well as 4 cryo pods.</td>
+                        <td>150kcr</td>
+                    </tr>
+                    <tr>
+                        <td>Executive Transport</td>
+                        <td>Crew space for 10, a small interior cargo bay, micro-galley and bar.</td>
+                        <td>250kcr</td>
+                    </tr>
+                    <tr>
+                        <td>Drop Ship</td>
+                        <td>Equipped with 30mm cannons, crew space for 30 + 2 pilots, interior cargo bay with room for a
+                            single
+                            cargo container.</td>
+                        <td>500kcr</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h3>Ship Modules</h3>
+            <p>The base cost of a ship is equal to 100kcr X the ship&#39;s tonnage, then add the cost of each individual
+                module the
+                ship is equipped with.</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Module</th>
+                        <th>Notes</th>
+                        <th>Upgrades</th>
+                        <th>Critical Damage</th>
+                        <th>Cost/Upgrade Cost</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Engines</td>
+                        <td>Enables real space travel. Required for manoeuvre.</td>
+                        <td>Race tuning, +1 to manoeuvre.</td>
+                        <td>Fire in the Hole: Engine catches fire and is unusable until repaired. Fire will spread to
+                            adjacent
+                            modules unless extinguished.</td>
+                        <td>1mcr/500kcr</td>
+                    </tr>
+                    <tr>
+                        <td>Reactor</td>
+                        <td></td>
+                        <td></td>
+                        <td>Meltdown: Ships reactor explodes in 5 minutes (real time).</td>
+                        <td>1mcr</td>
+                    </tr>
+                    <tr>
+                        <td>Bridge</td>
+                        <td>Contains control systems and ship computer, also houses a docking umbilical and external
+                            airlock. 5
+                            Escape pods</td>
+                        <td>Ship AI. +1 to manoeuvre, counter-measures and offense</td>
+                        <td>-3 to all ship tests</td>
+                        <td>1mcr/2mcr</td>
+                    </tr>
+                    <tr>
+                        <td>Life support</td>
+                        <td>Provides oxygen, gravity and heating.</td>
+                        <td></td>
+                        <td>The Big Freeze: Artificial gravity shuts down, oxygen runs out in D6 hours, temperature
+                            reaches absolute
+                            zero in 6D6 hours.</td>
+                        <td>1mcr</td>
+                    </tr>
+                    <tr>
+                        <td>Jump drive</td>
+                        <td>Enables hyperspace travel.</td>
+                        <td></td>
+                        <td>No hyperspace travel</td>
+                        <td>1mcr</td>
+                    </tr>
+                    <tr>
+                        <td>Missile Battery</td>
+                        <td>Required to attack. +1 offense for each additional missile battery. Expend all missiles for
+                            a +1 bonus,
+                            must be resupplied before further use (20kcr).</td>
+                        <td>Dedicated targeting radar, additional +1 to offense.</td>
+                        <td>Magazine Detonation: Module wrecked and adjacent modules take a point of damage.</td>
+                        <td>200kcr/100kcr</td>
+                    </tr>
+                    <tr>
+                        <td>Cryo Deck</td>
+                        <td>100 berths.</td>
+                        <td>Ejectable: Allows entire cryo deck to be ejected as a life raft. Will power all berths and
+                            emergency
+                            transponder for 1 year.</td>
+                        <td>Dead on Arrival: D100 berths are destroyed.</td>
+                        <td>500kcr/500kcr</td>
+                    </tr>
+                    <tr>
+                        <td>Laser Array</td>
+                        <td>Required for counter-measures tests. +1 counter-measures for each additional laser array.
+                        </td>
+                        <td>Decoy drone launcher, additional +1 to counter-measures.</td>
+                        <td>No counter-measures bonus</td>
+                        <td>100kcr/50kcr</td>
+                    </tr>
+                    <tr>
+                        <td>Crew Deck</td>
+                        <td>10 cabins and cryo pods, as well as a galley and wash facilities. 10 Escape pods</td>
+                        <td>Rapid resus cryo pods, can awaken crew in as little as 5 minutes (usually takes around 1
+                            hour).</td>
+                        <td>Cryo pods unusable</td>
+                        <td>200kcr/100kcr</td>
+                    </tr>
+                    <tr>
+                        <td>Executive Deck</td>
+                        <td>4 spacious cabins with individual wash facilities and cryo pods, as well as a galley. 4
+                            Escape pods</td>
+                        <td>Escape shuttle (in addition to any individual escape pods).</td>
+                        <td>Cryo pods unusable</td>
+                        <td>500kcr/150kcr</td>
+                    </tr>
+                    <tr>
+                        <td>Hangar Bay</td>
+                        <td>Space for large vehicles, or a large vehicle and a couple of shipping containers. Contains
+                            an external
+                            airlock.</td>
+                        <td>Workshop: Repair and basic manufacturing facilities.</td>
+                        <td>Airlock inoperative</td>
+                        <td>100kcr/50kcr</td>
+                    </tr>
+                    <tr>
+                        <td>Cargo Bay</td>
+                        <td>Holds up to 20 shipping containers. Contains an external airlock.</td>
+                        <td>Exterior cargo clamps, holds an additional 5 shipping containers on the external hull.</td>
+                        <td>Yodel: D20 shipping containers are destroyed or lost in space.</td>
+                        <td>100kcr/50kcr</td>
+                    </tr>
+                    <tr>
+                        <td>Science Bay</td>
+                        <td>Fully equipped laboratory.</td>
+                        <td>AI research assistant.</td>
+                        <td>Systems inoperative</td>
+                        <td>500kcr/1mcr</td>
+                    </tr>
+                    <tr>
+                        <td>Med Bay</td>
+                        <td>Fully stocked hospital with 10 beds with auto docs. 10 Escape pods</td>
+                        <td>Automated surgical pod.</td>
+                        <td>Systems inoperative</td>
+                        <td>1mcr/1mcr</td>
+                    </tr>
+                    <tr>
+                        <td>Assault Deck</td>
+                        <td>Contains an armoury and 5 assault pods suitable for planetary landing or boarding actions.
+                            Each pod can
+                            hold 20 personnel and must be retrieved by shuttle. Contains an external airlock.</td>
+                        <td>Assault pods have additional thrusters allowing them to re-enter orbit from a planet.</td>
+                        <td>Assault pod launchers inoperative</td>
+                        <td>2mcr/500kcr</td>
+                    </tr>
+                    <tr>
+                        <td>Fuel Reserve</td>
+                        <td>Increases ship maximum fuel supply by 20.</td>
+                        <td>Refinery: Capable of processing raw helium-3 into fuel.</td>
+                        <td>Radiation Leak: Module flooded with deadly radiation, adjacent modules are flooded with
+                            strong
+                            radiation, the rest of the ship is flooded with weak radiation.</td>
+                        <td>100kcr/50kcr</td>
+                    </tr>
+                    <tr>
+                        <td>Hydroponics bay</td>
+                        <td>Provides enough food for a crew of 10 to be sustained indefinitely.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+            <h2>Ship Catalogue</h2>
+            <div class="two-column-grid spaced">
+                <pre><code>
+            Model: Solar Sailor                           
+            Manufactrer: Titan Systems                    
+            Tonnage: 6                                    
+            Factory Cost: 4.8mcr + Optional module
+            
+            -----------------                  
+            | 1 | 2 | 3 | 4 |   
+            -----------------   
+                    | 5 | 6 |   
+                    ---------   
+            </code></pre>
+                <pre><code>
+            1. Bridge
+            2. Crew Deck
+            3. Life Support
+            4. Optional
+            5. Reactor
+            6. Engines
+            </code></pre>
+            </div>
+            <div class="two-column-grid spaced">
+
+                <pre><code>
+            Model: Pathfinder 
+            Manufacturer: Arvus Industries
+            Tonnage: 8
+            Factory Cost: 6.1mcr + Optional module
+            
+                -------------      
+                | 2 | 3 | 6 |      
+            ---------------------   
+            | 1 | 4 | 5 | 7 | 8 |   
+            ---------------------   
+            </code></pre>
+                <pre><code>
+            1. Bridge
+            2. Optional
+            3. Hangar Bay
+            4. Crew Deck
+            5. Life Support
+            6. Jump Drive
+            7. Reactor
+            8. Engines
+            </code></pre>
+            </div>
+            <div class="two-column-grid spaced">
+
+                <pre><code>
+            Model: Stellar Shark
+            Manufacturer: Titan Systems 
+            Tonnage: 8
+            Factory Cost: 5.4mcr
+            
+                -----   -----   
+                | 2 |   | 6 |   
+            -----------------  
+            | 1 | 3 | 5 | 7 |   
+            -----------------   
+                | 4 |   | 8 |    
+                -----   -----   
+            </code></pre>
+                <pre><code>
+            1. Bridge
+            2. Laser Array
+            3. Crew Deck
+            4. Missile Batter
+            5. Life Support
+            6. Hangar Bay
+            7. Reactor
+            8. Engines
+            </code></pre>
+            </div>
+            <div class="two-column-grid spaced">
+
+                <pre><code>
+            Model: Kraken
+            Manufacturer: Titan Systems
+            Tonnage: 20
+            Factory Cost: 16.7mcr
+            
+            --------------------------------              ------  
+            | 1 | 4 | 6 | 8 | 10 | 12 | 14 |              | 20 |  
+            ----------------------------------------------------  
+            | 2 | 5 | 7 | 9 | 11 | 13 | 15 | 16 | 17 | 18 | 19 |  
+            ----------------------------------------------------  
+            | 3 |                                                 
+            -----                                                 
+            </code></pre>
+                <pre><code>
+            1. Missile Battery A
+            2. Bridge.
+            3. Laser Array A-B (3-4)
+            5. Crew Deck
+            6. Assault Decks A-C (6-8)
+            9. Medical Bay
+            10. Hangar Bay
+            11. Cargo Bay
+            12. Missile Batteries B-C (12-13)
+            14. Cryo Decks A-C (14-16) 
+            17. Life Support
+            18. Reactor
+            19. Engines
+            20. Jump Drive
+            </code></pre>
+            </div>
+            <div class="two-column-grid spaced">
+
+                <pre><code>
+            Model: Sprinter
+            Manufacturer: Arvus Industries
+            Tonnage: 10
+            Factory Cost: 6.6mcr
+            
+                -----   -----
+                | 2 |   | 6 |               
+            --------------------------      
+            | 1 | 3 | 5 | 7 | 9 | 10 |      
+            --------------------------     
+                | 4 |   | 8 |               
+                -----   -----               
+            </code></pre>
+                <pre><code>
+            1. Bridge
+            2. Hangar Bay
+            3. Crew Deck
+            4. Life Support
+            5. Reactor
+            6. Cargo Bays A-C (6-8)
+            9. Jump Drive
+            10. Engines
+            </code></pre>
+            </div>
+            <div class="two-column-grid spaced">
+
+                <pre><code>
+            Model: Seer
+            Manufacturer: Arvus Industries
+            Tonnage: 12
+            Factory Cost: 6.7mcr + Optional Modules
+            
+                -----                   ------   
+                | 2 |                   | 10 |   
+            ----------------------------------   
+            | 1 | 3 | 5 | 6 | 7 | 8 | 9 | 11 |   
+            ----------------------------------   
+                | 4 |                   | 12 |   
+                -----                   ------   
+            </code></pre>
+                <pre><code>
+            1. Bridge
+            2. Optional A
+            3. Crew Deck
+            4. Optional B
+            5. Life Support
+            6. Optional C-F (6-9)
+            10. Engines
+            11. Reactor
+            12. Jump Drive
+            </code></pre>
+            </div>
+            <div class="two-column-grid spaced">
+
+                <pre><code>
+            Model: Highliner
+            Manufacturer: Arvus Industries
+            Tonnage: 12
+            Factory Cost: 8.6mcr
+            
+            -------------                       
+            | 1 | 2 | 3 |                       
+            -------------------------------     
+            | 4 | 5 | 6 | 8 | 9 | 10 | 11 |     
+            -------------------------------     
+                    | 7 |            | 12 |     
+                    -----            ------    
+            </code></pre>
+                <pre><code>
+            1. Bridge
+            2. Crew Deck
+            3. Hangar Bay
+            4. Cargo Bay
+            5. Executive Deck
+            6. Cry Decks A-C (6-8)
+            9. Life Support
+            10. Reactor
+            11. Engines
+            12. Jump Drive
+            </code></pre>
+            </div>
+            <div class="two-column-grid spaced">
+
+                <pre><code>
+            Model: Super Heavy                             
+            Manufacturer: Arvus Industries                  
+            Tonnage: 20                                    
+            Factory Cost: 9.3mcr                            
+                                                            
+            ----------------------------------------------  
+            | 1 | 2 | 4 | 6 | 8 | 10 | 12 | 14 | 16 | 18 | 
+            ----------------------------------------------  
+                | 3 | 5 | 7 | 9 | 11 | 13 | 15 | 17 | 19 |  
+                ------------------------------------------   
+                                                    | 20 |   
+                                                    ------  
+            </code></pre>
+                <pre><code>
+            1. Bridge
+            2. Crew Deck
+            3. Laser Array
+            4. Missile Batter
+            5. Hangar Bay A
+            6. Life Support
+            7. Cargo Bays A-I (7-15)
+            16. Hangar Bay B
+            17. Fuel Reserve
+            18. Jump Drive
+            19. Reactor
+            20. Engines
+            </code></pre>
+            </div>
         </section>
         {% capture pageAcks %}
         <p>Ambassador, Datentaucher, Forensiker Cyber, Mechaniker, Spacer and SpecOps images sourced from <a
