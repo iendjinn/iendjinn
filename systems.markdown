@@ -12,10 +12,10 @@ The following two are systems I've made recently, they haven't yet received a to
 
 Both of these are inspired by numerous systems, including but not limited to:
 
-- Alien RPG
-- Mothership RPG
-- Mork Borg/Cy_Borg
-- The Black Hack
+- [Alien RPG](https://freeleaguepublishing.com/games/alien/)
+- [Mothership RPG](https://www.tuesdayknightgames.com/pages/mothership-rpg)
+- [Mork Borg](https://morkborg.com/)/[Cy_Borg](https://freeleaguepublishing.com/games/cy_borg/))
+- [The Black Hack](https://the-black-hack.jehaisleprintemps.net/english/)
 
 ## Spooky
 

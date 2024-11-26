@@ -3,6 +3,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="icon" type="image/png" href="/assets/favicon/favicon-96x96.png" sizes="96x96" />
 <link rel="manifest" href="/assets/favicon/site.webmanifest" />
+<link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="/feed.xml">
 <script>
     window.onload = function () {
         const theme = localStorage.getItem("theme") ?? (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
