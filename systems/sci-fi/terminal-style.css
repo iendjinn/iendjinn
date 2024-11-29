@@ -1,0 +1,158 @@
+@font-face {
+	font-family: "departure";
+	src: url("/assets/fonts/DepartureMono-Regular.woff2");
+}
+
+:root,
+:root.light {
+	--main-bg-color: #fff;
+	--main-text-color: #222;
+	--secondary-bg-color: #c0c0c0;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--main-bg-color: #222;
+		--main-text-color: #ffa133;
+		--secondary-bg-color: #c0c0c0;
+	}
+}
+
+:root.dark {
+	--main-bg-color: #222;
+	--main-text-color: #ffa133;
+	--secondary-bg-color: #c0c0c0;
+}
+
+:root.dark span.moon {
+	display: none;
+}
+
+:root.light span.sun {
+	display: none;
+}
+
+body {
+	margin: 0.1vh;
+	border: 0.1vh solid var(--main-text-color);
+	background: var(--main-bg-color);
+	height: 97.6vh;
+	overflow: scroll;
+	padding: 1vh;
+	color: var(--main-text-color);
+	font-family: "departure";
+}
+
+.option {
+	cursor: pointer;
+}
+
+.option.admin.disabled {
+	cursor: not-allowed;
+}
+
+.option.admin::after {
+	content: "[Locked]";
+}
+
+div.is-admin .option.admin {
+	cursor: pointer;
+}
+
+div.is-admin .option.admin::after {
+	content: none;
+}
+
+#terminal-content.loading {
+	animation: flicker 0.2s linear infinite;
+}
+
+@keyframes flicker {
+	10% {
+		opacity: 0.5;
+	}
+	25% {
+		transform: skewX(35deg);
+	}
+	50% {
+		transform: skewX(0deg);
+	}
+	60% {
+		transform: skewX(-45deg);
+	}
+	70% {
+		opacity: 0.3;
+	}
+}
+
+*:focus {
+	outline: none;
+	border: 1px dashed;
+}
+tr:focus {
+	text-decoration: underline;
+}
+
+ul {
+	padding: 0;
+	list-style-type: none;
+}
+
+ul > li:before {
+	content: "- ";
+}
+
+:root.dark span.moon {
+    display: none;
+}
+
+:root.light span.sun {
+    display: none;
+}
+
+#theme-toggle {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+table {
+    border-collapse: collapse;
+	margin-top: 1rem;
+}
+
+thead {
+    border-top: 2px solid var(--main-text-color);
+    border-bottom: 2px solid var(--main-text-color);
+}
+
+th {
+    border-left: 2px solid var(--main-text-color);
+    border-right: 2px solid var(--main-text-color);
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+    text-align: left;
+}
+
+td {
+    border-left: 2px solid var(--main-text-color);
+    border-right: 2px solid var(--main-text-color);
+    padding: 0.75rem;
+    text-align: left;
+}
+
+td {
+    border-bottom: 1px dashed var(--main-text-color);
+}
+
+tr:last-of-type td {
+	border-bottom: 2px solid var(--main-text-color);
+
+}
+
+div.map {
+	white-space-collapse: preserve;
+	line-height: 0.5rem;
+}
