@@ -92,7 +92,7 @@ const data = [
 								children: [],
 							},
 							{
-								name: "y14-rv",
+								name: "bulletin",
 								title: "Kappa Ceti Courier Bulletin",
 								admin: false,
 								from: "courier@canyon.heavy",
