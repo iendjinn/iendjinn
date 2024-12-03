@@ -235,3 +235,9 @@ header {
 header a {
     text-decoration: none;
 }
+
+blockquote {
+    margin: 0;
+    padding: 0rem 1rem;
+    border: 2px dashed var(--stamp-color);
+}
