@@ -241,3 +241,8 @@ blockquote {
     padding: 0rem 1rem;
     border: 2px dashed var(--stamp-color);
 }
+
+hr {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
