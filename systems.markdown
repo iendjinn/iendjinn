@@ -34,11 +34,3 @@ Around this time I'd also heard that Mothership was a pretty slick sci fi horror
 This setting doesn't really have much lore as of yet, but I might write some soon (tm).
 
 [Sci Fi Ruleset]({{ site.baseUrl }}/systems/sci-fi)
-
-## Frontier
-
-This is a miniature wargame I'm in the process of writing and play testing. My design goal with this system was to make something where the players were always engaged and had agency, even on their opponents turn. The core mechanic is around picking actions and reactions to those actions. 
-
-I've also tried to include a line of sight system that is unambiguous because one of my least favourite parts of wargaming is arguing about whether there is actually line of sight between models (which usually results in me just letting my oponent have line of sight if there's any risk we don't agree).
-
-[Frontier]({{ site.baseUrl }}/systems/frontier)
