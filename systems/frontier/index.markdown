@@ -10,7 +10,6 @@ In Frontier, you take on the role of these factions and seek to assert control o
 Frontier is designed for two players, and is intended to be played with 28mm models on a 30" x 44" board. Prior to playing a game, both players should agree on a mission, and then decide which units they would like to field for that mission.
 
 Within a mission one player is the attacker, while the other is the defender. The attacker has an objective which they must achieve while keeping their loses to a minimum. The defender must deny the attacker this objective, while inflicting as many loses on them as possible.
-
 ## Setup
 
 1. Pick a mission
@@ -40,17 +39,11 @@ Within a mission one player is the attacker, while the other is the defender. Th
 
 The game ends when:
 
-- At the start of step 2 of the turn sequence, the active player has no units on the board.
-- At any point if the attacker has achieved their objective and at least 50% of the maximum points for the mission of the attacking force has been destroyed.
+- The defender has their 20th turn
+- The attacker completes the mission objectives
+- At the start of step 2 of the turn sequence if the active player has no units on the battlefield
 
-Consult the following table to determine the victor of the battle:
-
-| Attacker Achieved Objective | At least 50% of points of attacking force destroyed | Attacker Outcome | Defender Outcome |
-| --------------------------- | --------------------------------------------------- | ---------------- | ---------------- |
-| Yes                         | Yes                                                 | Pyrrhic Victory  | Narrow Defeat    |
-| Yes                         | No                                                  | Decisive Victory | Crushing Defeat  |
-| No                          | Yes                                                 | Crushing Defeat  | Decisive Victory |
-| No                          | No                                                  | Narrow Defeat    | Victory          |
+The attacker wins if they achieve their objective, otherwise the defender wins.
 
 ## Actions and Reactions
 
@@ -58,23 +51,22 @@ When a unit is activated it may perform an action, to which the reactive player 
 
 ### Actions
 
-| Action        | Requirements                                                                                       | Action Rating | Effect                                                                       |
-| ------------- | -------------------------------------------------------------------------------------------------- | ------------- | ---------------------------------------------------------------------------- |
-| Advance       |                                                                                                    | Mobility      | Move the unit up to 10"                                                      |
-| Open Fire     | Select a target enemy unit within line of sight and at least 10" away                              | Firepower     | Target unit becomes shaken                                                   |
-| Fight Through | Move the active unit up to 5" such that a target enemy unit is within line of sight and within 10" | Assault       | Target unit becomes shaken and active unit makes an additional move up to 5" |
-| Bug Out       | Must be within 10" of an evac zone                                                                 | Discipline    | Active unit is removed from the board, it does not count as destroyed        |
+| Action        | Requirements                                                                                      | Action Rating | Effect                                                                       |
+| ------------- | ------------------------------------------------------------------------------------------------- | ------------- | ---------------------------------------------------------------------------- |
+| Advance       |                                                                                                   | Mobility      | Move the unit up to 10"                                                      |
+| Open Fire     | Select a target enemy unit within line of sight and at least 5" away                              | Firepower     | Target unit becomes shaken                                                   |
+| Fight Through | Move the active unit up to 5" such that a target enemy unit is within line of sight and within 5" | Assault       | Target unit becomes shaken and active unit makes an additional move up to 5" |
 
 ### Reactions
 
-| Reaction       | Requirements                                                                                                                               | Action Rating | Effect                                                                                            |
-| -------------- | ------------------------------------------------------------------------------------------------------------------------------------------ | ------------- | ------------------------------------------------------------------------------------------------- |
-| Overwatch      | Must be able to draw line of sight to a unit making an advance action **and** be at least 10" from the unit, before the unit moves         | Firepower     | The reactive player moves the active unit up to 5"                                                |
-| Flank          | Must be able to draw line of sight to a unit making an advance action **and** be within 10" of the unit, before the unit moves             | Mobility      | Move the reactive unit up to 5"                                                                   |
-| Firefight      | Must be the target of an open fire action, and have line of sight to, and be at least 10" from the active unit                             | Firepower     | Active unit becomes shaken                                                                        |
-| Take Cover     | Must be the target of an open fire action                                                                                                  | Discipline    | No additional benefit                                                                             |
-| Counter Attack | Must have line of sight and be within 10" of the active unit that is making a fight through action, after the active units initial 5" move | Assault       | Active unit becomes shaken                                                                        |
-| Fall Back      | Must be the target of a fight through action                                                                                               | Discipline    | Move the reactive unit up to 5" such that it ends up further from the active unit that it started |
+| Reaction       | Requirements                                                                                                                              | Action Rating | Effect                                                                                            |
+| -------------- | ----------------------------------------------------------------------------------------------------------------------------------------- | ------------- | ------------------------------------------------------------------------------------------------- |
+| Overwatch      | Must be able to draw line of sight to a unit making an advance action **and** be at least 10" from the unit, before the unit moves        | Firepower     | The reactive player moves the active unit up to 5"                                                |
+| Flank          | Must be able to draw line of sight to a unit making an advance action **and** be within 10" of the unit, before the unit moves            | Mobility      | Move the reactive unit up to 5"                                                                   |
+| Firefight      | Must be the target of an open fire action, and have line of sight to, and be at least 5" from the active unit                             | Firepower     | Active unit becomes shaken                                                                        |
+| Take Cover     | Must be the target of an open fire action                                                                                                 | Discipline    | No additional benefit                                                                             |
+| Counter Attack | Must have line of sight and be within 5" of the active unit that is making a fight through action, after the active units initial 5" move | Assault       | Active unit becomes shaken                                                                        |
+| Fall Back      | Must be the target of a fight through action                                                                                              | Discipline    | Move the reactive unit up to 5" such that it ends up further from the active unit that it started |
 
 ---
 ## Action Roll
@@ -102,6 +94,7 @@ Advantage and disadvantage at the same time cancel out on a one to one basis. I.
 Advantage and disadvantage do not stack. I.e. you never roll more than two dice.
 
 ---
+
 ## Special Abilities
 
 Units have special abilities, these are defined as either:
@@ -110,14 +103,15 @@ Units have special abilities, these are defined as either:
 - Passive: The effects and abilities from passive abilities always apply to the unit
 
 ---
+
 ## Line of Sight
 
 A unit has line of sight to another unit if a line can be drawn between the two units without passing through terrain or another unit of an equal or larger scale than the highest scale of the two units.
 
 - If a unit is on top of terrain then its scale is increased by the scale of that terrain. E.g. a man (scale 1) standing on top of a wall (scale 1) would have an effective scale of 2.
-- If a unit is within 5" of a piece of terrain of an equal or larger scale than its effective scale then line of sight may not be drawn to or from the unit through that piece of terrain.
 
 ---
+
 ## Shaken and Destroying Units
 
 When a unit is shaken place a token next to it. This indicates that is injured, is pinned down, or panicking.
@@ -125,6 +119,7 @@ When a unit is shaken place a token next to it. This indicates that is injured, 
 If a unit that is shaken is required to become shaken again, it is instead destroyed and removed from the board.
 
 ---
+
 ## Movement
 
 When a unit moves it must obey the following rules:
@@ -158,10 +153,6 @@ If a unit is moved off a piece of terrain as the result of an opponent's activit
 
 Each mission will specify the areas on a board that the attacker and defender may set up their units in. Additionally all units of the same type must be deployed within 5" of all other units of the same type if they are deployed at the start of the game.
 
-### Evac Zones
-
-Each mission will specify evac zones for the attacker and defender, both players should familiarise themselves with where these are, or otherwise mark them on the board.
-
 ### Faction and Unit Selection
 
 Each player should choose a faction they wish to use for a mission, and then select units from that faction up to the point limit for the mission. Players should inform each other which faction they have picked prior to picking units, but they should then keep their unit selection a secret until both players have picked their units.
@@ -184,22 +175,22 @@ A board should include a mixture of terrain from scale 0 up to at least scale 3.
 ### Terrain Rules
 
 **Rough**
-Units in rough terrain gain disadvantage to mobility action ratings.
+Units in rough terrain gain disadvantage on mobility.
 
 > Examples: ruined building, shallow river, swamp, sandpit
 
 **Firing Position**
-Units in a firing position gain advantage on Firepower ratings.
+Units in a firing position gain advantage on firepower.
 
 >Examples: Trench, bunker, upper floor of building with windows
 
 **Exposed**
-Units in exposed terrain gain disadvantage on Take-cover reactions.
+Units in exposed terrain gain disadvantage on discipline.
 
 >Examples: Bridge, rooftop, hill crest, empty street
 
 **Cover**
-Units in cover gain advantage on take cover reactions.
+Units in cover gain advantage on take discipline.
 
 >Examples: Foxhole, barricade, building
 
@@ -231,14 +222,9 @@ The attacker launches a major assault on a strategic location, with troops movin
 - The defender picks a long board edge and deploys all their units within that half of the board.
 - The attacker then places all of their models within 10" of opposite board edge.
 
-**Evac Zones**
-
-- The defenders evac zone is their long board edge.
-- The attackers evac zones are the remaining 3 board edges.
-
 **Attacker objective**
 
-The attacker places a marker (strong point) anywhere more than 5" from their deployment zone. When the attacker has a unit within 5" of the strong point they can seize the strong point as a strategic action.
+The attacker places a marker (strong point) anywhere more than 5" from their deployment zone. When the attacker has a unit within 3" of the strong point they can seize the strong point as a strategic action.
 
 Remove the strong point, the defender then places a new strong point exactly 15" from the old strong point.
 
@@ -255,14 +241,9 @@ The attacker infiltrates behind enemy lines, looking to destroy ammunition, supp
 - The attacker then places their units either within 10" of the opposite edge. Or within 5" of the centre line of the board and outside the defenders deployment zone.
 - The defender then deploys their remaining units within 5" of either long board edge, outside of the attackers deployment zone.
 
-**Evac Zones**
-
-- The attackers evac zone is their short board edge.
-- The defenders evac zones are the other three board edges.
-
 **Attacker objective**
 
-When the attacker has a unit within 5" of the target they may place charges as a strategic action. Add a charge counter to the target. Whenever there is at least one charge counter placed the attacker may perform the strategic action detonation. Any unit within 15" of the marker becomes shaken. 
+When the attacker has a unit within 3" of the target they may place charges as a strategic action. Add a charge counter to the target. Whenever there is at least one charge counter placed the attacker may perform the strategic action detonation. Any unit within 15" of the marker becomes shaken. 
 
 When the defender has a unit within 5" of the target they may perform the strategic action defuse to remove a charge counter.
 
@@ -278,11 +259,6 @@ The attacker surprises enemy troops as they patrol or move location, aiming to s
 - The attacker picks two adjacent board edges. They then setup their units anywhere up to 10" from these board edges.
 - The defender then sets up their units anywhere within 10" of the attackers deployment zone, and at least 10" from a board edge.
 
-**Evac Zones**
-
-- The attackers evac zone is either of their board edges in their deployment zone.
-- The defenders evac zone is the remaining two board edges.
-
 **Attacker objective**
 
 Destroy units with a total points cost of at least 50% of the defenders starting points total.
@@ -296,18 +272,13 @@ The attacker attempts to rescue a prisoner of war, exfiltrate a spy or smuggle c
 
 - The attacker places a marker (the VIP) within 10" of a short board edge. They then place up to 50% of their total points worth of units in the same area.
 - The defender chooses a single long board edge and deploys all their forces within 5" and at least 10" from any short board edge.
-- The attacker then places their remaining forces within 10" of the opposite board edge to where the VIP is deployed.
-
-**Evac Zones**
-
-- The attackers evac zone is the short board edge farthest from where the VIP was deployed.
-- The defender's evac zone is the long board edge on which they deployed.
+- The attacker then places their remaining forces within 10" of the opposite board edge to where the VIP is deployed. This board edge is the evac zone.
 
 **Attacker objective**
 
-Whenever the attacker has a unit within 5" of the VIP and there are no enemy units within 10" that have line of sight to the VIP they may perform the strategic action escort. The attacker places the VIP anywhere within 10" of its current location.
+Whenever the attacker has a unit within 3" of the VIP and there are no enemy units within 10" that have line of sight to the VIP they may perform the strategic action escort. The attacker places the VIP anywhere within 10" of its current location.
 
-The attacker must place the VIP marker in contact with one of their evac zones to win the mission. Once the VIP is in contact with an evac zone, remove it from the board.
+The attacker must place the VIP marker in contact with the evac zone to win the mission. Once the VIP is in contact with an evac zone, remove it from the board.
 
 ---
 

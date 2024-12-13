@@ -1,0 +1,159 @@
+<!doctype html>
+<html>
+
+    <head>
+        <title>Quick Start</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./printable.css">
+        </style>
+    </head>
+
+    <body>
+        <div class="two-column-grid">
+            <div>
+                <h2>Setup</h2>
+                <ol>
+                    <li>Pick a mission</li>
+                    <li>Setup the board with terrain</li>
+                    <li>Roll to decide attacker and defender</li>
+                    <li>Choose faction and units to field</li>
+                </ol>
+            </div>
+            <div>
+                <h2>Turn Sequence</h2>
+                <ol>
+                    <li>Active player may make one strategic action</li>
+                    <li>Active player chooses a unit and action</li>
+                    <li>Reactive player may choose a reaction</li>
+                    <li>Action roll</li>
+                    <li>Resolve action</li>
+                    <li>Reactive player becomes active player</li>
+                </ol>
+            </div>
+            <div>
+                <h2>Ending the Game</h2>
+                <p>The game ends when:</p>
+                <ul>
+                    <li>The defender has their 20th turn</li>
+                    <li>The attacker completes the mission objectives</li>
+                    <li>At the start of step 2 of the turn sequence if the active player has no units on the battlefield
+                    </li>
+                </ul>
+                <p>The attacker wins if they achieve their objective, otherwise the defender wins.</p>
+            </div>
+            <div>
+                <h2>Actions and Reactions</h2>
+                <p>When a unit is activated it may perform an action, to which the reactive player may choose one of the
+                    applicable
+                    reactions.</p>
+                <p>To make an action roll:</p>
+                <ul>
+                    <li>Roll the dice in the unit's profile for the attribute being tested.</li>
+                    <li>The active player wins any draws.</li>
+                    <li>If you have advantage, roll two dice and pick the highest.</li>
+                    <li>If you have disadvantage, roll two dice and pick the lowest.</li>
+                </ul>
+            </div>
+        </div>
+
+        <h2>Actions</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Action</th>
+                    <th>Requirements</th>
+                    <th>Action Rating</th>
+                    <th>Effect</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Advance</td>
+                    <td></td>
+                    <td>Mobility</td>
+                    <td>Move the unit up to 10&quot;</td>
+                </tr>
+                <tr>
+                    <td>Open Fire</td>
+                    <td>Select a target enemy unit within line of sight and at least 5&quot; away</td>
+                    <td>Firepower</td>
+                    <td>Target unit becomes shaken</td>
+                </tr>
+                <tr>
+                    <td>Fight Through</td>
+                    <td>Move the active unit up to 5&quot; such that a target enemy unit is within line of sight and
+                        within
+                        5&quot;</td>
+                    <td>AST</td>
+                    <td>Target unit becomes shaken and active unit makes an additional move up to 5&quot;</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Reactions</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Reaction</th>
+                    <th>Requirements</th>
+                    <th>Action Rating</th>
+                    <th>Effect</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Overwatch</td>
+                    <td>Must be able to draw line of sight to a unit making an advance action <strong>and</strong>
+                        be at
+                        least
+                        10&quot; from the unit, before the unit moves</td>
+                    <td>Firepower</td>
+                    <td>The reactive player moves the active unit up to 5&quot;</td>
+                </tr>
+                <tr>
+                    <td>Flank</td>
+                    <td>Must be able to draw line of sight to a unit making an advance action <strong>and</strong>
+                        be
+                        within
+                        10&quot; of the unit, before the unit moves</td>
+                    <td>Mobility</td>
+                    <td>Move the reactive unit up to 5&quot;</td>
+                </tr>
+                <tr>
+                    <td>Firefight</td>
+                    <td>Must be the target of an open fire action, and have line of sight to, and be at least
+                        5&quot;
+                        from the
+                        active unit</td>
+                    <td>Firepower</td>
+                    <td>Active unit becomes shaken</td>
+                </tr>
+                <tr>
+                    <td>Take Cover</td>
+                    <td>Must be the target of an open fire action</td>
+                    <td>Discipline</td>
+                    <td>No additional benefit</td>
+                </tr>
+                <tr>
+                    <td>Counter Attack</td>
+                    <td>Must have line of sight and be within 5&quot; of the active unit that is making a fight
+                        through
+                        action,
+                        after the active units initial 5&quot; move</td>
+                    <td>AST</td>
+                    <td>Active unit becomes shaken</td>
+                </tr>
+                <tr>
+                    <td>Fall Back</td>
+                    <td>Must be the target of a fight through action</td>
+                    <td>Discipline</td>
+                    <td>Move the reactive unit up to 5&quot; such that it ends up further from the active unit that
+                        it
+                        started
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+
+</html>
