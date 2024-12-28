@@ -19,7 +19,7 @@ Both of these are inspired by numerous systems, including but not limited to:
 
 ## Spooky
 
-I've run 2.5 campaigns in this setting. The current iteration is set during the fall of the Tavarin Empire, whereas previous campaigns have been a hundreds after.
+I've run 2.5 campaigns in this setting. The current iteration is set during the fall of the Tavarin Empire, whereas previous campaigns have been set a few hundred years after this event.
 
 When designing these rules I probably went a little hard on trying to emulate the in your face art style of Mork Borg, but I had **fun**.
 
