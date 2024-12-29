@@ -1,5 +1,5 @@
 ---
-title: Plasme Burn
+title: Plasma Burn
 layout: single-column
 ---
 
