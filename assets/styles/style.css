@@ -94,7 +94,7 @@ strong {
 
 .two-column-grid {
     display: grid;
-    grid: auto-flow / 1fr 1fr;
+    grid: auto-flow / 2fr 1fr;
     gap: 2rem;
 
     @media (max-width: 800px) {

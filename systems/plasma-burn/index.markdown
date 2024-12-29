@@ -216,6 +216,7 @@ Then choose 5 artifacts, an artifact may be given to any infantry unit in your a
 | Mv  | R   | D   | M   | W   | P   |
 | --- | --- | --- | --- | --- | --- |
 | 5"  | 3+  | 2+  | 3   | 3   | 0   |
+
 **Commander**
 Command points: 3
 
@@ -231,6 +232,7 @@ Armour: Adamant Cuirass (Save 3+)
 | Mv  | R   | D   | M   | W   | P   |
 | --- | --- | --- | --- | --- | --- |
 | 5"  | 3+  | 3+  | 2   | 2   | 0   |
+
 **Commander**
 Command points: 2
 
@@ -246,6 +248,7 @@ Armour: Adamant Cuirass (Save 3+)
 | Mv  | R   | D   | M   | W   | P   |
 | --- | --- | --- | --- | --- | --- |
 | 5"  | 3+  | 3+  | 4   | 3   | -   |
+
 **Commander**
 Command points: 2
 
@@ -261,6 +264,7 @@ Armour: Adamant Cuirass (Save 3+)
 | Mv  | R   | D   | M   | W   | P   |
 | --- | --- | --- | --- | --- | --- |
 | 5"  | 4+  | 3+  | 2   | 1   | 130 |
+
 **Commander**
 Command points: 1
 
@@ -276,6 +280,7 @@ Armour: Body Suit (Save 4+)
 | Mv  | R   | D   | M   | W   | P   |
 | --- | --- | --- | --- | --- | --- |
 | 5"  | 4+  | 4+  | 2   | 1   | 100 |
+
 **Wargear**
 Ranged Weapon: Pulse Rifle (Shots 1, AP 1, Rapid Fire) or Flame Unit (Shots 1, AP 0, Template) or Missile Launcher (Shots 1, AP 2, Heavy, Blast) or Sniper Rifle (Shots 1, AP 1, Precision)
 Melee Weapon: Close Combat Weapon (AP 0)
@@ -288,6 +293,7 @@ Armour: Body Suit (Save 4+)
 | Mv  | R   | D   | M   | W   | P   |
 | --- | --- | --- | --- | --- | --- |
 | 5"  | 5+  | 5+  | 1   | 1   | 50  |
+
 **Wargear**
 Ranged Weapon: Assault Rifle (Shots 1, AP 0, Rapid Fire) or Grenade Launcher (Shots 1, AP 0, Blast) or Machine Gun (Shots 3, AP 0, Heavy, Pinning)
 Melee Weapon: Close Combat Weapon (AP 0)
@@ -300,6 +306,7 @@ Armour: Combat Vest (Save 5+)
 | Mv  | R   | D   | M   | W   | P   |
 | --- | --- | --- | --- | --- | --- |
 | 12" | 5+  | 5+  | 1   | 1   | 75  |
+
 **Cavalry**
 
 **Wargear**
@@ -314,6 +321,7 @@ Armour: Combat Vest (Save 5+)
 | Mv  | R   | D   | M   | W   | P   |
 | --- | --- | --- | --- | --- | --- |
 | 5"  | 5+  | 6+  | 3   | 3   | 75  |
+
 **Wargear**
 Ranged Weapon: Scatter gun (Shots 3, AP 0, Pistol)
 Melee Weapon: Huge Blade (AP 1)
@@ -326,6 +334,7 @@ Armour: Steel Scraps (Save 5+)
 | Mv  | R   | D   | M   | W   | P   |
 | --- | --- | --- | --- | --- | --- |
 | 8"  | 4+  | 4+  | 5   | 3   | 300 |
+
 **Mech**
 
 **Wargear**
@@ -340,6 +349,7 @@ Armour: Steel Plating (Save 3+)
 | Mv  | R   | D   | M   | W   | P   |
 | --- | --- | --- | --- | --- | --- |
 | 12" | 5+  | 5+  | 0   | 3   | 250 |
+
 **Vehicle**
 **Transport (3)**
 
@@ -354,6 +364,7 @@ Armour: Steel Chassis (Save 5+)
 | Mv  | R   | D   | M   | W   | P   |
 | --- | --- | --- | --- | --- | --- |
 | 8"  | 5+  | 5+  | 0   | 3   | 250 |
+
 **Vehicle**
 **Transport (8)**
 
