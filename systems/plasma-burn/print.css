@@ -1,0 +1,100 @@
+@font-face {
+    font-family: "chomsky";
+    src: url("/assets/fonts/Chomsky.woff2");
+}
+
+@font-face {
+    font-family: "alegreya";
+    src: url("/assets/fonts/Alegreya-Black.otf");
+}
+
+@font-face {
+    font-family: "departure";
+    src: url("/assets/fonts/DepartureMono-Regular.woff2");
+}
+
+h1,
+h2,
+h3, h4 {
+    font-family: "chomsky";
+}
+
+h2 {
+    font-size: 1.75rem;
+}
+h3 {
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-size: 1.3rem;
+}
+
+body {
+    font-family: "departure";
+    padding: 0px;
+    margin: 0px;
+}
+
+html,
+body {
+    height: 293mm;
+    width: 206mm;
+    padding: 2mm;
+    font-size: 12px;
+}
+
+/* html {
+    border: 1px solid black;
+} */
+
+.content {
+    display: grid;
+    grid: auto-flow / 1fr 1fr;
+    padding-right: 1rem;
+    gap: 2rem;
+}
+
+.content.one-column {
+    grid: auto-flow / 1fr;
+
+}
+
+.one-column h1, .one-column h2, .one-column h3 {
+    margin-top: 0.1rem;
+    margin-bottom: 0.1rem;
+}
+
+.content > div > h1, .content > div > h2, .content > div > h3, .content > div > h4 {
+    padding-top: 0;
+    margin-top: 0;
+}
+
+table {
+    border-collapse: collapse;
+    font-size: 0.9rem;
+
+}
+
+thead {
+    border-bottom: 2px solid #000;
+}
+
+th {
+    border-left: 2px solid #000;
+    border-right: 2px solid #000;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    text-align: left;
+}
+
+td {
+    border-left: 2px solid #000;
+    border-right: 2px solid #000;
+    text-align: left;
+    padding: 0.2rem;
+}
+
+td {
+    border-bottom: 1px dashed #000;
+}

@@ -1,0 +1,33 @@
+@font-face {
+    font-family: "chomsky";
+    src: url("/assets/fonts/Chomsky.woff2");
+}
+
+@font-face {
+    font-family: "alegreya";
+    src: url("/assets/fonts/Alegreya-Black.otf");
+}
+
+@font-face {
+    font-family: "departure";
+    src: url("/assets/fonts/DepartureMono-Regular.woff2");
+}
+
+h1,
+h2,
+h3 {
+    font-family: "chomsky";
+}
+
+body {
+    font-family: "departure";
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+body > div.content {
+    
+    max-width: 1080px;
+    width: 100%;
+}
