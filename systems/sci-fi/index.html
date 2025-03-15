@@ -933,7 +933,7 @@ title: Sci Fi TRPG
                     </tr>
                     <tr>
                         <td>10+</td>
-                        <td>Heart Attack: You are incapacitated, make a <strong>death save</strong></td>
+                        <td>Heart Attack: You <strong>die</strong></td>
                     </tr>
                 </tbody>
             </table>
@@ -976,7 +976,7 @@ title: Sci Fi TRPG
                     <p><strong>Aimed fire</strong> Test dexterity</p>
                     <p><strong>Hip fire</strong> Test agility</p>
                     <p><strong>Auto fire</strong> Test strength. For every point that DR is exceeded by inflict an extra
-                        wound
+                        D3 damage
                         to
                         the target or another target near it (weapon must be Full Auto).</p>
                     <p><strong>Melee</strong> Test strength </p>
@@ -995,112 +995,22 @@ title: Sci Fi TRPG
                         weapon supply rating decreases on a 1-4.</p>
                 </div>
                 <div>
-                    <h3>Wounds</h3>
-                    <p>Characters take wounds when hit by attacks, more dangerous weapons and opponents inflict more
-                        wounds.</p>
-                    <p>Critical hits double the number of wounds inflicted.</p>
-                    <p>You can take a maximum of 3 wounds, anytime you reach maximum wounds or take wounds while at your
-                        maximum
-                        roll on the <strong>critical injury</strong> table.</p>
+                    <h3>Damage</h3>
+                    <p>Characters take damage when hit by attacks which reduce their hit points, more dangerous weapons and opponents inflict more
+                        damage.</p>
+                    <p>If you take damage from a critical hit, roll a D6:</p>
+                    <ul>
+                        <li><strong>1-3 Bleeding Out</strong> Lose 1 hit point per round until this condition is removed or combat ends</li>
+                        <li><strong>4-6 Unconscious</strong> Take no further action until this condition is removed or combat ends</li>
+                    </ul>
+                    <p>You start with 10 hit points, when your hit points reach 0 you are <strong>dead</strong>.</p>
                 </div>
                 <div>
                     <h3>Armour</h3>
-                    <p>Armour has armour points, which are lost when you would take wounds. For every armour point lost,
-                        ignore
-                        1
-                        wound. </p>
-                    <p><strong>Armour piercing</strong> weapons require 2 armour points per wound ignored.</p>
-                    <p>Armour points can be regained by repairing the armour, requiring tools and 1 hour of work per
-                        point.</p>
+                    <p>Armour has a rating, when you take damage roll your armour's rating and reduce the damage taken by the result.</p>
+                    <p>Armour piercing weapons reduce your armour's rating by 1 level, e.g. a rating of D6 becomes D4.</p>
                 </div>
-
-                <table>
-                    <thead>
-                        <tr>
-                            <th>D10</th>
-                            <th>Critical Injury</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>1-8</td>
-                            <td>Bleeding Out: Roll again on this table each round after taking your action until combat
-                                ends
-                                or
-                                you roll a different result. This effect <strong>stacks</strong> for multiple critical
-                                injuries
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>9-10</td>
-                            <td>Incapacitated: Make a <strong>death save</strong>, you may take no further action until
-                                it
-                                is
-                                resolved</td>
-                        </tr>
-                    </tbody>
-                </table>
-                <table>
-                    <thead>
-                        <tr>
-                            <th>D10</th>
-                            <th>Death Save</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>1-2</td>
-                            <td>Unconscious: You may take no action until you receive medical attention</td>
-                        </tr>
-                        <tr>
-                            <td>3-8</td>
-                            <td>Unconscious and serious injury: Roll or select appropriate result from serious injury
-                                table
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>9-10</td>
-                            <td><strong>Dead</strong>.</td>
-                        </tr>
-                    </tbody>
-                </table>
-                <table>
-                    <thead>
-                        <tr>
-                            <th>D6</th>
-                            <th>Serious Injury</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>1</td>
-                            <td>Brain damage: -2 intelligence</td>
-                        </tr>
-                        <tr>
-                            <td>4</td>
-                            <td>Cracked ribs: -2 toughness</td>
-                        </tr>
-                        <tr>
-                            <td>2</td>
-                            <td>Hamstrung: -2 agility</td>
-                        </tr>
-                        <tr>
-                            <td>3</td>
-                            <td>Torn muscles: -2 strength</td>
-                        </tr>
-                        <tr>
-                            <td>5</td>
-                            <td>Ruined hand: -2 dexterity</td>
-                        </tr>
-                        <tr>
-                            <td>6</td>
-                            <td>Traumatized: -2 cool</td>
-                        </tr>
-                    </tbody>
-                </table>
                 <div>
-                    <p><strong>Death Save:</strong> Place a D10 in an opaque cup, roll it such that the result is
-                        secret. The result is revealed when a character spends a turn to check your vitals.</p>
                     <h2>Rest and Recovery</h2>
                     <p>When you have the chance to catch your breath somewhere safe for at least 15 minutes you may
                         <strong>relax</strong> to remove 1 stress.
@@ -1110,8 +1020,8 @@ title: Sci Fi TRPG
                         sleep:
                     </p>
                     <ul>
-                        <li><strong>In shifts, keeping watch</strong> Remove 1 wound </li>
-                        <li><strong>For a full eight hours</strong> Remove 1 wound and 1 stress</li>
+                        <li><strong>In shifts, keeping watch</strong> Regain 1 hit point</li>
+                        <li><strong>For a full eight hours</strong> Regain 1 hit point and lose 1 stress</li>
                     </ul>
 
                 </div>
@@ -1123,9 +1033,7 @@ title: Sci Fi TRPG
             <h2>Environmental Hazards</h2>
             <div class="two-column-grid">
                 <div>
-                    <p>When exposed to an environmental hazard test <strong>toughness</strong>. If you fail you are
-                        <strong>incapacitated</strong>, you may take no further action and must make a <strong>death
-                            save</strong>.
+                    <p>When exposed to an environmental hazard test <strong>toughness</strong>. If you fail lose D6 hit points.
                     </p>
                     <h3>Sudden Death</h3>
                     <p>Nuclear explosions, ship weaponry, falling from orbit: Somethings are impossible to survive. The
@@ -1188,7 +1096,7 @@ title: Sci Fi TRPG
                         accommodation as well as food and can be used as a rough cost of living if staying somewhere
                         outside of
                         shore leave.</p>
-                    <p>Whenever you take shore leave remove all wounds and stress. Additionally you may choose one of
+                    <p>Whenever you take shore leave regain all hit points and remove all stress. Additionally you may choose one of
                         the
                         following
                         options each week of shore leave:</p>
@@ -1196,7 +1104,7 @@ title: Sci Fi TRPG
                         <li>Psychotherapy, addiction rehab or medical treatment: Roll 1D10 + shore leave class. On a 10+
                             remove
                             one
-                            phobia, one addiction or one serious injury</li>
+                            phobia or one addiction</li>
                         <li>Specialist training: Gain <strong>learning points</strong> equal to shore leave class </li>
                         <li>Casual work: Gain 300cr a week</li>
                     </ul>
@@ -1250,7 +1158,7 @@ title: Sci Fi TRPG
                 <thead>
                     <tr>
                         <th>Name</th>
-                        <th>Wounds</th>
+                        <th>Damage</th>
                         <th>Notes</th>
                         <th>Weight</th>
                         <th>Cost</th>
@@ -1259,119 +1167,119 @@ title: Sci Fi TRPG
                 <tbody>
                     <tr>
                         <td>Pistol</td>
-                        <td>2</td>
+                        <td>D6</td>
                         <td></td>
                         <td>1</td>
                         <td>300cr</td>
                     </tr>
                     <tr>
                         <td>EVA Pistol</td>
-                        <td>2</td>
+                        <td>D6</td>
                         <td>Works in Vacuum</td>
                         <td>1</td>
                         <td>800cr</td>
                     </tr>
                     <tr>
                         <td>Assault Rifle</td>
-                        <td>2</td>
+                        <td>D6</td>
                         <td>Full Auto</td>
                         <td>2</td>
                         <td>500cr</td>
                     </tr>
                     <tr>
                         <td>Pulse Rifle</td>
-                        <td>2</td>
+                        <td>D6</td>
                         <td>Armour Piercing, Full Auto</td>
                         <td>2</td>
                         <td>2kcr</td>
                     </tr>
                     <tr>
                         <td>Marksman&#39;s Rifle</td>
-                        <td>3</td>
+                        <td>D6</td>
                         <td>Armour Piercing, Thermal, 10X Scope</td>
                         <td>2</td>
                         <td>2.5kcr</td>
                     </tr>
                     <tr>
                         <td>30mm Cannon</td>
-                        <td>3</td>
+                        <td>D10</td>
                         <td>Armour Piercing, Full Auto</td>
                         <td>4</td>
                         <td>2kcr</td>
                     </tr>
                     <tr>
                         <td>12 Gauge Shotgun</td>
-                        <td>2</td>
+                        <td>D8</td>
                         <td></td>
                         <td>2</td>
                         <td>200cr</td>
                     </tr>
                     <tr>
                         <td>SMG</td>
-                        <td>2</td>
+                        <td>D6</td>
                         <td>Full Auto</td>
                         <td>1</td>
                         <td>800cr</td>
                     </tr>
                     <tr>
                         <td>Plasma Rifle</td>
-                        <td>6</td>
+                        <td>D10</td>
                         <td>Works in Vacuum</td>
                         <td>3</td>
                         <td>20kcr</td>
                     </tr>
                     <tr>
                         <td>Smart Gun</td>
-                        <td>2</td>
+                        <td>D6</td>
                         <td>Armour Piercing, Full Auto, +1 on auto fire</td>
                         <td>3/2</td>
                         <td>2.5kcr</td>
                     </tr>
                     <tr>
                         <td>Incinerator Unit</td>
-                        <td>2</td>
+                        <td>D6</td>
                         <td></td>
                         <td>2</td>
                         <td>200cr</td>
                     </tr>
                     <tr>
                         <td>Automated Turret</td>
-                        <td>2</td>
+                        <td>D6</td>
                         <td>Internal Ammo Supply</td>
                         <td>4</td>
                         <td>3kcr</td>
                     </tr>
                     <tr>
                         <td>Micro-howitzer</td>
-                        <td>4</td>
+                        <td>D10</td>
                         <td></td>
                         <td>3</td>
                         <td>15kcr</td>
                     </tr>
                     <tr>
                         <td>Laser rifle</td>
-                        <td>4</td>
+                        <td>D6</td>
                         <td>Works in Vacuum</td>
                         <td>3</td>
                         <td>10kcr</td>
                     </tr>
                     <tr>
                         <td>Combat Shotgun<br></td>
-                        <td>2</td>
+                        <td>D8</td>
                         <td>Full Auto</td>
-                        <td>2</td>
-                        <td>400cr</td>
+                        <td>3</td>
+                        <td>500cr</td>
                     </tr>
                     <tr>
                         <td>RPG</td>
-                        <td>8</td>
+                        <td>D20</td>
                         <td>Armour Piercing</td>
                         <td>3</td>
                         <td>1kcr</td>
                     </tr>
                     <tr>
                         <td>Underslung grenade launcher</td>
-                        <td>2</td>
+                        <td>D6</td>
                         <td></td>
                         <td>1/0</td>
                         <td>400cr</td>
@@ -1383,7 +1291,7 @@ title: Sci Fi TRPG
                 <thead>
                     <tr>
                         <th>Name</th>
-                        <th>Wounds</th>
+                        <th>Damage</th>
                         <th>Notes</th>
                         <th>Weight</th>
                         <th>Cost</th>
@@ -1392,70 +1300,70 @@ title: Sci Fi TRPG
                 <tbody>
                     <tr>
                         <td>Harpoon Grappling Gun</td>
-                        <td>2</td>
+                        <td>D3</td>
                         <td>Works in Vacuum</td>
                         <td>2</td>
                         <td>100cr</td>
                     </tr>
                     <tr>
                         <td>Anti-personnel mine</td>
-                        <td>3</td>
+                        <td>D20</td>
                         <td></td>
                         <td>2</td>
                         <td>800cr</td>
                     </tr>
                     <tr>
                         <td>Frag grenade</td>
-                        <td>3</td>
+                        <td>D6</td>
                         <td></td>
                         <td>0.5</td>
                         <td>200cr</td>
                     </tr>
                     <tr>
                         <td>Electroshock grenade</td>
-                        <td>1</td>
+                        <td>D3</td>
                         <td></td>
                         <td>1</td>
                         <td>800cr</td>
                     </tr>
                     <tr>
                         <td>Nail Gun</td>
-                        <td>1</td>
+                        <td>D3</td>
                         <td>Armour Piercing, works in a vacuum</td>
                         <td>2</td>
                         <td>100cr</td>
                     </tr>
                     <tr>
                         <td>Shaped charge</td>
-                        <td>8</td>
+                        <td>D20</td>
                         <td>Includes remote detonator</td>
                         <td>2</td>
                         <td>500cr</td>
                     </tr>
                     <tr>
                         <td>Combat knife</td>
-                        <td>2</td>
+                        <td>D6</td>
                         <td></td>
                         <td>1</td>
                         <td>20cr</td>
                     </tr>
                     <tr>
                         <td>Razor</td>
-                        <td>2</td>
+                        <td>D6</td>
                         <td>Armour Piercing</td>
                         <td>1</td>
                         <td>600cr</td>
                     </tr>
                     <tr>
                         <td>Unarmed</td>
-                        <td>1</td>
-                        <td>Does not double wounds on critical</td>
+                        <td>D2</td>
+                        <td></td>
                         <td></td>
                         <td>N/A</td>
                     </tr>
                     <tr>
                         <td>Improvised weapon</td>
-                        <td>1</td>
+                        <td>D3</td>
                         <td></td>
                         <td>1</td>
                         <td>N/A</td>
@@ -1476,7 +1384,7 @@ title: Sci Fi TRPG
                 <tbody>
                     <tr>
                         <td>Personnel Armour</td>
-                        <td>3/-</td>
+                        <td>D6/-</td>
                         <td>IR target finder, Comms Device and shoulder lamp</td>
                         <td>3/1</td>
                         <td>10kcr</td>
@@ -1491,7 +1399,7 @@ title: Sci Fi TRPG
                     </tr>
                     <tr>
                         <td>Armoured Pressure Suit</td>
-                        <td>1/D10</td>
+                        <td>D4/D10</td>
                         <td>Headlamps, manoeuvre thrusters, shielded against weak radiation. -1 dexterity while worn
                         </td>
                         <td>4/2</td>
@@ -1506,7 +1414,7 @@ title: Sci Fi TRPG
                     </tr>
                     <tr>
                         <td>ACE Suit</td>
-                        <td>5/D6</td>
+                        <td>D8/D6</td>
                         <td>AG harness, Comms Device, manoeuvre thrusters and smart goggles, shielded against weak
                             radiation.</td>
                         <td>3/1</td>
@@ -1514,14 +1422,14 @@ title: Sci Fi TRPG
                     </tr>
                     <tr>
                         <td>Mesh Armour</td>
-                        <td>1/-</td>
+                        <td>D4/-</td>
                         <td>Can be worn under clothing.</td>
                         <td>1/0</td>
                         <td>1kcr</td>
                     </tr>
                     <tr>
                         <td>Exo Suit</td>
-                        <td>2/-</td>
+                        <td>D4/-</td>
                         <td>+3 strength, -2 dexterity and agility</td>
                         <td>20/0</td>
                         <td>5kcr</td>
@@ -1825,7 +1733,7 @@ title: Sci Fi TRPG
                     </tr>
                     <tr>
                         <td>Holtzmann Field</td>
-                        <td>Reduces wounds from ranged attacks by 1</td>
+                        <td>Reduces damage from ranged attacks by 2</td>
                         <td>0.5</td>
                         <td>50kcr</td>
                     </tr>
@@ -1843,18 +1751,14 @@ title: Sci Fi TRPG
                     </tr>
                 </tbody>
             </table>
-            <p><strong>Toxic:</strong> Each time you use this item, roll 1D10, if you roll under the number of times
-                used
-                since you last slept you are <strong>incapacitated</strong> and may take no further action, make a
-                <strong>death save.</strong>
+            <p><strong>Toxic:</strong> Each time you use this item, lose hit points equal to the number of times used since your last slept (including this one).
             </p>
             <p><strong>Addictive:</strong> Each time you use this item, roll 1D10, if you roll under the number of times
                 used since you last slept you become addicted. Your stress cannot decrease on a day in which you have
                 not
                 used the item.</p>
             <h3>Cyberware</h3>
-            <p>When you have cyberware installed test <strong>toughness</strong>. If you fail gain a <strong>serious
-                    injury</strong>.</p>
+            <p>When you have cyberware installed test <strong>toughness</strong>. If you fail lose D6 hit points.
             <table>
                 <thead>
                     <tr>
@@ -1871,7 +1775,7 @@ title: Sci Fi TRPG
                     </tr>
                     <tr>
                         <td>Bullet proof skin</td>
-                        <td>Permanently gain 1 armour point</td>
+                        <td>Permanently gain an armour rating of D4</td>
                         <td>100kcr</td>
                     </tr>
                     <tr>
@@ -1901,7 +1805,7 @@ title: Sci Fi TRPG
                     </tr>
                     <tr>
                         <td>Plasma 2</td>
-                        <td>Bleeding out condition removed automatically after 1 turn</td>
+                        <td>Bleeding out condition removed automatically after 1 round</td>
                         <td>120kcr</td>
                     </tr>
                     <tr>
@@ -2106,7 +2010,7 @@ title: Sci Fi TRPG
             <p>Unmapped Hyperlanes take D12 <strong>years</strong> X hyperlane length to traverse.</p>
             <p>Cryo sleep protects humans from hyperspace distortion syndrome. Gain 1 stress every hour if out of cryo
                 in
-                hyperspace. Do <strong>not</strong> remove wounds and stress while in cryo sleep.</p>
+                hyperspace. Do <strong>not</strong> regain hit points or lose stress while in cryo sleep.</p>
             <p>If a ship makes a hyperspace jump and there is not an android aboard to perform system maintenance roll a
                 D20. If the
                 value is equal or under the ship&#39;s current <strong>disrepair</strong> then consult the system fault
@@ -2141,7 +2045,7 @@ title: Sci Fi TRPG
                     </tr>
                     <tr>
                         <td>6</td>
-                        <td>Cryo system malfunction: Occupants experience an emergency resuscitation and take a wound
+                        <td>Cryo system malfunction: Occupants experience an emergency resuscitation and lose D6 hit points
                         </td>
                     </tr>
                     <tr>
@@ -2237,8 +2141,7 @@ title: Sci Fi TRPG
                         <td>Manoeuvre</td>
                         <td>Joust</td>
                         <td>Gain a +2 bonus to counter-measures roll for this round</td>
-                        <td>Anyone not in cryo or strapped in to a seat must test <strong>agility</strong> or take 2
-                            wounds</td>
+                        <td>Anyone not in cryo or strapped in to a seat must test <strong>agility</strong> or take D6 damage</td>
                     </tr>
                     <tr>
                         <td>Manoeuvre</td>
@@ -2272,7 +2175,7 @@ title: Sci Fi TRPG
             <p>Repairing a breached module takes a days work, and will require EVA to patch exterior hull damage.</p>
             <p>When a module has more than one point of damage it is <strong>wrecked</strong>, consult the module table
                 for the
-                effect. Additionally anyone inside the module takes 2 wounds.</p>
+                effect. Additionally anyone inside the module takes D6 damage.</p>
             <p>Wrecked modules must be repaired at a station, for a cost equal to 50% of the module cost (include any
                 upgrades).</p>
             <h4>Ending Ship Combat</h4>
