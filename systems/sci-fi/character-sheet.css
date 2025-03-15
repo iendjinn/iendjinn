@@ -222,6 +222,11 @@ li {
 .xp-track {
     display: flex;
     margin-top: 0.5rem;
+    align-items: center;
+}
+
+.xp-label {
+    margin-right: 0.5rem;
 }
 
 .xp-pip {

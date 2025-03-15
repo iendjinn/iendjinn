@@ -34,6 +34,7 @@
                             <div class="border-right">
                                 Agility
                                 <div class="xp-track">
+                                    <span class="xp-label">XP</span>
                                     <div class="xp-pip"></div>
                                     <div class="xp-pip"></div>
                                     <div class="xp-pip"></div>
@@ -46,6 +47,7 @@
                             <div class="border-right">
                                 Cool
                                 <div class="xp-track">
+                                    <span class="xp-label">XP</span>
                                     <div class="xp-pip"></div>
                                     <div class="xp-pip"></div>
                                     <div class="xp-pip"></div>
@@ -58,6 +60,7 @@
                             <div class="border-right">
                                 Dexterity
                                 <div class="xp-track">
+                                    <span class="xp-label">XP</span>
                                     <div class="xp-pip"></div>
                                     <div class="xp-pip"></div>
                                     <div class="xp-pip"></div>
@@ -70,6 +73,7 @@
                             <div class="border-right">
                                 Intelligence
                                 <div class="xp-track">
+                                    <span class="xp-label">XP</span>
                                     <div class="xp-pip"></div>
                                     <div class="xp-pip"></div>
                                     <div class="xp-pip"></div>
@@ -83,6 +87,7 @@
                             <div class="border-right">
                                 Strength
                                 <div class="xp-track">
+                                    <span class="xp-label">XP</span>
                                     <div class="xp-pip"></div>
                                     <div class="xp-pip"></div>
                                     <div class="xp-pip"></div>
@@ -95,6 +100,7 @@
                             <div class="border-right no-bottom">
                                 Toughness
                                 <div class="xp-track">
+                                    <span class="xp-label">XP</span>
                                     <div class="xp-pip"></div>
                                     <div class="xp-pip"></div>
                                     <div class="xp-pip"></div>
@@ -109,7 +115,7 @@
                     <section id="tests">
                         <div class="three-column-grid">
                             <div class="card stat">
-                                <span>Wounds</span>
+                                <span>Hit Points</span>
                             </div>
                             <div class="card stat">
                                 <span>Stress</span>
@@ -117,7 +123,7 @@
                             <div class="card stat">
                                 <span>Credits</span>
                             </div>
-                            <span>Max = 3</span>
+                            <span>Max = 10</span>
                             
                         </div>
                         <div class="card bio padded">
@@ -222,8 +228,9 @@
                 </div>
 
                 <div class="card info padded">
-                    # Armour and Wounds
-                    <p>Expend an armour point to ignore a wound, or 2 points per wound for armour piercing attacks. If you reach or exceed your max wounds, roll on the critical injury table.</p>
+                    # Armour and Damage
+                    <p>Roll armour rating when you take damage, reduce the damage by the amount rolled. Armour piercing damage reduces armour rating by 1, e.g. D6 -> D4.</p>
+                    <p>If you reach 0 hit points you <strong>die</strong>.</p>
                 </div>
                 <div class="card info padded">
                     # Supplies and Ammo
@@ -236,20 +243,11 @@
                     # Rest and Recovery
                     <p>Relax in a safe place for 15 minutes to remove 1 stress.</p><p> If you can sleep:</p>
                     <ul class="no-icon">
-                        <li>In shifts, keeping watch: Remove 1 wound</li>
-                        <li>A full eight hours: Remove 1 wound and 1 stress</li>
+                        <li>In shifts, keeping watch: Regain 1 hit point</li>
+                        <li>A full eight hours: Regain 1 hit point and lose 1 stress</li>
                     </ul>
                 </div>
                 <div class="card info padded padded-bottom">
-                    <div class="quarter-column-grid">
-                        <div>D10</div>
-                        <div><strong>Critical Injury</strong></div>
-                        <div>1-8</div>
-                        <div>Bleeding out</div>
-                        <div>9-10</div>
-                        <div><strong>Incapacitated</strong></div>
-                    </div>
-                    <hr>
                     <div class="quarter-column-grid">
 
                         <div>D20</div>
