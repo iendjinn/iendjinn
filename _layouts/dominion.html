@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+
+    {% capture pageStyles %}
+    <link rel="stylesheet" href="/assets/styles/dominion.css">
+    {% endcapture %}
+    {% include head.html %}
+
+    <body>
+        {% include page-title.html %}
+        <div class="dominion">
+        {{ content }}
+        </div>
+        {% capture pageAcks %}
+        <p>Chomsky font produced by Fredrick R. Brennan and used under the SIL Open Font License.</p>
+        {% endcapture %}
+        {% include footer.html %}
+    </body>
+
+</html>

@@ -1,0 +1,23 @@
+@font-face {
+    font-family: "chomsky";
+    src: url("/assets/fonts/Chomsky.woff2");
+}
+
+.dominion h1,
+.dominion h2,
+.dominion h3 {
+    font-family: "chomsky";
+    margin-top: 2rem;
+}
+
+.dominion h1 {
+    font-size: 200%;
+}
+
+.dominion h2 {
+    font-size: 180%;
+}
+
+.dominion h3 {
+    font-size: 160%;
+}
