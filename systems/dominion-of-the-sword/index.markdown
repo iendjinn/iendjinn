@@ -8,7 +8,7 @@ The Old World is gone, its glory seared away by the terrifying weapons of the an
 
 Against the bleached sky, tattered banners wave in the atomic winds, carried forth by the soldiers of would be Kings.
 
-It is an age of ambition, of forgotten science wielded by techno-magical warriors, an age of **battle**.
+It is an age of ambition, of forgotten science wielded by techno-magical warriors, an age of **adventure**.
 
 ## The Noble Houses
 
@@ -40,7 +40,7 @@ But the ancients do not take kindly to their tombs being raided. Deadly traps, r
 
 Characters have 4 attributes:
 
-**Strength** Strike, push, carry, life, drag  
+**Strength** Strike, push, carry, lift, drag  
 **Dexterity** Dodge, climb, balance, throw, shoot  
 **Intelligence** Understand, decipher, calculate, remember  
 **Presence** Convince, Intimidate, Resist Fear, Inspire  
@@ -62,7 +62,7 @@ Roll a **D10** to determine your background and starting equipment.
 | 3   | Scavenger         | Scrap Metal and Kevlar Armour, Pistol (light), Ammo, Oxyacetylene Torch    |
 | 4   | Witch Doctor      | Medicine, Go Juice, Stimpack, Scalpel (light)                              |
 | 5   | Engine Seer       | Tools, Geiger Counter, Loyal acolyte, Wrench (light)                       |
-| 6   | Road Runner       | Can of Petrol, Molotov Cocktail (light, blast), Tyre Iron (light), Rations |
+| 6   | Road Warrior      | Can of Petrol, Molotov Cocktail (light, blast), Tyre Iron (light), Rations |
 | 7   | Gang Rat          | Shotgun (Heavy), Ammo, Ultra, Scrap Metal and Kevlar Armour                |
 | 8   | Noble Heir        | Sword (medium), Loyal Squire, 100 Coin, Body Armour                        |
 | 9   | Cage Fighter      | Neural Lash (light, stun), Stimpack, Shield, Torch                         |
@@ -76,7 +76,7 @@ Then role a **D20** for distinctive physical feature.
 | 2   | Tribal tatoos         |
 | 3   | Barcode tatoo         |
 | 4   | Loveheart tatoo       |
-| 5   | Smiley face pin       |
+| 5   | Metal Teeth           |
 | 6   | Albino                |
 | 7   | Piercings             |
 | 8   | Golden tooth          |
@@ -128,8 +128,8 @@ Most settlements will have a storage facility that coins and equipment can be ke
 
 ### 2.4 Weapons
 
-When rolling damage with a ranged weapon add **dexterity**.
-When rolling damage with a melee weapon add **strength**.
+When rolling damage with a ranged weapon add your **dexterity**.
+When rolling damage with a melee weapon add your **strength**.
 
 **Unarmed** D4 damage.  
 **Light** D6 damage (Main/off hand). If two light weapons are used roll both dice and keep the best result.  
@@ -196,7 +196,7 @@ If one side surprises the other then they act first, otherwise player characters
 
 Attacks may be **impaired** or **enhanced**, e.g. a ranged attack against a target in cover would be impaired.
 
-**Impaired** attacks always roll **D4** for damage.
+**Impaired** attacks always roll **D4** for damage.  
 **Enhanced** attacks always roll **D12** for damage.
 
 At **0HP** a character is incapacitated and may take no action until stabilised. Stabilising a character takes a turn. An incapacitated character will die after **6 turns** if not stabilized. 
@@ -205,9 +205,9 @@ If a character drops **below** 0HP they are **dead**.
 
 ### 3.4 Recovery
 
-**Short Rest** Takes 1 turn and restores 1 grit.
-**Long Rest** Takes 1 watch and rations, restores D4HP and all grit.
-**Full Rest** Takes 1 week and restores all hit points and grit.
+**Short Rest** Takes 1 turn and restores 1 grit.  
+**Long Rest** Takes 1 watch and rations, restores D4HP and all grit.  
+**Full Rest** Takes 1 week and restores all hit points and grit.  
 
 ### 3.5 Time
 
@@ -270,9 +270,8 @@ Characters start at level 1, the amount of experience required to advance to a l
 When a character's level increases: 
 
 - Their grit (3.2) increases by 1 for every 2 levels. E.g. a level 2 character has 1 point of grit.
-- Increase 1 attribute by 1 point.
-- Pick one other attribute and roll a D6. If the value exceeds the attribute, increase it by 1 point.
-- Roll D6 x level. If the total is greater than hit points, increase hit points by 1.
+- Pick one attribute and increase it by 1 point, pick one other attribute and roll a D6, if it is greater than the attribute increase it by 1.
+- Roll level x D6, if the total is greater than hit points, increase hit points by 1.
 
 ## 5. Followers and Hirelings
 
@@ -310,7 +309,7 @@ The following items can be purchased in most settlements:
 | Frag Grenade                  | Light, Blast                                                                                              | 1     | 100  |
 | SMG                           | Medium, Automatic                                                                                         | 1     | 1000 |
 | Dagger                        | Light                                                                                                     | 1     | 20   |
-| Rations                       |                                                                                                           | 1     | 20   |
+| Rations                       |                                                                                                           | 1     | 10   |
 | Scrap Metal and Kevlar Armour | 1 Point of Armour                                                                                         | 2     | 200  |
 | Oxyacetylene Torch            |                                                                                                           | 1     | 300  |
 | Medicine                      | Regain D4HP during short rest                                                                             | 1     | 500  |
@@ -333,3 +332,5 @@ The following items can be purchased in most settlements:
 | Shovel                        |                                                                                                           | 1     | 5    |
 | Binoculars                    |                                                                                                           | 1     | 1000 |
 | Hammer and Pitons             |                                                                                                           | 1     | 20   |
+| Flares                        |                                                                                                           | 1     | 100  |
+| MRE Rations                   | 6 uses of rations                                                                                         | 1     | 50   |
