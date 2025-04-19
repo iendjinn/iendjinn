@@ -316,15 +316,17 @@ Failure to pay contractors will incur disadvantage on these saves.
 | Shotgun              | Heavy                         | 2     | 500     |
 | Smart Gun            | Heavy, Automatic              | 2     | 5000    |
 | Incinerator          | Medium, Blast                 | 1     | 500     |
-| Frag Grenade         | Light, Blast                  | 1     | 500     |
+| Frag Grenade         | Light, Blast                  | 1     | 100     |
 | SMG                  | Medium                        | 1     | 500     |
 | RPG                  | Heavy, Blast, Armour Piercing | 2     | 5000    |
-| Electroshock Grenade | Light, Blast, Stun            | 1     | 1000    |
+| Electroshock Grenade | Light, Blast, Stun            | 1     | 500     |
 | Marksman's Rifle     | Heavy, Armour Piercing        | 2     | 5000    |
 | Anti-personnel mine  | Heavy, Blast                  | 1     | 1000    |
 | Shaped Charge        | Heavy, Armour Piercing, Blast | 1     | 1000    |
 | Gauss Pistol         | Light, EVA                    | 1     | 5000    |
 | Combat Knife         | Light                         | 1     | 100     |
+| Fire Axe             | Heavy                         | 2     | 100     |
+| Crow Bar             | Medium                        | 1     | 100     |
 
 ### 6.2 Armour and Suits
 
@@ -353,7 +355,7 @@ Failure to pay contractors will incur disadvantage on these saves.
 | Cutting Torch                      |                                                                                                                 | 1     | 100     |
 | Nail Gun                           |                                                                                                                 | 1     | 100     |
 | Collapsible Ladder                 |                                                                                                                 | 1     | 100     |
-| Rations                        |                                                                                                                 | 1     | 100     |
+| Rations                            |                                                                                                                 | 1     | 100     |
 | Buzz Stimulant Pills               | Do not gain stress for not sleeping                                                                             | 1     | 500     |
 | Panic-eze pills                    | Remove D4 Stress                                                                                                | 1     | 500     |
 | Stimpack                           | Regain D4HP                                                                                                     | 1     | 500     |
@@ -367,7 +369,7 @@ Failure to pay contractors will incur disadvantage on these saves.
 | Smart Goggles                      | X10 optical zoom, night vision, IR target finder                                                                | 1     | 5000    |
 | Mag Boots                          |                                                                                                                 | 1     | 500     |
 | Anti-radiation Tablets             |                                                                                                                 | 1     | 500     |
-| O2 Tank                            |                                                                                                                 | 1     | 500     |
+| O2 Tank                            |                                                                                                                 | 1     | 100     |
 | Combat Drone                       | Equipped with SMG, crude AI                                                                                     | 2     | 5000    |
 | Recon Drone                        | Remote control, includes headset to receive footage, has X2 optical zoom, temperature sensor and geiger counter | 1     | 500     |
 | Maintenance Drone                  | Remote control, includes headset to receive footage, built in cutting torch and manipulation arms               | 2     | 1000    |
