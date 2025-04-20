@@ -214,7 +214,7 @@ To make a save roll a **D20** and add the relevant attribute (strength, dexterit
 
 If the value equals or exceeds **12** the save is passed.
 
-A natural 20 is a critical success and a natural 1 is a fumble.
+A natural 20 is a critical success. If you roll equal or under your current stress you automatically fail and panic.
 
 Sometimes a save may be harder or easier:
 
@@ -359,7 +359,7 @@ Failure to pay contractors will incur disadvantage on these saves.
 | Buzz Stimulant Pills               | Do not gain stress for not sleeping                                                                             | 1     | 500     |
 | Panic-eze pills                    | Remove D4 Stress                                                                                                | 1     | 500     |
 | Stimpack                           | Regain D4HP                                                                                                     | 1     | 500     |
-| Data Casette                       | Robust and encrypted storage for digital data                                                                   | 1     | 100     |
+| Data Cassette                       | Robust and encrypted storage for digital data                                                                   | 1     | 100     |
 | Recreational Drugs or Luxury Goods | Remove 1 Stress                                                                                                 | 1     | 100     |
 | Collapsible Stretcher              |                                                                                                                 | 1     | 100     |
 | Long Range Radio                   | Capable of reaching orbit                                                                                       | 1     | 5000    |
