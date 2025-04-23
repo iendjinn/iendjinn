@@ -190,20 +190,20 @@ When rolling damage with a melee weapon add your **strength**.
 
 Certain weapons may have additional effects:
 
-- Armour piercing weapons: Damage is not reduced by armor
+- Armour piercing weapons: Damage is not reduced by armour.
 - Automatic weapons: May be used to make an impaired attack against all visible enemies instead of a regular attack. Immediately deduct a usage point from ammo.  
 - Blast weapons: May hit multiple targets, distribute the rolled damage between affected targets.
 - Stun weapons: Any character taking damage must make a **strength** save or miss their next action.
 
 ### 2.5 Armour
 
-Armour reduces damage taken by the number of points the armor provides. A character may wear one type of armor at a time.
+Armour reduces damage taken by the number of points the armour provides. Armour uses body slots when worn, and only one type of armour bay be worn at a time.
 
 **Scrap Metal and Kevlar** 1 point  
 **Body Armour** 2 points  
 **Adamantine Cuirass** 3 points  
 **Power Armour** 3 points + 2 strength  
-**Shield** 1 point (must be carried in a hand to benefit, stacks with other armor)  
+**Shield** 1 point (must be carried in a hand to benefit, may be used with other armour)  
 
 ## 3. Playing the Game
 
@@ -219,10 +219,11 @@ A natural 20 is a critical success and a natural 1 is a fumble.
 
 ### 3.2 Grit
 
-Characters have a point of grit per **two levels**. A character can spend a point of grit:
+Characters gain grit as they level up. A character can spend a point of grit:
 
-- Before making a save to gain +4 to your roll.
+- After rolling a save to gain +4 to your roll.
 - After taking damage to reduce damage by 4.
+- After rolling damage to increase damage by 4.
 
 ### 3.3 Combat
 
@@ -236,7 +237,7 @@ Combat takes place in rounds, with each round representing roughly 10 seconds. I
 
 If one side surprises the other then they act first, otherwise player characters make a dexterity save to act before non player characters. Order is preserved between rounds.
 
-**Attacks always hit**, roll damage for the weapon being used, adding **strength** for melee attacks or **dexterity** for ranged weapons. Characters that take damage lose hit points equal to the damage taken, with armor reducing damage.
+**Attacks always hit**, roll damage for the weapon being used, adding **strength** for melee attacks or **dexterity** for ranged weapons. Characters that take damage lose hit points equal to the damage taken, with armour reducing damage.
 
 Attacks may be **impaired** or **enhanced**, e.g. a ranged attack against a target in cover would be impaired.
 
@@ -286,7 +287,7 @@ Deal the damage shown on each dice to *dice* targets you can see.
 Prevent activation of artifacts within *total* meters of you for *dice* rounds.
 
 **4. Holtzmann Field**
-Gain _total_ additional points of armor against ranged attacks for *dice* rounds.
+Gain _total_ additional points of armour against ranged attacks for *dice* rounds.
 
 **5. Restoration Gauntlet**
 Restore *total* hit points to a target you are touching.
@@ -306,7 +307,7 @@ Extinguish all light sources within 10 x *total* meters.
 **10. Boost Shoes**
 Jump or fall up to *total* meters without taking damage.
 
-## 4. Advancement
+## 4. Character Advancement
 
 Characters gain experience when they bring treasure back to civilization. All experience is split equally between player characters. 
 
@@ -319,9 +320,9 @@ Characters start at level 1, the amount of experience required to advance to a l
 
 When a character's level increases: 
 
-- Their grit (3.2) increases by 1 for every 2 levels. E.g. a level 2 character has 1 point of grit.
-- Pick one attribute and increase it by 1 point, pick one other attribute and roll a D6, if it is greater than the attribute increase it by 1.
-- Roll level x D6, if the total is greater than hit points, increase hit points by 1.
+- On even levels characters gain 1 grit (see 3.2).
+- On odd levels characters gain D4 to their maximum HP, to a maximum of 20.
+- Pick one attribute and increase it by 1 point.
 
 ## 5. Retainers and Hirelings
 
@@ -344,7 +345,7 @@ The following items can be found in most settlements:
 | SMG                           | Medium, Automatic                                                                                         | 1     | Scarce |
 | Dagger                        | Light                                                                                                     | 1     | Common |
 | Rations                       |                                                                                                           | 1     | Common |
-| Scrap Metal and Kevlar Armour | 1 Point of Armour                                                                                         | 2     | Common |
+| Scrap Metal and Kevlar Armour | 1 Point of Armour                                                                                         | 1     | Common |
 | Oxyacetylene Torch            |                                                                                                           | 1     | Scarce |
 | Medicine                      | Regain D4HP during short rest                                                                             | 1     | Scarce |
 | Go Juice                      | Take 3 actions next round, then 2 actions the round after, after your action on the third round lose D4HP | 1     | Common |
@@ -359,7 +360,7 @@ The following items can be found in most settlements:
 | Pole Axe                      | Heavy                                                                                                     | 2     | Common |
 | Neural Lash                   | Light, Stun                                                                                               | 1     | Scarce |
 | Rifle                         | Heavy                                                                                                     | 2     | Common |
-| Body Armour                   | 2 Points of Armour                                                                                        | 2     | Scarce |
+| Body Armour                   | 2 Points of Armour                                                                                        | 1     | Scarce |
 | Shield                        | 1 Point of Armour                                                                                         | 1     | Common |
 | Rope                          |                                                                                                           | 1     | Common |
 | Compass                       |                                                                                                           | 1     | Common |
@@ -368,3 +369,5 @@ The following items can be found in most settlements:
 | Hammer and Pitons             |                                                                                                           | 1     | Common |
 | Flares                        |                                                                                                           | 1     | Common |
 | MRE Rations                   | 6 uses of rations                                                                                         | 1     | Scarce |
+| Smoke Grenade                 |                                                                                                           | 1     | Common |
+| Flashbang                     | Stun                                                                                                      | 1     | Common |
