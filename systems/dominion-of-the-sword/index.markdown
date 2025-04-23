@@ -35,6 +35,7 @@ Locked in vaults below the Earth sit troves of treasure beyond the wildest dream
 But the ancients do not take kindly to their tombs being raided. Deadly traps, relentless automatons and the dead themselves guard the deep places, waiting for the desperate, brave or foolhardy who would steal their relics.
 
 ## The North Eastern Steppe
+
 ### Cors Town
 
 Ruled by the warlord Steel Jaw and ringed by crumbling concrete walls Cors Town sits atop a small hill. A spring rises on the Northern base of the hill and irrigates a small but productive patch of farmland which provides the town with a modicum of wealth to trade with nearby settlements.
@@ -89,7 +90,9 @@ Roll a **D10** to determine your background and starting equipment.
 | 9   | Cage Fighter      | Neural Lash (light, stun), Stimpack, Shield, Torch                         |
 | 10  | Mutant Hunter     | Rifle (heavy), Ammo, Flashlight, Rations                                   |
 
+
 Then roll a **D20** for distinctive physical feature.
+
 
 | D20 | Distinctive Feature   |
 | --- | --------------------- |
@@ -113,6 +116,7 @@ Then roll a **D20** for distinctive physical feature.
 | 18  | Prostethic eye        |
 | 19  | Unusually thin        |
 | 20  | Unusually broad       |
+
 Then roll two **D100** for clothing and pocket item.
 
 | D100  | Clothing/Accessory      | In your pocket is                                               |
@@ -142,6 +146,7 @@ Then roll two **D100** for clothing and pocket item.
 | 88-91 | Jumpsuit                | Packet of smokes                                                |
 | 92-95 | Beanie hat              | Compass                                                         |
 | 96-99 | Fedora                  | Rosary beads                                                    |
+
 ## 2. Inventory
 
 ### 2.1 Inventory Slots
