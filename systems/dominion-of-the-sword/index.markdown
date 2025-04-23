@@ -10,7 +10,7 @@ Against the bleached sky, tattered banners wave in the atomic winds, carried for
 
 It is an age of ambition, of forgotten science wielded by techno-magical warriors, an age of **adventure**.
 
-## The Noble Houses
+## Lords of the Apocalypse
 
 Emerging from the bastions of their underground vaults on the edges of civilization, the ancestors found their way of life undone.
 
@@ -34,6 +34,27 @@ Locked in vaults below the Earth sit troves of treasure beyond the wildest dream
 
 But the ancients do not take kindly to their tombs being raided. Deadly traps, relentless automatons and the dead themselves guard the deep places, waiting for the desperate, brave or foolhardy who would steal their relics.
 
+## The North Eastern Steppe
+### Cors Town
+
+Ruled by the warlord Steel Jaw and ringed by crumbling concrete walls Cors Town sits atop a small hill. A spring rises on the Northern base of the hill and irrigates a small but productive patch of farmland which provides the town with a modicum of wealth to trade with nearby settlements.
+
+### The Cult of the All Seeing
+
+To the North West of Cors Town an old radio mast sits atop a hill. Around its base a ramshackle settlement has grown up, home to a fervent cult that worship the god KH11. The cult has a strained relationship with Steel Jaw, they pay him a nominal tribute, but often acquire the content of this tribute by raiding traders along route 95, many of whom are heading to or from Cors Town.
+
+### The Heights
+
+Past the ruins of Hibbertsville sits a vast hydroelectric dam. Claimed by the Atomic Aces, a violent and powerful gang, the dam has become home to a small community. Led by Pale June, the Aces are notorious for their loyalty and refusal to allow any none members to enter the Heights. Despite this, the gang is open to trade with outsiders, so long as it takes place at the edge of their territory. 
+
+### Sky View
+
+The next settlement along route 95 from Cors Town, Sky View is a technocracy run by an eccentric trio. Despite their peculiarity and aloofness from the population, the leaders of Sky View have proved competent and this has endeared them to their people. Many of the townsfolk have adopted the powdered wig aesthetic and veneration of technology of their leaders. 
+
+### The Barbarian at the Gates
+
+In recent years a new power has arisen in the North. Joel the Burnt leads an army of road warriors, burning any settlement that refuses to pay tribute and recognise him as King. Cors Town now stands at the edge of Joel's Empire and war seems to be on the horizon.
+
 ## 1. Make an Adventurer
 
 ### 1.1 Attributes
@@ -47,9 +68,9 @@ Characters have 4 attributes:
 
 For each attribute roll a **D4-1**. After rolling you may swap two of the scores.
 
-### 1.2 Hit Points, Grit, and Coins
+### 1.2 Hit Points and Grit
 
-Characters start with **10** hit points (**HP**) and **0** grit. Then roll a **D100** for starting coin.
+Characters start with **10** hit points (**HP**) and **0** grit.
 
 ### 1.3 Background, Equipment and Look
 
@@ -64,11 +85,11 @@ Roll a **D10** to determine your background and starting equipment.
 | 5   | Engine Seer       | Tools, Geiger Counter, Loyal acolyte, Wrench (light)                       |
 | 6   | Road Warrior      | Can of Petrol, Molotov Cocktail (light, blast), Tyre Iron (light), Rations |
 | 7   | Gang Rat          | Shotgun (Heavy), Ammo, Ultra, Scrap Metal and Kevlar Armour                |
-| 8   | Noble Heir        | Sword (medium), Loyal Squire, 100 Coin, Body Armour                        |
+| 8   | Noble Heir        | Sword (medium), Loyal Squire, Rations, Body Armour                         |
 | 9   | Cage Fighter      | Neural Lash (light, stun), Stimpack, Shield, Torch                         |
 | 10  | Mutant Hunter     | Rifle (heavy), Ammo, Flashlight, Rations                                   |
 
-Then role a **D20** for distinctive physical feature.
+Then roll a **D20** for distinctive physical feature.
 
 | D20 | Distinctive Feature   |
 | --- | --------------------- |
@@ -76,7 +97,7 @@ Then role a **D20** for distinctive physical feature.
 | 2   | Tribal tatoos         |
 | 3   | Barcode tatoo         |
 | 4   | Loveheart tatoo       |
-| 5   | Metal Teeth           |
+| 5   | Weathered Skin        |
 | 6   | Albino                |
 | 7   | Piercings             |
 | 8   | Golden tooth          |
@@ -92,7 +113,35 @@ Then role a **D20** for distinctive physical feature.
 | 18  | Prostethic eye        |
 | 19  | Unusually thin        |
 | 20  | Unusually broad       |
+Then roll two **D100** for clothing and pocket item.
 
+| D100  | Clothing/Accessory      | In your pocket is                                               |
+| ----- | ----------------------- | --------------------------------------------------------------- |
+| 0-3   | Mirrored Aviators       | Flick knife                                                     |
+| 4-7   | Shemagh                 | Etched Zippo lighter                                            |
+| 8-11  | String vest             | Harmonica                                                       |
+| 12-15 | Bomber jacket           | Paracord bracelet                                               |
+| 16-19 | Combats                 | Pair of fine cigars                                             |
+| 20-23 | Steel capped boots<br>  | Flare gun                                                       |
+| 24-27 | Ripped T-Shirt          | Digital watch                                                   |
+| 28-31 | Chequered flannel shirt | Political/holy pocket book                                      |
+| 32-35 | Respirator              | Bobby pins                                                      |
+| 36-39 | Overalls                | Dog tags (whose?)                                               |
+| 40-43 | Flip flops              | Hip flask (strong spirit)                                       |
+| 44-47 | Blue Jeans              | Lint and straight razor                                         |
+| 48-51 | Bandana                 | Multi-tool                                                      |
+| 52-55 | Field jacket            | Lucky eight ball                                                |
+| 56-59 | Tactical shirt          | A necklace with a bullet on it                                  |
+| 60-63 | Trench coat             | Pair of loaded dice                                             |
+| 54-67 | Ushanka                 | Leatherbound journal                                            |
+| 68-71 | Welding goggles         | Portable music player                                           |
+| 72-75 | Cargo pants             | Capsule with water purification tablet and 3 waterproof matches |
+| 76-79 | Duster                  | Locket with photo                                               |
+| 80-83 | Dungarees               | Altoid tin with painkillers and bandages                        |
+| 84-87 | Yellow anorak           | Power cell                                                      |
+| 88-91 | Jumpsuit                | Packet of smokes                                                |
+| 92-95 | Beanie hat              | Compass                                                         |
+| 96-99 | Fedora                  | Rosary beads                                                    |
 ## 2. Inventory
 
 ### 2.1 Inventory Slots
@@ -108,23 +157,21 @@ Items on your body may be freely swapped to and from hand slots before you take 
 
 Most items take 1 slot, however some larger items may take 2.
 
-A character carrying more equipment than they have inventory slots has **disadvantage** on strength and dexterity saves, and all attacks they make are **impaired**.
+While a character is carrying more equipment than they have inventory slots strength and dexterity saves will be harder, and all attacks they make are **impaired**.
 
 ### 2.2 Usage
 
 Consumable items, and those subject to wear and tear have 3 usage points. Each time one of these items is used it loses a usage point. Once all usage points have been used the item is used up, or damaged too much to use.
 
 - Consumables: Rations/drugs/medicine etc. Lose a usage point whenever used.
-- Armour and weapons: Roll a D6 for each item used after combat, on a 1-3 lose a usage point.
 - Ammo: After combat if a weapon that requires ammunition was used, lose a usage point.
 - Torches: Lose a usage point for every 6 turns of use.
+- Flashlights: Lose a usage point every watch of use.
 - Other Items: At the GM's discretion.
 
-Items that can be repaired may regain usage points, usually costing 10% of the item's value per point. Repairs are available in most settlements.
+### 2.3 Barter and Money
 
-### 2.3 Storage
-
-Most settlements will have a storage facility that coins and equipment can be kept in. Retrieving items from storage costs 1% of the value of the stored items.
+No standard coinage exists in the new world. Within a settlement most people trade in favours and the exchange of goods. More serious exchanges take place at trading posts, where goods can be swapped for scrip. This scrip can only be used where it was issued, ensuring that those running the trading post can make a markup.
 
 ### 2.4 Weapons
 
@@ -139,9 +186,9 @@ When rolling damage with a melee weapon add your **strength**.
 Certain weapons may have additional effects:
 
 - Armour piercing weapons: Damage is not reduced by armor
-- Automatic weapons: May be used to suppress instead of attack. Any visible targets must make a **presence** save or spend their next action taking cover.
+- Automatic weapons: May be used to make an impaired attack against all visible enemies instead of a regular attack. Immediately deduct a usage point from ammo.  
 - Blast weapons: May hit multiple targets, distribute the rolled damage between affected targets.
-- Stun weapons: Any character taking damage must make a **presence** save or miss their next action.
+- Stun weapons: Any character taking damage must make a **strength** save or miss their next action.
 
 ### 2.5 Armour
 
@@ -153,31 +200,23 @@ Armour reduces damage taken by the number of points the armor provides. A charac
 **Power Armour** 3 points + 2 strength  
 **Shield** 1 point (must be carried in a hand to benefit, stacks with other armor)  
 
-### 2.6 Coin
-
-A character can carry up to 250 coin about their person. Additional coin must be stored in inventory slots, with a maximum of 250 per slot.
-
 ## 3. Playing the Game
 
 ### 3.1 Saves
 
-To make a save roll a **D20** and add the relevant attribute (strength, dexterity, intelligence, or presence). 
+To make a save roll a **D20** and add the relevant attribute (strength, dexterity, intelligence, or presence) to equal or beat the test difficulty:
 
-If the value equals or exceeds **12** the save is passed.
+- Easy: 8
+- Standard: 12
+- Hard: 16
 
 A natural 20 is a critical success and a natural 1 is a fumble.
-
-Sometimes a save may be harder or easier:
-
-- If a save is with advantage, roll two **D20s** and use the highest result.
-- If a save is with disadvantage, roll two **D20s** and the use the lowest result.
 
 ### 3.2 Grit
 
 Characters have a point of grit per **two levels**. A character can spend a point of grit:
 
-- Before making a save to add 4 to their roll.
-- Before rolling damage to add 4 to their roll.
+- Before making a save to gain +4 to your roll.
 - After taking damage to reduce damage by 4.
 
 ### 3.3 Combat
@@ -215,13 +254,14 @@ If a character drops **below** 0HP they are **dead**.
 - Turn: Used when exploring a small area, roughly 10 minutes. Enough time to explore a room, or for a fight to take place.
 - Watch: Used during travel or exploring large areas, roughly 36 turns or 6 hours.
 
+If a character has not slept or eaten for 24 hours they lose 1HP.
 ### 3.6 Travel and Exploration
 
 For convenience the world is divided up into hexes. A watch is enough time to travel across a hex if moving along a road. 
 
-Moving across a hex off road takes two watches, or three in poor weather. If travelling off road the character navigating must make an intelligence save, at disadvantage in poor weather. Failure results in an additional watch being used to traverse the hex.
+Moving across a hex off road takes two watches, or three in poor weather. If travelling off road the character navigating must make an intelligence save. Failure results in an additional watch being used to traverse the hex. The difficulty of navigation will depend on weather and familiarity with the hex.
 
-Some hexes may contain hidden features or location, exploring a hex to search for these takes one watch. If a hex has been explored, intelligence saves to navigate are at advantage.
+Some hexes may contain hidden features or location, exploring a hex to search for these takes one watch.
 
 A character can spend a watch foraging in a hex that doesn't contain a settlement to gain **D4-1** usage points of rations.
 
@@ -241,7 +281,7 @@ Deal the damage shown on each dice to *dice* targets you can see.
 Prevent activation of artifacts within *total* meters of you for *dice* rounds.
 
 **4. Holtzmann Field**
-Gain 4 additional points of armor for *dice* rounds.
+Gain _total_ additional points of armor against ranged attacks for *dice* rounds.
 
 **5. Restoration Gauntlet**
 Restore *total* hit points to a target you are touching.
@@ -263,7 +303,12 @@ Jump or fall up to *total* meters without taking damage.
 
 ## 4. Advancement
 
-Characters gain experience when they bring treasure back to civilization. Experience gained equals the value of treasure recovered. All experience is split equally between player characters. 
+Characters gain experience when they bring treasure back to civilization. All experience is split equally between player characters. 
+
+- Common Items: 100XP
+- Scarce Items: 500XP
+- Rare Items: 1000XP
+- Legendary Items: 8000XP
 
 Characters start at level 1, the amount of experience required to advance to a level is equal to the level x 1000. E.g. level 2 requires 2000 experience points.
 
@@ -273,64 +318,48 @@ When a character's level increases:
 - Pick one attribute and increase it by 1 point, pick one other attribute and roll a D6, if it is greater than the attribute increase it by 1.
 - Roll level x D6, if the total is greater than hit points, increase hit points by 1.
 
-## 5. Followers and Hirelings
+## 5. Retainers and Hirelings
 
-A character can have a number of followers and hirelings equal to their **presence**. Hireling must be paid every week, and do not gain experience. Followers do not have to be paid, and may optionally be given a share of the experience from treasure. 
+Retainers are close friends and associates of your character and will risk obvious danger and peril while adventuring with you. They receive a half share of any experience from treasure.
 
-Hirelings are always neutral, while followers may be loyal, neutral or disloyal:
+Hirelings can be recruited to provide support on an adventure. They can carry equipment and treasure, as well as guard the camp and forage for supplies. However they will not risk danger if they can avoid it while fulfilling these duties. Hirelings expect to receive treasure as compensation for their services.
 
-**Disloyal** If the character could gain from betraying you, make a presence save to avoid betrayal.  
-**Neutral** If the character would lose something by remaining loyal to you, make a presence save to avoid desertion.  
-
-Failure to pay hirelings will incur disadvantage on these saves.
-
-Hirelings may be hired in a settlement by making a presence save:
-
-| Hireling          | Wages/Week |
-| ----------------- | ---------- |
-| Porter            | 10         |
-| Bodyguard         | 20         |
-| Local guide       | 15         |
-| Labourer          | 10         |
-| Scholar           | 20         |
-| Household Trooper | 30         |
-| Armourer          | 30         |
+Hirelings can be hired in settlements by making a presence save. The difficulty of the save will depend on the reputation of the character within the settlement.
 
 ## 6. Equipment
 
-The following items can be purchased in most settlements:
+The following items can be found in most settlements:
 
-| Item                          | Notes                                                                                                     | Slots | Cost |
-| ----------------------------- | --------------------------------------------------------------------------------------------------------- | ----- | ---- |
-| Torch                         |                                                                                                           | 1     | 5    |
-| Flashlight                    |                                                                                                           | 1     | 400  |
-| Body Armour                   |                                                                                                           | 2     | 500  |
-| Ammo                          |                                                                                                           | 1     | 200  |
-| Frag Grenade                  | Light, Blast                                                                                              | 1     | 100  |
-| SMG                           | Medium, Automatic                                                                                         | 1     | 1000 |
-| Dagger                        | Light                                                                                                     | 1     | 20   |
-| Rations                       |                                                                                                           | 1     | 10   |
-| Scrap Metal and Kevlar Armour | 1 Point of Armour                                                                                         | 2     | 200  |
-| Oxyacetylene Torch            |                                                                                                           | 1     | 300  |
-| Medicine                      | Regain D4HP during short rest                                                                             | 1     | 500  |
-| Go Juice                      | Take 3 actions next round, then 2 actions the round after, after your action on the third round lose D4HP | 1     | 200  |
-| Stimpack                      | Increase strength and dexterity by 2 until the end of combat, or on your next save outside of combat      | 1     | 200  |
-| Tools                         |                                                                                                           | 1     | 200  |
-| Geiger Counter                |                                                                                                           | 1     | 300  |
-| Can of Petrol                 |                                                                                                           | 1     | 400  |
-| Shotgun                       | Heavy                                                                                                     | 2     | 300  |
-| Machine Gun                   | Heavy, Automatic                                                                                          | 2     | 1000 |
-| Ultra                         | Increase intelligence and presence by 2 until the end of combat, or on your next save outside of combat   | 1     | 200  |
-| Sword                         | Medium                                                                                                    | 1     | 200  |
-| Pole Axe                      | Heavy                                                                                                     | 2     | 200  |
-| Neural Lash                   | Light, Stun                                                                                               | 1     | 500  |
-| Rifle                         | Heavy                                                                                                     | 2     | 600  |
-| Body Armour                   | 2 Points of Armour                                                                                        | 2     | 1000 |
-| Shield                        | 1 Point of Armour                                                                                         | 1     | 200  |
-| Rope                          |                                                                                                           | 1     | 20   |
-| Compass                       |                                                                                                           | 1     | 100  |
-| Shovel                        |                                                                                                           | 1     | 5    |
-| Binoculars                    |                                                                                                           | 1     | 1000 |
-| Hammer and Pitons             |                                                                                                           | 1     | 20   |
-| Flares                        |                                                                                                           | 1     | 100  |
-| MRE Rations                   | 6 uses of rations                                                                                         | 1     | 50   |
+| Item                          | Notes                                                                                                     | Slots | Value  |
+| ----------------------------- | --------------------------------------------------------------------------------------------------------- | ----- | ------ |
+| Torch                         |                                                                                                           | 1     | Common |
+| Flashlight                    |                                                                                                           | 1     | Scarce |
+| Ammo                          |                                                                                                           | 1     | Scarce |
+| Frag Grenade                  | Light, Blast                                                                                              | 1     | Scarce |
+| SMG                           | Medium, Automatic                                                                                         | 1     | Scarce |
+| Dagger                        | Light                                                                                                     | 1     | Common |
+| Rations                       |                                                                                                           | 1     | Common |
+| Scrap Metal and Kevlar Armour | 1 Point of Armour                                                                                         | 2     | Common |
+| Oxyacetylene Torch            |                                                                                                           | 1     | Scarce |
+| Medicine                      | Regain D4HP during short rest                                                                             | 1     | Scarce |
+| Go Juice                      | Take 3 actions next round, then 2 actions the round after, after your action on the third round lose D4HP | 1     | Common |
+| Stimpack                      | Increase strength and dexterity by 2 until the end of combat, or on your next save outside of combat      | 1     | Common |
+| Tools                         |                                                                                                           | 1     | Common |
+| Geiger Counter                |                                                                                                           | 1     | Common |
+| Can of Petrol                 |                                                                                                           | 1     | Scarce |
+| Shotgun                       | Heavy                                                                                                     | 2     | Common |
+| Machine Gun                   | Heavy, Automatic                                                                                          | 2     | Scarce |
+| Ultra                         | Increase intelligence and presence by 2 until the end of combat, or on your next save outside of combat   | 1     | Common |
+| Sword                         | Medium                                                                                                    | 1     | Scarce |
+| Pole Axe                      | Heavy                                                                                                     | 2     | Common |
+| Neural Lash                   | Light, Stun                                                                                               | 1     | Scarce |
+| Rifle                         | Heavy                                                                                                     | 2     | Common |
+| Body Armour                   | 2 Points of Armour                                                                                        | 2     | Scarce |
+| Shield                        | 1 Point of Armour                                                                                         | 1     | Common |
+| Rope                          |                                                                                                           | 1     | Common |
+| Compass                       |                                                                                                           | 1     | Common |
+| Shovel                        |                                                                                                           | 1     | Common |
+| Binoculars                    |                                                                                                           | 1     | Scarce |
+| Hammer and Pitons             |                                                                                                           | 1     | Common |
+| Flares                        |                                                                                                           | 1     | Common |
+| MRE Rations                   | 6 uses of rations                                                                                         | 1     | Scarce |
