@@ -1,0 +1,164 @@
+@font-face {
+    font-family: "departure";
+    src: url("/assets/fonts/Chomsky.woff2");
+}
+
+html,
+body {
+    height: 293mm;
+    width: 206mm;
+    padding: 2mm;
+    font-size: 16px;
+}
+
+html {
+    /* border: 1px solid black; */
+}
+
+:root {
+    --main-text-color: #000;
+    --secondary-text-color: rgb(182, 177, 177);
+    --line-height: 2rem;
+}
+
+body {
+    font-family: "departure";
+    padding: 0px;
+    margin: 0px;
+}
+
+#main {
+    display: grid;
+    grid: auto-flow / 4fr 1fr;
+    gap: 1rem;
+
+}
+
+#bio {
+    border-radius: 5px;
+    background-color: var(--secondary-text-color);
+    padding: 0.4rem;
+    display: grid;
+    grid-template: 
+    "a a a a"
+    "b b b b"
+    "c c c d";
+    gap: 0.5rem;
+}
+
+#bio div {
+    background: #fff;
+    border-radius: 5px;
+    padding: 0.4rem;
+}
+
+#name {
+    grid-area: a;
+    height: calc(2*var(--line-height));
+}
+
+#description {
+    height: calc(6*var(--line-height));
+    grid-area: b;
+}
+
+#xp {
+    height: var(--line-height);
+    grid-area: c;
+}
+#level {
+    height: var(--line-height);
+
+    grid-area: d;
+}
+
+#attributes {
+    background-color: var(--secondary-text-color);
+    border-radius: 5px;
+    padding: 0.4rem;
+    display: grid;
+    grid: auto-flow / 1fr 1fr;
+    column-gap: 0.5rem;;
+}
+
+.attr div {
+    height: calc(1.5*var(--line-height));
+    width: calc(1.5*var(--line-height));
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    background: #fff;
+    border: 3px solid black;
+    margin-right: 0.4rem;
+}
+.attr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stat {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.4rem;
+}
+
+.stat div {
+    height: calc(1.5*var(--line-height));
+    width: calc(1.5*var(--line-height));
+    border: 3px solid black;
+    background: white;
+}
+
+.stat div:first-child {
+    border-right: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.stat div:last-child {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#gear {
+    display: grid;
+    grid: auto-flow / 4fr 6fr;
+    column-gap: 0.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+#hands {
+    display: grid;
+    grid: auto-flow / 1fr 1fr;
+    column-gap: 0.5rem;
+    row-gap: 0.5rem;
+}
+
+#backpack {
+    display: grid;
+    grid: auto-flow / 1fr 1fr 1fr;
+    column-gap: 0.5rem;
+    row-gap: 0.5rem;
+}
+
+.item {
+    border: 3px solid black;
+    height: calc(3*var(--line-height));
+    border-radius: 5px;
+    padding: 0.4rem;
+
+}
+
+#notes {
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 0.4rem;
+    flex: 1;
+}
+
+#sheet {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}

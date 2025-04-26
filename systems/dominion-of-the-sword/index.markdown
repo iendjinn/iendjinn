@@ -269,7 +269,7 @@ Moving across a hex off road takes two watches, or three in poor weather. If tra
 
 Some hexes may contain hidden features or location, exploring a hex to search for these takes one watch.
 
-A character can spend a watch foraging in a hex that doesn't contain a settlement to gain **D4-1** usage points of rations.
+A character can spend a watch foraging in a hex that doesn't contain a settlement to gain 1 usage points of rations.
 
 ### 3.7 Artifacts
 
@@ -371,3 +371,41 @@ The following items can be found in most settlements:
 | MRE Rations                   | 6 uses of rations                                                                                         | 1     | Scarce |
 | Smoke Grenade                 |                                                                                                           | 1     | Common |
 | Flashbang                     | Stun                                                                                                      | 1     | Common |
+| Short Range Radio             |                                                                                                           | 1     | Scarce |
+
+## 7. Treasure
+
+| D100  | Treasure                 | Value     |
+| ----- | ------------------------ | --------- |
+| 1-4   | Ammo                     | Scarce    |
+| 5-9   | Medicine                 | Scarce    |
+| 10-14 | MRE Rations              | Scarce    |
+| 15-19 | Whiskey                  | Scarce    |
+| 20-24 | Jewelry                  | Scarce    |
+| 25-29 | Rare Book                | Scarce    |
+| 30-34 | Music                    | Scarce    |
+| 35-39 | Technical Manual         | Scarce    |
+| 40-44 | Power Cell               | Rare      |
+| 45-49 | Computer Parts           | Rare      |
+| 50-54 | Dehumidifier             | Rare      |
+| 55-59 | Water Filtration System  | Rare      |
+| 60-64 | Engine Parts             | Rare      |
+| 65-69 | Refrigeration Unit       | Rare      |
+| 70-74 | Petrol Generator         | Rare      |
+| 75-79 | Night Vision Goggles     | Rare      |
+| 80-84 | 3 x Ammo                 | Scarce    |
+| 85-86 | 3 x Medicine             | Scarce    |
+| 87    | Mirror Helm              | Legendary |
+| 88    | Lighting Stick           | Legendary |
+| 89    | Null Ring                | Legendary |
+| 90    | Holtzmann Field          | Legendary |
+| 91    | Restoration Gauntlet     | Legendary |
+| 92    | Distintegration Gauntlet | Legendary |
+| 93    | Rust Ray                 | Legendary |
+| 94    | Acceleration Amulet      | Legendary |
+| 95    | Sun Eater                | Legendary |
+| 96    | Boost Shoes              | Legendary |
+| 97    | Adamantine Cuirass       | Legendary |
+| 98    | Laser Rifle              | Legendary |
+| 99    | Power Armour             | Legendary |
+| 100   | Satellite Uplink Codes   | Legendary |
