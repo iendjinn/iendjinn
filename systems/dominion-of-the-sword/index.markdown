@@ -344,6 +344,7 @@ The following items can be found in most settlements:
 | Frag Grenade                  | Light, Blast                                                                                              | 1     | Scarce |
 | SMG                           | Medium, Automatic                                                                                         | 1     | Scarce |
 | Dagger                        | Light                                                                                                     | 1     | Common |
+| Pistol                        | Light                                                                                                     | 1     | Common |
 | Rations                       |                                                                                                           | 1     | Common |
 | Scrap Metal and Kevlar Armour | 1 Point of Armour                                                                                         | 1     | Common |
 | Oxyacetylene Torch            |                                                                                                           | 1     | Scarce |
@@ -409,3 +410,44 @@ The following items can be found in most settlements:
 | 98    | Laser Rifle              | Legendary |
 | 99    | Power Armour             | Legendary |
 | 100   | Satellite Uplink Codes   | Legendary |
+
+
+## 8. I search the Body
+
+| D100  | Item                   |
+| ----- | ---------------------- |
+| 1-3   | Ammo                   |
+| 4-6   | Dagger                 |
+| 7-9   | Rations                |
+| 10-12 | Faded Photograph       |
+| 13-15 | Compass                |
+| 16-18 | Silver Ring            |
+| 29-21 | Crude Map              |
+| 22-24 | Medicine               |
+| 25-27 | Can of Petrol          |
+| 28-30 | Half Eaten Protein Bar |
+| 30-32 | Silk Hankerchief       |
+| 33-35 | Seeds                  |
+| 36-38 | Necklace of Teeth      |
+| 39-41 | Rope                   |
+| 42-44 | Trading Post Scrip     |
+| 45-47 | Comb                   |
+| 48-50 | Plastic Figurine       |
+| 51-53 | Pair of Candles        |
+| 54-56 | Zippo Lighter          |
+| 57-59 | Cigar                  |
+| 60-62 | Musical Instrument     |
+| 63-65 | Watch                  |
+| 66-68 | Journal                |
+| 69-71 | Cigarettes             |
+| 72-74 | Hip Flask              |
+| 75-77 | Pair of Dice           |
+| 78-80 | A Novelty Coin         |
+| 81-83 | GPS Locator            |
+| 84-86 | Frag Grenade           |
+| 87-89 | Go Juice               |
+| 90-92 | Ultra                  |
+| 93-95 | Stimpack               |
+| 96-99 | Torch                  |
+| 100   | Grenade (No Pin!)      |
+
