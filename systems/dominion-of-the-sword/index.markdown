@@ -235,7 +235,7 @@ Combat takes place in rounds, with each round representing roughly 10 seconds. I
 - Retrieve an item from their backpack.
 - Something else.
 
-If one side surprises the other then they act first, otherwise player characters make a dexterity save to act before non player characters. Order is preserved between rounds.
+At the start of combat If one side surprises the other then they act first, otherwise and in subsequent rounds each PC makes a dexterity save to act before NPCs.
 
 **Attacks always hit**, roll damage for the weapon being used, adding **strength** for melee attacks or **dexterity** for ranged weapons. Characters that take damage lose hit points equal to the damage taken, with armour reducing damage.
 
@@ -258,7 +258,7 @@ If a character drops **below** 0HP they are **dead**.
 
 - Round: Used in combat, roughly 10 seconds.
 - Turn: Used when exploring a small area, roughly 10 minutes. Enough time to explore a room, or for a fight to take place.
-- Watch: Used during travel or exploring large areas, roughly 36 turns or 6 hours.
+- Watch: Used during travel or exploring large areas, there are 3 watches a day: Morning, afternoon and night. A watch is roughly 48 turns.
 
 If a character has not slept or eaten for 24 hours they lose 1HP.
 ### 3.6 Travel and Exploration
@@ -450,4 +450,3 @@ The following items can be found in most settlements:
 | 93-95 | Stimpack               |
 | 96-99 | Torch                  |
 | 100   | Grenade (No Pin!)      |
-
