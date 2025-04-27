@@ -265,7 +265,7 @@ If a character has not slept or eaten for 24 hours they lose 1HP.
 
 For convenience the world is divided up into hexes. A watch is enough time to travel across a hex if moving along a road. 
 
-Moving across a hex off road takes two watches, or three in poor weather. If travelling off road the character navigating must make an intelligence save. Failure results in an additional watch being used to traverse the hex. The difficulty of navigation will depend on weather and familiarity with the hex.
+Moving across a hex off road takes two watches. If travelling off road the character navigating must make an intelligence save. Failure results in an additional watch being used to traverse the hex. The difficulty of navigation will depend on weather and familiarity with the hex.
 
 Some hexes may contain hidden features or location, exploring a hex to search for these takes one watch.
 
