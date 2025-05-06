@@ -27,7 +27,7 @@ After a brief bit of character generation, our heroes were ready:
 
 The party had been briefed that with war with the road warriors looming supplies were short and that anyone who managed to bring back valuable treasure would surely be praised as heroes. Starting with one of the rumours I'd created about an old government lab hidden beneath a quarry out West the adventure began on the outskirts of an abandoned pit mine.
 
-After some initial prevaricating about how where to look first for the lab, the party entered the foreman's hut, noting that the door hinges looked surprisingly shiny. Inside they found a hideaway, with warm food in a microwave.
+After some initial prevaricating about where to look first for the lab, the party entered the foreman's hut, noting that the door hinges looked surprisingly shiny. Inside they found a hideaway with warm food in a microwave.
 
 While Silus and his thrall inspected the machine, Brick looked for where the suspected occupant of the cabin had gone to. Eventually the group moved back outside and smelled cigarette smoke from the machine shed.
 
@@ -37,7 +37,7 @@ After some tense negotiation the man (McKenzie) agreed to show them his ghostly 
 
 The ghost (Lisa) ended up trying to negotiate with the party, hoping they would bring her the nuclear fuel rods she needed to extend the life of the reactor powering the lab. The party managed to convince her to allow them access to the first level of the base to look for various bits of equipment that they would need to retrieve the rods from the nearby power station.
 
-While Silus played with a database, Brick and Dukat set about ~~looting~~ requisitioning gear. Brick ended up with a significant upgrade to his Kevlar and scrap metal in the form of an adamantine Cuirass.
+While Silus played with a database, Brick and Dukat set about ~~looting~~ requisitioning gear. Brick ended up with a significant upgrade to his Kevlar and scrap metal in the form of an adamantine cuirass.
 
 Dukat's foray into the supply room ended in disaster though when he test fired a laser rifle and blew a whole in a wall, activating the lab's security system and initiating a lockdown. Lisa informed them that the lockdown could only be overridden from security and that the security system was monitoring her to prevent interference. More importantly she told them that there was a combat mech waiting for intruders outside the lift. Fortunately Silus had earlier found a level 5 access card and the group decided to try and use it to get to security through the reactor and AI core.
 
