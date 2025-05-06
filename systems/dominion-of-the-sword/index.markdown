@@ -314,7 +314,7 @@ Characters gain experience when they bring treasure back to civilization. All ex
 - Common Items: 100XP
 - Scarce Items: 500XP
 - Rare Items: 1000XP
-- Legendary Items: 8000XP
+- Legendary Items: 2000XP
 
 Characters start at level 1, the amount of experience required to advance to a level is equal to the level x 1000. E.g. level 2 requires 2000 experience points.
 
@@ -410,7 +410,6 @@ The following items can be found in most settlements:
 | 98    | Laser Rifle              | Legendary |
 | 99    | Power Armour             | Legendary |
 | 100   | Satellite Uplink Codes   | Legendary |
-
 
 ## 8. I search the Body
 
