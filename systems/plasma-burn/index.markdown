@@ -4,14 +4,32 @@ layout: single-column
 ---
 
 # Plasma Burn
+The Old World is gone, its glory seared away by the terrifying weapons of the ancients.
+
+Against the bleached sky, tattered banners wave in the atomic winds, carried forth by the soldiers of would be Kings.
+
+It is an age of ambition, of forgotten technology wielded by techno-magical warriors, an age of **battle**.
+
+## The Noble Houses
+
+Emerging from the bastions of their underground vaults on the edges of civilization, the ancestors found their way of life undone.
+
+As the hard years passed those few who remembered the Old World faded, leaving only stories and a handful of relics of a golden age.
+
+But from these embers of civilization new life blossomed. The ancient construct of feudalism was once again pressed into service by humanity.
+
+Fiefdoms, enhanced with advanced technology far beyond their crude understanding, wage war for the invaluable wonders left behind by their forebears.
+
+The scions of newly risen noble houses fight for honour, for survival and for dominion over the Earth.
+
+
+## Rules
 
 Plasma Burn is a 28mm skirmish wargame set in an apocalyptic future in which noble houses vie to control the remains of the technological wonders left behind. To play you'll need:
 
 - About 10 six sided dice (D6)
 - A set of models to represent each sides units
 - A board/floor/table and some terrain to make a battlefield
-
-&nbsp;
 
 ## Units
 
@@ -30,8 +48,6 @@ Most units are **infantry**, however some units are **cavalry**, **vehicles** or
 
 Some units are **commanders**, which give them access to command actions.
 
-&nbsp;
-
 ## Game Turn
 
 A game is made up of up to 10 turns, with each turn being made up of 5 phases:
@@ -42,8 +58,6 @@ A game is made up of up to 10 turns, with each turn being made up of 5 phases:
 - Ranged Phase
 - Melee Phase
 
-&nbsp;
-
 ### Priority Phase
 
 In the priority phase players determine which player has priority for the game turn. The player with priority will generally act first.
@@ -52,17 +66,13 @@ To determine who has priority each player rolls a D6. The player with the higher
 
 In the event of a tie, priority goes to the player who did not have priority last turn (re-roll if it's the first turn).
 
-&nbsp;
-
 ### Morale Phase
 
-When 50% or more of a player's units have been **killed in action** their army is considered to be **wavering**.
+When 50% or more of a player's units have been **killed in action** their army is **wavering**.
 
 Every unit in a wavering army must pass a **discipline test** or be removed from the battlefield (not **killed in action**).
 
 **Discipline Test**: Roll 1D6, if the value is equal or greater than the unit's discipline the test is passed.
-
-&nbsp;
 
 ### Movement Phase
 
@@ -72,7 +82,7 @@ When a unit moves it must obey the following rules:
 
 - It may not move through other units (including friendly)
 - It may not move over terrain that is taller than it
-- It may not move within 1" of an enemy unit unless that unit is **prone** or **engaged** or the unit is charging the enemy unit
+- It may not move within 1" of an enemy unit unless that unit is **prone** or **engaged** or the unit is charging that enemy unit
 - It may not move if it is **engaged**
 
 **Prone**: Under certain situations a unit may become prone, this should be indicated with a token or by placing the unit's model on its side. While prone:
@@ -85,13 +95,11 @@ When a unit moves it must obey the following rules:
 
 **Charging**: A unit may charge an enemy unit by moving into base contact with it. If it can move into contact with multiple units it may charge more than one enemy unit.
 
-**Climbing**: Instead of moving a unit may climb up or down a piece of terrain shorter than its movement characteristic. If a piece of terrain is narrower than the unit's base then it may climb up and down as a single climb.
+**Climbing**: Instead of moving a unit may climb up or down a piece of terrain it is in base contact with that is shorter than its movement characteristic. If a piece of terrain is narrower than the unit's base then it may climb up and down as a single climb.
 
 **Jumping**: When a unit moves, it may move over a gap less than its height.
 
 For rules on **falling**, **pushing**, and **difficult terrain** see advanced movement rules.
-
-&nbsp;
 
 ### Ranged Phase
 
@@ -99,7 +107,7 @@ The player with priority makes ranged attacks with all of their units then the o
 
 When a unit makes ranged attacks it must obey the following rules:
 
-- It must target the closest enemy unit within **line of sight**, units that are wholly below the base of the unit may be ignored for determining the closest unit
+- It must target the closest enemy unit within **line of sight** that is not **engaged**, units that are wholly below the base of the unit may be ignored for determining the closest unit
 - A unit cannot make ranged attacks if it is **engaged**
 
 To make a ranged attack roll a D6 for each attack that the unit's ranged weapon has. If the value is equal or greater than the unit's ranged attribute a hit is scored.
@@ -119,8 +127,6 @@ For each hit scored the target unit must make a save, losing a wound if it fails
 
 For rules on **cover**, **multiple attacks**, and **weapon types** see advanced ranged rules.
 
-&nbsp;
-
 ### Melee Phase
 
 The player with priority groups units that are in base contact into **melees** such that each **melee** contains at least one of their units and one enemy unit and the number of pairs of units is maximized.
@@ -135,8 +141,6 @@ The player with priority then picks **melees** in turn and they are then resolve
 
 For rules on **prone** units in melee see advanced melee rules.
 
-&nbsp;
-
 ## Playing a Game
 
 To play a game:
@@ -147,8 +151,6 @@ To play a game:
 
 The winner of a mission is determined by the mission objective. Some missions may be asymmetric with players having different objectives.
 
-&nbsp;
-
 ### Selecting Units
 
 An army consists of:
@@ -157,8 +159,6 @@ An army consists of:
 - 1 Heir
 - 1 Master of Arms
 - Up to 1000 points of other units
-
-&nbsp;
 
 For each of your head of house, heir and master of arms choose one of the traits:
 
@@ -172,8 +172,6 @@ For each of your head of house, heir and master of arms choose one of the traits
 **Marksman**: This unit gains +1 to its ranged attribute
 **Beloved Leader**: If this unit would be **killed in action** you may instead remove a friendly infantry unit within 3"
 
-&nbsp;
-
 Then choose a pre-fall technology:
 
 **Clone Vats**: Conscripts cost 10 fewer points
@@ -184,30 +182,28 @@ Then choose a pre-fall technology:
 
 Then choose 5 artifacts, an artifact may be given to any infantry unit in your army. A unit may only ever have one ranged weapon, one melee weapon, one type of armor and one piece of equipment. An artifact replaces any default item of the same type.
 
-| Wargear                | Type      | Notes                                                                                                                                                                                                                                       |
-| ---------------------- | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Family Colours         | Equipment | +1 discipline to all friendly models in line of sight                                                                                                                                                                                       |
-| Razor                  | Melee     | AP 3                                                                                                                                                                                                                                        |
-| Laser Rifle            | Ranged    | Attacks 1, AP 3                                                                                                                                                                                                                             |
-| Power Armour           | Armour    | Save 3+, +1" move, +1 melee                                                                                                                                                                                                                 |
-| Holtzmann Field        | Armour    | Save 2+, if this unit is hit by a laser rifle roll a D6. On a 4+ instead of resolving the attack as normal every unit within 6" of this unit and the unit firing the laser rifle (including this unit and the firer) takes a hit with AP 2. |
-| AG Harness             | Equipment | This unit may climb for free (i.e. it does not have to give up its move). Additionally if this unit falls, it never counts as having fallen further than its height and may deploy via airdrop                                              |
-| Neural Lash            | Melee     | Any unit hit by this weapon immediately becomes prone                                                                                                                                                                                       |
-| Slave Crown            | Equipment | Enemy units within 10" reduce their discipline by 1                                                                                                                                                                                         |
-| Cyber Steed            | Equipment | +4" move, unit type become cavalry                                                                                                                                                                                                          |
-| Micro Howitzer         | Ranged    | Attacks 3, Blast, Heavy                                                                                                                                                                                                                     |
-| Repulsor Field         | Equipment | Instead of moving, activate the repulsor field. All units (including friendly) within 3" are pushed until they are at least 5" away.                                                                                                        |
-| Smart Mortar           | Ranged    | Attacks 1, AP 1, Blast, Indirect                                                                                                                                                                                                            |
-| Knife Missile          | Ranged    | Attacks 1, AP 2, Precision                                                                                                                                                                                                                  |
-| Nano injectors         | Equipment | When this unit is killed in action roll a D6, on a 4+ it is instead placed prone with 1 wound remaining                                                                                                                                     |
-| Command Crown          | Equipment | Commanders only, +2 command points                                                                                                                                                                                                          |
-| Ray gun                | Ranged    | Attacks 1, AP4, Pistol                                                                                                                                                                                                                      |
-| Smart Goggles          | Ranged    | +1 ranged, ignores obscured                                                                                                                                                                                                                 |
-| Hand Flamer            | Ranged    | Attacks 1, AP0, Pistol, Template                                                                                                                                                                                                            |
-| Ghost Field            | Equipment | This unit always counts as obscured                                                                                                                                                                                                         |
-| Disintegrator Gauntlet | Melee     | If all hits from this unit are allocated against a single unit that unit is immediately killed in action without making a save                                                                                                              |
-
-&nbsp;
+| Wargear                | Type      | Notes                                                                                                                                                                                                                                                 |
+| ---------------------- | --------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Family Colours         | Equipment | +1 discipline to all friendly models in line of sight                                                                                                                                                                                                 |
+| Razor                  | Melee     | AP 3                                                                                                                                                                                                                                                  |
+| Laser Rifle            | Ranged    | Attacks 1, AP 3                                                                                                                                                                                                                                       |
+| Power Armour           | Armour    | Save 3+, +1" move, +1 melee                                                                                                                                                                                                                           |
+| Holtzmann Field        | Armour    | Save 2+, if this unit is hit by a laser rifle or pistol roll a D6. On a 4+ instead of resolving the attack as normal every unit within 6" of this unit and the unit firing the laser rifle (including this unit and the firer) takes a hit with AP 2. |
+| AG Harness             | Equipment | This unit may climb for free (i.e. it does not have to give up its move). Additionally if this unit falls, it never counts as having fallen further than its height and may deploy via airdrop                                                        |
+| Neural Lash            | Melee     | Any unit hit by this weapon immediately becomes prone                                                                                                                                                                                                 |
+| Terror Field           | Equipment | Enemy units within 10" reduce their discipline by 1                                                                                                                                                                                                   |
+| Cyber Steed            | Equipment | +4" move, unit type become cavalry                                                                                                                                                                                                                    |
+| Micro Howitzer         | Ranged    | Attacks 3, Blast, Heavy                                                                                                                                                                                                                               |
+| Repulsor Field         | Equipment | Instead of moving, activate the repulsor field. All units (including friendly) within 3" are pushed until they are at least 5" away.                                                                                                                  |
+| Smart Mortar           | Ranged    | Attacks 1, AP 1, Blast, Indirect                                                                                                                                                                                                                      |
+| Knife Missile          | Ranged    | Attacks 1, AP 2, Precision                                                                                                                                                                                                                            |
+| Nano injectors         | Equipment | When this unit is killed in action roll a D6, on a 4+ it is instead placed prone with 1 wound remaining                                                                                                                                               |
+| Command Crown          | Equipment | Commanders only, gain 2 extra command points                                                                                                                                                                                                          |
+| Laser Pistol           | Ranged    | Attacks 1, AP3, Pistol                                                                                                                                                                                                                                |
+| Smart Goggles          | Ranged    | +1 ranged, ignores obscured                                                                                                                                                                                                                           |
+| Hand Flamer            | Ranged    | Attacks 1, AP0, Pistol, Template                                                                                                                                                                                                                      |
+| Ghost Field            | Equipment | This unit always counts as obscured                                                                                                                                                                                                                   |
+| Disintegrator Gauntlet | Melee     | If all hits from this unit are allocated against a single unit that unit is immediately killed in action without making a save                                                                                                                        |
 
 #### Household
 
@@ -218,7 +214,7 @@ Then choose 5 artifacts, an artifact may be given to any infantry unit in your a
 | 5"  | 3+  | 2+  | 3   | 3   | 0   |
 
 **Commander**
-Command points: 3
+Command points 3
 
 **Wargear**
 Ranged Weapon: Pulse Rifle (Shots 1, AP1, Rapid Fire) or Pulse Pistol (Shots 1, AP1, Pistol)
@@ -329,7 +325,7 @@ Armour: Steel Scraps (Save 5+)
 
 ---
 
-**Mech Suit**
+**Mech**
 
 | Mv  | R   | D   | M   | W   | P   |
 | --- | --- | --- | --- | --- | --- |
@@ -372,11 +368,7 @@ Armour: Steel Chassis (Save 5+)
 Ranged Weapon: Assault Rifle (Shots 1, AP0, Rapid Fire)
 Armour: Steel Chassis (Save 4+)
 
-&nbsp;
-
 ## Missions
-
-&nbsp;
 
 ### Scavenger Showdown
 
@@ -388,7 +380,16 @@ A rich cache of scrap, tech, and data have been located by your house, unfortuna
 
 **Victory Conditions**: The game ends at the end of the turn in which the last objective is removed from the board, or after 10 turns. The player with the highest number of points wins.
 
-&nbsp;
+### The Raid
+
+A noble house attacks it's rival on their home turf.
+
+**Deployment**: Players flip a coin to decide the attacker and defender. The defender places 3 objective markers at least 10" apart and at least 15" from a short board edge, they the set up their units anywhere on the board at least 15" from the same short board edge.
+The attacker then deploys their units within 10" of the short board edge. 
+
+**Objectives**: If an attacking unit is in base contact with an objective at the end of the melee phase that objective is destroyed.
+
+**Victory Conditions**: At the end of the game the attacker scores 250 points for every objective destroyed. The defender scores points equal to the points value of attacking units destroyed. Either side scores 150 points for killing a head of house, heir or master of arms. The winner is the player with the most points at the end of the game. The game ends after 10 turns or at the end of the turn in which the last objective is destroyed.
 
 ## Advanced Rules
 
@@ -409,8 +410,6 @@ A rich cache of scrap, tech, and data have been located by your house, unfortuna
 
 **Dangerous Terrain**: A unit that starts its movement phase in dangerous terrain, or moves through dangerous terrain must make a save, if it fails it loses a wound.
 
-&nbsp;
-
 ### Ranged
 
 **Multiple Attacks**: If a ranged weapon has multiple attacks then the additional attacks may be allocated to units within 3" of the target unit before rolling to hit.
@@ -426,15 +425,11 @@ A rich cache of scrap, tech, and data have been located by your house, unfortuna
 - **Heavy**: A unit may not make attacks with this weapon if it moved in the movement phase or is **prone**
 - **Pistol**: A unit may make attacks with this weapon even if it is **engaged**, provided it targets a unit in base contact with it
 - **Precision**: A unit using this weapon may target any enemy unit within line of sight, not just the closest
-- **Indirect**: A unit using this weapon may target any enemy unit, regardless of whether it can draw line of sight (target counts as **obscured** if no line of sight can be drawn)
-
-&nbsp;
+- **Indirect**: A unit using this weapon may target enemy units regardless of whether it can draw line of sight (target counts as **obscured** if no line of sight can be drawn)
 
 ### Melee
 
-**Prone in Melee**: Prone units in melee halve their melee attribute rounding down.
-
-&nbsp;
+**Prone in Melee**: Prone units in melee halve their melee attribute rounding down. Additionally if they win they do not make hits against their opponent, but instead immediately stand up.
 
 ### Command Actions
 
@@ -450,19 +445,13 @@ Units with the **commander** special rule may spend a command point at the start
 
 **Cut them Down**: Declare at the start of the melee phase after **melees** have been decided. The melee this unit is in is resolved first. If this unit wins its melee then it, and any friendly units, in the melee may immediately move as if it was the movement phase (including charging - player with priority redistributes units between **melees**). If both players declare this action they alternate resolving each declaration starting with the player who does not priority.
 
-&nbsp;
-
 ### Instant Death
 
 If a unit takes a hit from a weapon that results in its save being reduced below a 6+ then it is **killed in action** regardless of the number of wounds it has remaining.
 
-&nbsp;
-
 ### Intimidating
 
 If a unit wishes to charge an intimidating unit then it must make a discipline test, if it fails it may not move this turn. Units with this rule are not affected by other units with the same rule.
-
-&nbsp;
 
 ### Cavalry
 
@@ -473,8 +462,6 @@ Cavalry units have the following additional rules and rules exceptions:
 **Climbing**: Cavalry units may not climb (though they may still move over terrain smaller than them when they move).
 
 **Charging**: An infantry unit charged by a cavalry unit must immediately make a discipline test, if it fails it becomes prone.
-
-&nbsp;
 
 ### Vehicles
 
@@ -497,16 +484,12 @@ Vehicle units have the following additional rules and rules exceptions:
 
 **Killed in Action**: When a vehicle would be **killed in action**, instead roll a D6 and consult the table:
 
-&nbsp;
-
-| D6  | Result      | Effect                                                                                                                                                                                                               |
-| --- | ----------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1-2 | Engine Kill | This unit may not move for the rest of the game. Counts as 1 wound remaining, if this result is rolled again remove the unit from the battlefield.                                                                   |
-| 3-4 | Fire        | This unit must test discipline at the start of the priority phase, if it fails it is removed from the battlefield. Counts as 1 wound remaining, if this result is rolled again remove the unit from the battlefield. |
-| 5   | Wrecked     | Remove the unit from the battlefield                                                                                                                                                                                 |
-| 6   | Explodes    | Every unit within 3" must make a save or take a wound, then remove the unit from the battlefield.                                                                                                                    |
-
-&nbsp;
+| D6  | Result      | Effect                                                                                                                                                                                                                 |
+| --- | ----------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1-2 | Engine Kill | This unit may not move for the rest of the game. Counts as 1 wound remaining, if this result is rolled again remove the unit from the battlefield.                                                                     |
+| 3-4 | Fire        | This unit must test discipline at the start of every priority phase, if it fails it is removed from the battlefield. Counts as 1 wound remaining, if this result is rolled again remove the unit from the battlefield. |
+| 5   | Wrecked     | Remove the unit from the battlefield                                                                                                                                                                                   |
+| 6   | Explodes    | Every unit within 3" must make a save or take a wound, then remove the unit from the battlefield.                                                                                                                      |
 
 **Transport**: Vehicles can transport a number of infantry units indicated on their profile as Transport (X), where X is the number of units that they may transport.
 
@@ -517,8 +500,6 @@ While a unit is embarked in a vehicle it is removed from the battlefield.
 A unit may disembark a vehicle when the unit would be moved in the movement phase. Place the unit within 3" of an access hatch, this uses up the units movement.
 
 If a unit is embarked on a vehicle when it would be removed from the battlefield it must immediately disembark before the vehicle is removed. Any units that cannot disembark (i.e. be placed within 3" of an access hatch) are **killed in action**.
-
-&nbsp;
 
 ### Mechs
 
@@ -533,8 +514,6 @@ Mech units are **intimidating** and have the following additional rules and rule
 
 **Weapons Platform**: A mech may fire heavy weapons even if it moved.
 
-&nbsp;
-
 ### Airdrop
 
 Certain conditions will allow a player to deploy a number of their infantry units via airdrop. Units deployed via airdrop are **not** placed on the battlefield at the start of the game, instead they use the following rules:
@@ -545,5 +524,3 @@ Certain conditions will allow a player to deploy a number of their infantry unit
 - If the unit lands off the board then it may be placed in contact with the board edge at that location at the start of your next movement phase
 - If the unit lands on top of another unit (including friendly) or impassable terrain it is **killed in action**
 - A unit may move as normal after arriving via airdrop, a unit does not count as moving after arriving via airdrop unless it does so
-
-&nbsp;
