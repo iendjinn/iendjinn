@@ -195,6 +195,10 @@ At **0HP** a character is incapacitated and may take no action until stabilised.
 
 If a character drops **below** 0HP they are **dead**.
 
+Expend a point of luck before making an attack to gain +4 to your roll.
+
+Expend a point of luck after taking damage to reduce damage taken by 4.
+
 ### 3.3 Recovery
 
 **Short Rest** Takes 1 turn and restores D4HP.
