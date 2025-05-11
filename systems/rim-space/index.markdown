@@ -2,6 +2,10 @@
 title: Rim Space RPG
 layout: rimspace
 ---
+
+# Rim Space
+# Rim Space
+
 The incessant crackle of a Geiger counter.
 
 The stale smell of the air as the oxygen grows thin.
@@ -111,7 +115,7 @@ Roll or pick from the tables.
 | 3   | Barcode tatoo                       | Are wanted in the core for a series of minor crimes committed under a different name                                          |
 | 4   | Loveheart tatoo                     | To earn enough to raise your family out of poverty                                                                            |
 | 5   | Smiley face pin                     | Covered up an accident caused by a friend on your last job                                                                    |
-| 6   | Ship's tatoo                        | Are faking it, you're not actually trained in your background or specialism, but nobody out here runs background checks       |
+| 6   | Ship's tatoo                        | You are faking it but nobody out here checks your diploma or runs background checks                                           |
 | 7   | Piercings                           | You "found" a suitcase with 100kcr of traceable credit sticks in it, you got nervous after you blew it all and fled           |
 | 8   | Golden tooth                        | On shore leave a stranger died in your arms, he begged you to spread the word and handed you an encrypted micro-data cassette |
 | 9   | Cleft chin                          | You were raised by an extremist sect of the Solarian church and escaped at age 16                                             |
@@ -173,7 +177,7 @@ Most items take 1 slot, however some larger items may take 2.
 
 Worn items (such as armour, clothing, boots) do not count towards inventory slots
 
-A character carrying more equipment than they have inventory slots has **disadvantage** on strength and dexterity saves, and all attacks they make are **impaired**.
+While a character is carrying more equipment than they have inventory slots strength and dexterity saves will be hard and all attacks they make are **impaired**.
 
 ### 2.2 Usage
 
@@ -204,51 +208,34 @@ Certain weapons may have additional effects:
 
 ### 2.5 Armour
 
-Armour reduces damage taken by the number of points the armor provides. A character may wear one type of armor at a time.
+Armour reduces damage taken by the number of points the armor provides. A character may wear one type of armor at a time and armour uses body slots while worn.
 
 ## 3. Playing the Game
 
 ### 3.1 Saves
 
-To make a save roll a **D20** and add the relevant attribute (strength, dexterity, intelligence, or presence). 
+To make a save roll a **D20** and add the relevant attribute (strength, dexterity, intelligence, or presence) to equal or beat the save difficulty:
 
-If the value equals or exceeds **12** the save is passed.
+- Standard: 12
+- Hard: 16
 
-A natural 20 is a critical success. If you roll equal or under your current stress you automatically fail and panic.
+A score above 20 is a critical success.
 
-Sometimes a save may be harder or easier:
+A score above the difficulty is a regular success.
 
-- If a save is with advantage, roll two **D20s** and use the highest result.  
-- If a save is with disadvantage, roll two **D20s** and the use the lowest result.  
-- If a save has advantage and disadvantage they cancel out.  
+A score below the difficulty but above current stress is a success with a consequence, e.g. it takes longer, you hurt yourself doing it, equipment is damaged or resources used up, you gain stress.
 
-If you fail a save, gain a point of stress.
+A score equal or under your current stress is a critical failure.
 
-### 3.2 Stress and Panic
+**Push yourself** by gaining 1 stress before making a save to gain +4 to your roll.
 
-**Push yourself** by gaining 1 stress before making a save to gain advantage.
-
-**Panic** occurs on a natural value equal or below your current stress and causes the save to automatically fail. Consult the panic table using the value rolled on the D20.
-
-| D20  | Panic Result                                                                                                                 |
-| ---- | ---------------------------------------------------------------------------------------------------------------------------- |
-| 1    | Adrenaline rush: Advantage on next save **or** next attack is enhanced                                                       |
-| 2-4  | Anxiety: Gain 1 extra stress                                                                                                 |
-| 5-6  | Hysterics: Everyone around you gains 1 stress                                                                                |
-| 7-8  | Shaken: Disadvantage on intelligence and presence saves until a long rest                                                    |
-| 9-10 | Tremors: Disadvantage of strength and dexterity saves until a long rest                                                      |
-| 11   | Phobia: You gain a phobia based on the cause of your panic. Every time you encounter the cause again in future gain 1 stress |
-| 12+  | Heart Attack: You die                                                                                                        |
-
-At the start of a day in which you did not sleep, or did not eat on the previous day, gain 1 stress.
-
-### 3.3 Combat
+### 3.2 Combat
 
 Combat takes place in rounds, with each round representing roughly 10 seconds. In each round each character may make one action:
 
 - Attack.
 - Move.
-- Use an artifact.
+- Use an item.
 - Retrieve an item from their backpack.
 - Something else.
 
@@ -265,45 +252,34 @@ At **0HP** a character is incapacitated and may take no action until stabilised.
 
 If a character drops **below** 0HP they are **dead**.
 
-### 3.4 Recovery
+### 3.3 Recovery
 
-**Short Rest** Takes 1 turn and removes 1 stress.  
+**Short Rest** Takes 1 turn and removes 1 stress (limit once per watch).
 **Long Rest** Takes 1 watch and rations, restores D4HP and removes D4 stress.  
 **Shore Leave** Takes 1 week and restores all hit points and removes all stress.  
 
-### 3.5 Time
+### 3.4 Time
 
 - Round: Used in combat, roughly 10 seconds.
 - Turn: Used when exploring a small area, roughly 10 minutes. Enough time to explore a room, or for a fight to take place.
-- Watch: Used during travel or exploring large areas, roughly 36 turns or 6 hours.
+- Watch: Used during travel or exploring large areas, there are 3 watches a day: Morning, afternoon and night. A watch is roughly 48 turns.
 
+If a character has not had a long rest for 3 watches they gain a stress every watch an
+until they take a long rest.
 ## 4. Character Advancement
 
-Characters gain experience points (XP) when they take shore leave:
+Characters gain 200 experience points (XP) per point of stress they have when they take shore leave.
 
-- 200XP per stress at the start of shore leave.
-- 100XP for  shore leave at a remote outpost, military base or colony (costs 200 credits).
-- 500XP for shore leave at a major space station or on a core world (costs 1000 credits).
-- 1000XP for shore leave at a clinic, resort or specialist facility (costs 5000 credits).
+Characters start at level 1 and gain a level per 1000XP.
 
-Characters start at level 1, the amount of experience required to advance to a level is equal to the level x 1000. E.g. level 2 requires 2000 experience points.
+When a character's level increases pick one of: 
 
-When a character's level increases: 
-
-- Pick one attribute and increase it by 1 point, pick one other attribute and roll a D6, if it is greater than the attribute increase it by 1.
-- Roll level x D6, if the total is greater than hit points, increase hit points by 1.
+- Pick one attribute and increase it by 1 point to a maximum of 6.
+- Increase max hit points by D4 to a maximum of 20.
 
 ## 5. Contractors
 
 A character can hire NPCs to work for them, with the maximum number that can be employed at a time being equal to their **presence**. Contractors expect to be paid, usually on a weekly basis, but may accept a share of any profits instead of salary.
-
-Contractors may be loyal, neutral or disloyal:
-
-**Loyal** The character would risk losing something to benefit you.  
-**Neutral** If the character would lose something by remaining loyal to you, make a presence save to avoid desertion.    
-**Disloyal** If the character could gain from betraying you, make a presence save to avoid betrayal.   
-
-Failure to pay contractors will incur disadvantage on these saves.
 
 ## 6. Equipment
 
@@ -334,7 +310,7 @@ Failure to pay contractors will incur disadvantage on these saves.
 | ---------------------- | ---------------------------------------------------------------- | ------------- | ------- |
 | Basic Pressure Suit    | Includes O2 Tank, Headlamps, Short Range Radio and Maneuver Jets | 0             | 500     |
 | Armoured Pressure Suit | Includes O2 Tank, Headlamps, Short Range Radio and Maneuver Jets | 1             | 1000    |
-| Hazard Suit            | Includes O2 Tank, Headlamps and Geiger Counter                   |               | 500     |
+| Hazard Suit            | Includes O2 Tank, Headlamps and Geiger Counter                   | 0             | 500     |
 | Mesh Armour            | Can be worn discreetly under clothing                            | 1             | 1000    |
 | Flak Jacket            |                                                                  | 1             | 500     |
 | Personnel Armour       | Includes Shoulder Lamp, IR target finder, and Short Range Radio  | 3             | 5000    |
