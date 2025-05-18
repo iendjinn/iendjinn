@@ -79,7 +79,7 @@ Roll or pick from the tables.
 
 All characters start with an implanted data link, this device provides biometric identification, stores credit information and provides a data connection to the net. A cyberdeck is required to interface with the deep net.
 
-Roll **D10** x 1000 for starting credits.
+Roll **D10** x 100 for starting credits.
 
 ### 1.5 Class and Starting Equipment
 
