@@ -191,7 +191,7 @@ Attacks may be **impaired** or **enhanced**, e.g. a ranged attack against a targ
 **Impaired** attacks always roll **D4** for damage.  
 **Enhanced** attacks always roll **D12** for damage.
 
-At **0HP** a character is incapacitated and may take no action until stabilised. Stabilising a character takes a turn. An incapacitated character will die after **6 turns** if not stabilized. 
+At **0HP** a character is incapacitated and may take no action until they receive medical treatment. An incapacitated character will die after **6 turns** if not treated. 
 
 If a character drops **below** 0HP they are **dead**.
 
@@ -211,7 +211,6 @@ Expend a point of luck after taking damage to reduce damage taken by 4.
 - Watch: Used during travel or exploring large areas, there are 3 watches a day: Morning, afternoon and night. A watch is roughly 48 turns.
 
 If a character has not had a long rest for 3 watches they lose 1HP every watch until they take a long rest.
-
 ## 4. Equipment
 
 ### 4.1 Weaponry
@@ -236,7 +235,7 @@ If a character has not had a long rest for 3 watches they lose 1HP every watch u
 
 ### 4.2 Armor
 
-| Name            | Notes                                            | armor Points | Credits |
+| Name            | Notes                                            | Armor Points | Credits |
 | --------------- | ------------------------------------------------ | ------------ | ------- |
 | Mesh Armor      | Can be worn discreetly under clothing            | 1            | 1000    |
 | Flak Jacket     |                                                  | 1            | 500     |
@@ -281,3 +280,23 @@ If a character has not had a long rest for 3 watches they lose 1HP every watch u
 | Spray paint           |                                                                                                                 | 1     | 100     |
 | Smoke grenade         |                                                                                                                 | 1     | 100     |
 
+## 5. Data
+
+### 5.1 Cost of ~~Living~~ Dying
+
+| Item                        | Notes             | Cost |
+| --------------------------- | ----------------- | ---- |
+| Night in a coffin hotel     | Per Night         | 50   |
+| Hotel Room                  | Per Night         | 500  |
+| Hotel Suite                 | Per Night         | 2k   |
+| Slums Apartment             | Per Month         | 1k   |
+| Arcology Apartment          | Per Month         | 5k   |
+| Hills Apartment or Villa    | Per Month         | 100k |
+| Street food and cheap beer  |                   | 10   |
+| Sit in meal                 |                   | 50   |
+| Haute Cuisine               |                   | 500  |
+| Metro Ticket                | Per Trip          | 10   |
+| Motor Rickshaw Ride         | Per Trip          | 50   |
+| Gyrocab Ride                | Per Trip          | 500  |
+| Emergency Medical Treatment | Backstreet clinic | 500  |
+| Emergency Medical Treatment | Hospital          | 5k   |
