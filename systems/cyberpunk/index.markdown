@@ -156,7 +156,7 @@ Certain weapons may have additional effects:
 - Armor piercing weapons: Damage is not reduced by armor.  
 - Automatic weapons: May be used to make an impaired attack against all visible enemies instead of a regular attack. Immediately deduct a usage point from ammo.  
 - Blast weapons: May hit multiple targets, distribute the rolled damage between affected targets.  
-- Stun weapons: Any character taking damage must make a **strength** save or miss their next action. Stun weapons never deal more than 3 damage to a single target.
+- Stun weapons: Any character taking damage must make a hard **strength** save or miss their next action. Stun weapons never deal more than 3 damage to a single target.
 
 ### 2.5 Armor
 
@@ -220,6 +220,7 @@ When you take downtime their is a chance that your luck may change based on wher
 | Slum apartment           | D4   |
 | Arcology apartment       | D6   |
 | Hills apartment or villa | D10  |
+
 ### 3.3 Netrunning
 
 The surface net that most people interact with is a locked down set of walled gardens. It's only by using a cyberdeck that net runners can access the troves of data and private networks of the deep net.
@@ -297,7 +298,7 @@ Preparing a program takes 1 hour and an intelligence save. A military grade vari
 | Nail Gun                    |                                                                                                                 | 1     | 100     |
 | Pack of Protein Bars        | Restores 1HP                                                                                                    | 1     | 100     |
 | Box of Instant Ramen        | Restores 1HP                                                                                                    | 1     | 100     |
-| Data Cassette               | Robust and encrypted storage for digital data and programs                                                    | 1     | 100     |
+| Data Cassette               | Robust and encrypted storage for digital data and programs                                                      | 1     | 100     |
 | Yehuan Smokes               | Restores 1 luck                                                                                                 | 1     | 100     |
 | Pack of Bud Heavy           | Restores 1HP                                                                                                    | 1     | 100     |
 | Collapsible Stretcher       |                                                                                                                 | 1     | 100     |
@@ -322,6 +323,7 @@ Preparing a program takes 1 hour and an intelligence save. A military grade vari
 | Spray paint                 |                                                                                                                 | 1     | 100     |
 | Faceblocks                  | Prevents automated facial recognition for 6 hours                                                               | 1     | 1000    |
 | Smoke grenade               |                                                                                                                 | 1     | 100     |
+| Rebreather                  |                                                                                                                 | 1     | 100     |
 
 ### 4.4 Recreational Drugs
 
@@ -333,6 +335,7 @@ Preparing a program takes 1 hour and an intelligence save. A military grade vari
 | Pink Ooze    | Sensory overload         | 200          |
 | Miura        | Stimulant - violence     | 50           |
 | Vurt         | Hallucinogen             | 400          |
+
 ### 4.5 Ranged Weapon Upgrades
 
 | Name                        | Notes                                                          | Credits |
@@ -368,6 +371,7 @@ Preparing a program takes 1 hour and an intelligence save. A military grade vari
 | Plastic Surgery             |                                                      | 2k   |
 | New Identity                |                                                      | 10k  |
 | Trauma Team CASEVAC         | Armed team of medics deliver you to hospital         | 5k   |
+
 ### 5.2 I search the body
 
 | D100  | Item                                     |
