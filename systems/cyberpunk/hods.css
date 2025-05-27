@@ -1,0 +1,90 @@
+
+
+@font-face {
+    font-family: "departure";
+    src: url("/assets/fonts/DepartureMono-Regular.woff2");
+}
+
+@font-face {
+    font-family: "sdasian";
+    src: url("/assets/fonts/Sdasian-WyDon.ttf");
+}
+
+:root,
+:root.light {
+    --main-bg-color: #fff;
+    --main-text-color: #3a4e93;
+}
+
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --main-bg-color: #000;
+        --main-text-color: #b957ce;
+    }
+}
+
+body {
+    background: var(--main-bg-color);
+    font-family: "departure";
+    color: var(--main-text-color);
+}
+
+h1, h2, h3 {
+    font-family: "sdasian";
+}
+
+.content {
+    max-width: 1000px;
+    min-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid var(--main-text-color);
+    padding: 0.5rem 2rem;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+}
+
+.menu {
+    display: grid;
+    grid: auto-flow / 1fr 1fr;
+    gap: 2rem;
+    @media (max-width: 750px) {
+        grid: auto-flow / 1fr;
+    }
+}
+
+.menu div {
+    position: relative;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu > div > ul {
+    padding-left: 0px;
+}
+
+li {
+    padding-bottom: 0.5rem;
+}
+
+.menu ul li span {
+    position: absolute;
+    right: 0px;
+}
+
+.specials {
+    grid-column: span 2;
+    @media (max-width: 750px) {
+        grid-column: span 1;
+    }
+}
+
+small {
+    font-size: 0.75rem;
+}
