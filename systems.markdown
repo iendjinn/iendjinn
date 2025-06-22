@@ -34,3 +34,15 @@ Around this time I'd also heard that Mothership was a pretty slick sci fi horror
 This setting doesn't really have much lore as of yet, but I might write some soon (tm).
 
 [Sci Fi Ruleset]({{ site.baseUrl }}/systems/sci-fi)
+
+## Cyberpunk
+
+The current system I'm running - using the Cy_Borg setting and a set of rules inspired by [Mausritter](https://mausritter.com/).
+
+I've had a ton of fun so far with this campaign, particularly around world building between sessions. This has mostly taken the form of news headlines, adverts, and social media feeds.
+
+You can find the rules here [Sci Fi Ruleset]({{ site.baseUrl }}/systems/cyberpunk).
+
+And a character building app [here]({{ site.baseUrl }}/systems/sci-fi/app).
+
+I also made this groovy mocked up [live stream]({{ site.baseUrl }}/systems/cyberpunk/stream) for one of the headlines in game. 
