@@ -41,7 +41,7 @@ The current system I'm running - using the Cy_Borg setting and a set of rules in
 
 I've had a ton of fun so far with this campaign, particularly around world building between sessions. This has mostly taken the form of news headlines, adverts, and social media feeds.
 
-You can find the rules here [Sci Fi Ruleset]({{ site.baseUrl }}/systems/cyberpunk).
+You can find the rules here: [Cyberpunk Ruleset]({{ site.baseUrl }}/systems/cyberpunk).
 
 And a character building app [here]({{ site.baseUrl }}/systems/sci-fi/app).
 
