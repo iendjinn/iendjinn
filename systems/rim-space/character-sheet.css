@@ -42,7 +42,7 @@ body {
     grid-template: 
     "a a a a"
     "b b b b"
-    "c c c d";
+    "c c d e";
     gap: 0.5rem;
 }
 
@@ -71,6 +71,11 @@ body {
     height: var(--line-height);
 
     grid-area: d;
+}
+#cryo {
+    height: var(--line-height);
+
+    grid-area: e;
 }
 
 #attributes {
@@ -168,3 +173,5 @@ body {
     flex-direction: column;
     height: 100%;
 }
+
+.padded {margin-top: 1rem;}
