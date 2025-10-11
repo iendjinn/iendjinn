@@ -22,4 +22,4 @@ While writing stuff in markdown and transforming it to HTML is a little clunky, 
 
 I was very fortunate to have been introduced to tabletop role playing games by "based Cullen", a fantastic GM who ran a home brew campaign for our group set in the world of Oceanus. Featuring giant turtle ships, ancient underwater domes filled with magitech, and piracy on the high seas, this campaign got me hooked.
 
-Since then I've continued to run TRPGs for my friends in a variety of settings and systems, some home brew and some official systems. Below you can find links to some of my projects, musings on TRPGs, and reviews of game systems I've run.
+Since then I've continued to run TRPGs for my friends in a variety of settings and systems, some home brew and some official systems. On this site you can find links to some of my projects, musings on TRPGs, and reviews of game systems I've run.
