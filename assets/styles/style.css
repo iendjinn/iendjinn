@@ -3,7 +3,6 @@
     src: url("/assets/fonts/DepartureMono-Regular.woff2");
 }
 
-
 :root,
 :root.light {
     --main-bg-color: #fff;
@@ -73,19 +72,24 @@ header div.page-nav a.active::before {
 }
 
 body {
-    font-family: "departure";
+    font-family: Verdana, sans-serif;
     background: var(--main-bg-color);
     color: var(--main-text-color);
     max-width: 1080px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 2rem;
+    line-height: 1.5rem;;
 
     @media (max-width: 1150px) {
         margin-left: 1rem;
         margin-right: 1rem;
     }
 
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "departure";
 }
 
 strong {
