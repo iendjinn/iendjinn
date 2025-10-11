@@ -43,6 +43,6 @@ I've had a ton of fun so far with this campaign, particularly around world build
 
 You can find the rules here: [Cyberpunk Ruleset]({{ site.baseUrl }}/systems/cyberpunk).
 
-And a character building app [here]({{ site.baseUrl }}/systems/sci-fi/app).
+And a character building app [here]({{ site.baseUrl }}/systems/cyberpunk/app).
 
 I also made this groovy mocked up [live stream]({{ site.baseUrl }}/systems/cyberpunk/stream) for one of the headlines in game. 
