@@ -8,7 +8,7 @@ Over the years I've home brewed **a lot** of systems. Initially these were extre
 
 That being said, we had fun _in spite_ of the terrible design of these systems, and if you're reading this as someone getting started with home brewing just go for it. Listen to your players, focus on the fun and **evolve!**
 
-The following two are systems I've made recently, they haven't yet received a ton of play testing, but each has been through 5 or so sessions so far. If you do happen to read/play them and have feedback I'd love to hear it!
+The following are systems I've made recently, they haven't yet received a ton of play testing, but each has been through 5 or so sessions so far. If you do happen to read/play them and have feedback I'd love to hear it!
 
 Both of these are inspired by numerous systems, including but not limited to:
 
@@ -27,7 +27,7 @@ When designing these rules I probably went a little hard on trying to emulate th
 
 ## Sci Fi
 
-Designing this has occupied most of my spare brain cycles for the past 3 months. I wanted to get back into playing a sci fi campaign as a few friends wanted to play [Destroyer of Worlds]({% post_url 2024-11-20-Destroyer-of-Worlds %}), however I'd had some reservations about the Alien system during that particular cinematic scenario. Cue hours of thinking and tinkering.
+Designing this occupied most of my spare brain cycles for the a few months. I wanted to get back into playing a sci fi campaign as a few friends wanted to play [Destroyer of Worlds]({% post_url 2024-11-20-Destroyer-of-Worlds %}), however I'd had some reservations about the Alien system during that particular cinematic scenario. Cue hours of thinking and tinkering.
 
 Around this time I'd also heard that Mothership was a pretty slick sci fi horror RPG and decided to check it out, possibly as an option, but also potentially to take some inspiration from. This turned out to be a really good move as Mothership's game design is awe inspiring, giving me something to aim for in terms of design for character sheets and rule clarity.
 
@@ -37,9 +37,9 @@ This setting doesn't really have much lore as of yet, but I might write some soo
 
 ## Cyberpunk
 
-The current system I'm running - using the Cy_Borg setting and a set of rules inspired by [Mausritter](https://mausritter.com/).
+The most recent system I've homebrewed and run - using the Cy_Borg setting and a set of rules inspired by [Mausritter](https://mausritter.com/).
 
-I've had a ton of fun so far with this campaign, particularly around world building between sessions. This has mostly taken the form of news headlines, adverts, and social media feeds.
+I had a ton of fun with this campaign, particularly around world building between sessions. This mostly the form of news headlines, adverts, and social media feeds.
 
 You can find the rules here: [Cyberpunk Ruleset]({{ site.baseUrl }}/systems/cyberpunk).
 
