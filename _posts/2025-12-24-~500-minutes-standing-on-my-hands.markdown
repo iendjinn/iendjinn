@@ -1,3 +1,7 @@
+---
+layout: post
+tags: fitness
+---
 This year has been a bit of a mixed bag for physical fitness improvement. Life is always a balance between different goals and I've certainly tipped the scales towards family and career over the past 12 months.
 
 Looking over my training journal I noticed that I have probably spent about 500 minutes practicing hand balancing this year. This is a nice silver lining as I've never really managed to invest enough time into this particular skill to see consistent progress. A few milestones I've managed as as result:
