@@ -1,0 +1,104 @@
+@font-face {
+    font-family: "departure";
+    src: url("/assets/fonts/DepartureMono-Regular.woff2");
+}
+
+html,
+body {
+    height: 293mm;
+    width: 206mm;
+    padding: 2mm;
+    font-size: 12px;
+}
+
+html {
+    border: 1px solid black;
+}
+
+:root {
+    --main-text-color: #000;
+    --secondary-text-color: #6c6c58;
+}
+
+body {
+    font-family: "departure";
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.box {
+    border: 2px solid black;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+#equipment.box, #gear .box {
+    margin-bottom: 0;
+}
+
+#details {
+    display: grid;
+    grid-template-columns: 1fr 20rem;
+    gap: 1rem;
+}
+
+#attributes {
+
+}
+
+.attr-group {
+}
+
+.attr {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 10rem min-content min-content min-content min-content;
+    align-items: center;
+}
+
+.attr div {
+    width: 2rem;
+    height: 2rem;
+    border: 2px solid black;
+    border-radius: 1rem;
+}
+
+#stats {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.line {
+    border-bottom: 1px dashed black;
+    height: 3rem;
+}
+.big {
+    height: 5rem;
+}
+
+#health h3 {
+    text-decoration: underline;
+    margin-bottom: 0.2rem;
+}
+
+#gear {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+
+#gear .box {
+    height: 3.5rem;
+}
+
+.crew {
+    margin-bottom: 0.2rem;
+}
+
+h1, h2, h3 {
+    margin-top: 0.2rem;
+}
