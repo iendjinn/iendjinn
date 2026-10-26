@@ -9,8 +9,7 @@ They spoke of duty, freedom and coin. You packed your bag and set out under blaz
 
 Now those same banners lie tattered, strewn upon an aether scorched battlefield by the merciless advance of an ascendant Orcish empire. 
 
-For 10 days you've headed North, a vanishing sense of honour keeping you in the rear guard of a column of refugees. Hunger gnaws at your stomach as the first icy fingers of winter curl thems
-elves around the land.
+For 10 days you've headed North, a vanishing sense of honour keeping you in the rear guard of a column of refugees. Hunger gnaws at your stomach as the first icy fingers of winter curl themselves around the land.
 
 Before you the imposing mountains loom, marking the border of Kithern where a keep guards a narrow mountain pass and the way to safety.
 
