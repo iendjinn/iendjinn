@@ -79,7 +79,8 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 2rem;
-    line-height: 1.5rem;;
+    line-height: 1.5rem;
+    ;
 
     @media (max-width: 1150px) {
         margin-left: 1rem;
@@ -88,7 +89,12 @@ body {
 
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: "departure";
 }
 
@@ -205,7 +211,7 @@ ol.post-list li {
     padding: 0.5rem;
 }
 
-ol.post-list li > p {
+ol.post-list li>p {
     margin-top: 0.5rem;
 }
 
@@ -244,4 +250,8 @@ blockquote {
     margin: 0;
     padding: 0rem 1rem;
     border: 2px dashed var(--stamp-color);
+}
+
+.two-column-grid img {
+    width: 100%;
 }
