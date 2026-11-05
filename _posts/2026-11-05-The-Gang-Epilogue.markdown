@@ -61,9 +61,9 @@ _Pvt Johnson XY091_   Comm net is down sarge, it's fubar!
 
 _Sgt Fuller XT024_       Fuck this... prepare to fall back. Jones grab the acid bomb and set a delay of 60 seconds.
 
-_The camera pans back down the hill, a carcinid looms, filling the screen.
+_The camera pans back down the hill, a carcinid looms, filling the screen._
 
-Pvt Johnson XY091_  Oh shit, oh shit, oh...
+_Pvt Johnson XY091_  Oh shit, oh shit, oh...
 
 _Suddenly the carc's head pops, a split second later the report of a rail gun fills the air._
 
