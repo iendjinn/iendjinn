@@ -4,9 +4,13 @@ tags: mothership rpgs journal
 ---
 
 _log file Kipling0ZPM01_
+
 _secure connection established to server prospero-core_
+
 _diagnostic complete: reactor stable, life support offline. Malware detected, commencing system purge. Estimated time to complete 27 hours._
+
 _..._
+
 _anomalous reading detected: human bio-signatures in sector CanyonHeavy02. Notifying the gang._
 
 ---
@@ -52,13 +56,17 @@ _Personnel File Reference XY091_
 _Grainy footage shows a first person view of a firefight. Vital signs show critical stress levels. Pulse rifle fire lashes out across the top of a pile of sandbags. The camera pans to follow the tracers, at the bottom of a crater blasted slope a dozen huge crabs scuttle forward, rounds pinging from their carapaces. The view shifts left as voices call out._
 
 _Sgt Fuller XT024_        Johnson where the hell is our backup!
+
 _Pvt Johnson XY091_   Comm net is down sarge, it's fubar!
+
 _Sgt Fuller XT024_       Fuck this... prepare to fall back. Jones grab the acid bomb and set a delay of 60 seconds.
 
 _The camera pans back down the hill, a carcinid looms, filling the screen.
+
 Pvt Johnson XY091_  Oh shit, oh shit, oh...
 
 _Suddenly the carc's head pops, a split second later the report of a rail gun fills the air._
+
 _Major Andere T1337_   This is Major Andere, hold fast marines, the cavalry has arrived.
 
 _A drop ship flies into view, a figure in advanced battle dress leans from the side hatch, a rail gun braced against his shoulder._
