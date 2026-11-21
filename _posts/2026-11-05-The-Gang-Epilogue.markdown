@@ -3,6 +3,10 @@ layout: post
 tags: mothership rpgs journal
 ---
 
+What follows is the epilogue for the year long Mothership campaign I ran for my work colleagues. It was a lot of fun and I feel I've levelled up as a GM by running for a group with a very different play style.
+
+---
+
 _log file Kipling0ZPM01_
 
 _secure connection established to server prospero-core_
